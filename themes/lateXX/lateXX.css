@@ -1,0 +1,245 @@
+/*
+DA FARE:
+- trova il modo di centrare immagini
+- background color dei paragrafi
+*/
+
+
+@font-face {
+	font-family: 'pxfont';
+	src: url('pixelfont.ttf') format('truetype');
+} 
+
+html {
+	background-image: url("monitor.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	background-position: absolute;
+}
+
+* {
+	cursor: url("blackcursor.cur"), auto;
+}
+
+a:hover {
+	cursor: url("linkcursor.cur"), auto;
+}
+
+header {
+	border: 1px solid transparent;
+	background-image: url("neonwelcome.gif");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 45vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+header img {
+	order: 1;
+	width: 90vh;
+	margin-top: 15vh;
+	margin-bottom: -7vh;
+}
+
+header figcaption {
+	display: none;
+}
+
+header p {
+	order: 5;
+}
+
+div {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-left: 8.5vw;
+	margin-top: 11vh;
+	width: 78.3vw;
+	height: 68vh;
+	border: 5px double grey;
+	overflow: scroll;
+	overflow-x: hidden;
+	text-align: left;
+	background-color: #e9e9e9;
+	padding: 2vw;
+}
+
+p, footer, figcaption {
+	font-family: Verdana;
+	font-size: 2.5vh;
+}
+
+/*rainbow gif*/
+section::after {
+	display: absolute;
+  	content: url("meshspin.gif");
+  	padding-left: 36vw; /*44%*/
+}
+
+h1 {
+	order: 2;
+	background-color: fuchsia;
+	text-align: center;
+	margin-top: 14vh;
+	font-size: 7.5vh;
+	width: 100%; 
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		-webkit-transform: translate(10%, 0);
+	}
+	100% {
+		-webkit-transform: translate(-100%, 0);
+	}
+}
+
+h2 {
+	order: 3;
+	font-family: Comic Sans MS;
+	font-size: 6vh;
+	white-space: nowrap;
+	overflow: visible;
+	display: inline-block;
+	padding-left: 100%;
+	-webkit-animation: scroll 15s infinite linear;
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	50%{opacity: .5;}
+	100%{opacity: 1;}
+}
+
+h3 {
+	font-size: 4.5vh;
+	text-align: center;
+	background-color: yellow;
+	animation: blink 1s linear infinite;
+}
+
+h4 {
+	white-space: nowrap;
+	overflow: visible;
+	display: inline-block;
+	padding-left: 100%;
+	-webkit-animation: scroll 15s infinite linear;
+	color: aqua;
+	font-size: 5vh;
+}
+
+h5, address {
+	font-family: pxfont;
+	font-size: 4vh;
+	font-style: normal;
+}
+
+header h6 {
+	order: 1;
+	font-family: pxfont;
+	font-size: 4.5vh;
+	padding-top: 10vh;
+	margin-bottom: -20px;
+	width: 100%;
+	text-align: center;
+}
+
+address {
+	order: 4;
+}
+
+q {
+	font-family: Comic Sans MS;
+	background-color: #6ce4fc;
+	text-align: center;
+	font-size: 2.8vh;
+}
+
+footer {
+	background-color: lime;
+	margin-top: 40px;
+	border: 1px solid lime; 
+    box-shadow: 0px 0px 20px lime;
+}
+
+footer h1 {
+	margin-top: 5px;
+}
+
+a:link {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: underline;
+}
+
+img {
+	width: 90vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	border-radius: 10px;
+	border: 1px solid #4195fc; 
+    box-shadow: 0px 0px 20px #4195fc;
+}
+
+figcaption {
+	color: red;
+}
+
+table {
+	margin-bottom: 5vh;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    max-width: 100%; 
+}
+
+th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 4px;
+}
+
+th {
+	background-color: navy; 
+	color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+	height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0; 
+  border: 2px solid grey;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd; 
+  border: 2px solid grey;
+  height: 20px;
+}
+
+::-webkit-scrollbar-button {
+	background: #bdbdbd;
+	height: 20px;
+	border: 2px solid grey;
+}
+
+
+
+
+
