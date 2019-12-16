@@ -1,7 +1,3 @@
-@page {
-size: 1980mm 1400mm;
-}
-
 /*a:hover {
 	cursor: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/piuma.cur"), auto;
 }*/
@@ -47,19 +43,18 @@ html {
 	background-repeat: repeat;
 }
 
-/*sistema i bordi aggiustando padding e margin e metti sfondo html*/
 body {
 	font-family: flankerbold; Garamond bold; serif;
 	text-align: justify;
 	letter-spacing: -0.1vw;
 	word-spacing: 0.15vw;
 	font-size: 1.6vw;
-	background-color: #e2d5bd; /*#b8ad8f*/
-	padding-left: 14vw; /*175px*/
-	padding-right: 18vw; /*225px*/
-	padding-bottom: 21vw; /*240px*/
-	padding-top: 16vw; /*190px*/
-	margin: 12vw; /*150px*/
+	background-color: #e2d5bd; 
+	padding-left: 14vw; 
+	padding-right: 18vw; 
+	padding-bottom: 21vw;
+	padding-top: 16vw; 
+	margin: 12vw;
 	border: 1px solid black;
 	display: block;
 	line-height: 2vw;
@@ -104,9 +99,9 @@ header > address {
 	font-style: normal;
 	text-align: center;
 	letter-spacing: 15px;
-    width: 100%;
-    line-height: initial;
-    margin-bottom: 0px;
+    	width: 100%;
+    	line-height: initial;
+    	margin-bottom: 0px;
 }
 
 header > h1 {
@@ -116,11 +111,11 @@ header > h1 {
 	letter-spacing: 5px;
 	font-size: 4.6vh;
 	width: 100%;
-    height: auto;
-    margin-bottom: 0px;
-    margin-top: 7vh;
-    padding-top: 65vh;
-    background-image: url("aldus.png");
+    	height: auto;
+    	margin-bottom: 0px;
+    	margin-top: 7vh;
+    	padding-top: 65vh;
+   	background-image: url("aldus.png");
 	background-repeat: no-repeat;
 	background-size: 45vh;
 	background-position: top;
@@ -132,8 +127,8 @@ h1 {
 	letter-spacing: 5px;
 	font-size: 4.6vh;
 	width: 100%;
-    height: auto;
-    line-height: initial;
+    	height: auto;
+    	line-height: initial;
 }
 
 header > h2 {
