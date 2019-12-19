@@ -1,4 +1,5 @@
 /*TEMA CHE GESTISCE ANCHE EUDIRECTIVE*/
+/*NECESSITA CHE IL DIV GENERICO DI OGNI DOCUMENTO ABBIA L'ID "basic"*/
 
 @font-face {
 	font-family: 'pxfont';
@@ -136,7 +137,7 @@ h2 {
 	animation: blink 1s linear infinite;
 }
 
-/*REGOLA CHE SERVONO NELL'EUDIR PER SFALSARE GLI H2 DELL'HEADER PER FAR SI CHE SI LEGGANO ENTRAMBI*/	
+/*REGOLA CHE SERVONO NELL'EUDIR PER SFALSARE GLI H2 DELL'HEADER CHE SI SOVRAPPONEVANO*/	
 div.fx div.eng > header > h2 {
 	order: 3;
 	font-family: Comic Sans MS;
