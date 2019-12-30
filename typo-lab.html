@@ -1,100 +1,37 @@
 <html lang="en">
 	<head>
-		<!-- Required meta tags -->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    	<!-- Bootstrap CSS -->
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-      <script src="http://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-      
-      <!-- starting css -->  
-      <link id="style" rel="stylesheet" type="text/css" href="select.css"/> 
-
-    <!--change article-->
-    <script>
-      $(document).ready(function(){
-        $("#btn1").click(function(){
-          $("#div1").load("bloomberg.html")
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#btn2").click(function(){
-          $("#div1").load("EuDir.html")
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#btn3").click(function(){
-          $("#div1").load("huffPost.html")
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#btn4").click(function(){
-          $("#div1").load("huffPost.html")
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#btn5").click(function(){
-          $("#div1").load("theCut.html")
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#btn6").click(function(){
-          $("#div1").load("tls.html")
-        });
-      });
-    </script>
-
-    <script>
-    //Change the stylesheet  
-      function setStyleSheet(url){
-          var stylesheet = document.getElementById("style");
-          stylesheet.setAttribute('href', url);
-      }
-    </script>
-
-		<title></title>
-	</head>
+    <title>Lab</title>
+  </head>
 	<body>
 		<!-- Optional JavaScript -->
-    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    	<!--navbar-->
-		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  			<a class="navbar-brand" href="index.html">
-          <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.html#about-proj">About the project <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link active" href="typo-lab.html">Try</a>
-              <a class="nav-item nav-link" href="documentation.html">Documentation</a>
-              <a class="nav-item nav-link" href="disclaimer.html">Disclaimer</a>
-              <a class="nav-item nav-link" href="about-us.html">About us</a>
-          </div>
+    <!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+      <a class="navbar-brand" href="index.html">
+        <img src="/images/typolab.png" width="80" height="30" alt="logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html#about-proj">About the project</a>
+          <a class="nav-item nav-link active" href="typo-lab.html">Try<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="documentation.html">Documentation</a>
+          <a class="nav-item nav-link" href="disclaimer.html">Disclaimer</a>
+          <a class="nav-item nav-link" href="about-us.html">About us</a>
         </div>
-		</nav>
+      </div>
+    </nav>
 
     <div class="container">
       <div class="row">
@@ -129,7 +66,7 @@
         <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" href="#" id="btn7" onclick="setStyleSheet('bef1500.css')">Manuzio</a>
+              <a class="nav-link active" href="#" id="btn7" onclick="setStyleSheet('themes/bef1500/bef1500.css')">Aldo Manuzio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Style2</a>
@@ -141,7 +78,7 @@
               <a class="nav-link" href="#">Style4</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Style5</a>
+              <a class="nav-link" href="#" id="btn11" onclick="setStyleSheet('themes/lateXX/lateXX.css')">Prehistoric Web</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Style6</a>
@@ -150,6 +87,70 @@
         </div>
       </div>
     </div>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+      
+    <!-- starting css -->  
+    <link id="style" rel="stylesheet" type="text/css" href="select.css"/> 
+
+    <!--change article-->
+    <script>
+      $(document).ready(function(){
+        $("#btn1").click(function(){
+          $("#div1").load("docs/bloomberg/bloomberg.html")
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#btn2").click(function(){
+          $("#div1").load("EuDir.html")
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#btn3").click(function(){
+          $("#div1").load("docs/harpers/harpers.html")
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#btn4").click(function(){
+          $("#div1").load("docs/huffington-post/huffington-post.html")
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#btn5").click(function(){
+          $("#div1").load("docs/the-cut/the-cut.html")
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $("#btn6").click(function(){
+          $("#div1").load("docs/tls/tls.html")
+        });
+      });
+    </script>
+
+    <script>
+    //Change the stylesheet  
+      function setStyleSheet(url){
+          var stylesheet = document.getElementById("style");
+          stylesheet.setAttribute('href', url);
+      }
+    </script>
 	</body>
 
 </html>

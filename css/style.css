@@ -1,17 +1,17 @@
 @font-face {
 	font-family: 'printroom';
-	src: url('printroom.ttf') format('truetype');
+	src: url('fonts/printroom.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'samantha';
-	src: url('samantha.ttf') format('truetype');
+	src: url('fonts/samantha.ttf') format('truetype');
 }
 
 
 
 header {
-	background-image: url('firstpage.jpg');
+	background-image: url('images/firstpage.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
