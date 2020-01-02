@@ -35,7 +35,7 @@
 }
 
 html {
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/wood.jpg");
+	background-image: url("wood.jpg");
 	background-repeat: repeat;
 }
 
@@ -111,7 +111,7 @@ header > h1 {
     margin-bottom: 0px;
     margin-top: 7vh;
     padding-top: 65vh;
-    background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/aldus.png");
+    background-image: url("aldus.png");
 	background-repeat: no-repeat;
 	background-size: 22vw;
 	background-position: top;
@@ -136,7 +136,7 @@ header > h2 {
 	height: auto;
 	padding-bottom: 15vh;
 	font-size: 4.6vh;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/decoration.png");
+	background-image: url("decoration.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: bottom;
@@ -264,7 +264,7 @@ footer {
 	letter-spacing: -0.1vw;
 	font-family: flankerbolditalic;
 	padding-top: 13vh;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/decoration.png");
+	background-image: url("decoration.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: top;
@@ -288,7 +288,7 @@ section>p:first-of-type:first-letter {
 	padding-right: 2vw; 
 	padding-left: 2vw;
 	margin-right: 0.5vw;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/dc.png");
+	background-image: url("dc.png");
 	background-size: 100% 90%; 
 	background-repeat: no-repeat;
 	background-position: static;
@@ -301,7 +301,7 @@ body>p:first-of-type:first-letter {
 	font-size: 105px;
 	size: 150px auto;
 	padding-right: 25px;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/dc.png");
+	background-image: url("dc.png");
 	background-size: 100% 90%;
 	background-repeat: no-repeat;
 	background-position: static;
@@ -316,7 +316,7 @@ section div.fx p:first-of-type:first-letter{
 	size: 5vw auto;
 	padding-right: 2vw; 
 	margin-right: 0.5vw;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Before 1500 - Manuzio/Spunti/dc.png");
+	background-image: url("dc.png");
 	background-size: 100% 90%; 
 	background-repeat: no-repeat;
 	background-position: static;

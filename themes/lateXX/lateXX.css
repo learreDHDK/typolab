@@ -8,7 +8,7 @@
 } 
 
 html {
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/monitor.png");
+	background-image: url("monitor.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
@@ -28,7 +28,7 @@ div#basic {
 	overflow: scroll;
 	overflow-x: hidden;
 	text-align: left;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/sfondo.jpg");
+	background-image: url("sfondo.jpg");
 	padding: 2vw;
 }
 
@@ -44,21 +44,21 @@ div#monitor {
 	overflow: scroll;
 	overflow-x: hidden;
 	text-align: left;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/sfondo.jpg");
+	background-image: url("sfondo.jpg");
 	padding: 2vw;
 }
 
 * {
-	cursor: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/blackcursor.cur"), auto;
+	cursor: url("blackcursor.cur"), auto;
 }
 
 a:hover {
-	cursor: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/linkcursor.cur"), auto;
+	cursor: url("linkcursor.cur"), auto;
 }
 
 header {
 	border: 1px solid transparent;
-	background-image: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/neonwelcome.gif");
+	background-image: url("neonwelcome.gif");
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: 45vh;
@@ -91,7 +91,7 @@ p, footer, figcaption {
 
 section::after {
 	display: absolute;
-  	content: url("C:/Users/becca/OneDrive/Desktop/TTTT Project/Late XX-print/meshspin.gif");
+  	content: url("meshspin.gif");
   	padding-left: 36vw; 
 }
 
