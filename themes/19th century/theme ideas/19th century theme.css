@@ -1,0 +1,787 @@
+/*fonts imported*/
+@font-face {
+	font-family: "FREAS"; 
+	src: url("fonts/FREAS.ttf") format("truetype"); 
+     }
+
+@font-face {
+	font-family: "Abril Fatface"; 
+	src:url("fonts/AbrilFatface-Regular.ttf") format("truetype");
+	 }
+
+@font-face {
+	 font-family: "De Vinne";
+	 src:url("fonts/De Vinne.ttf") format("truetype"); 
+	 }
+
+@font-face {
+	font-family: "OldeEnglish"; 
+	src:url("fonts/OldeEnglish.ttf") format("truetype"); 
+  }
+
+/*for the background of the html page*/
+html{
+	background: white;
+}
+
+/*statements for the body of the text*/
+body {
+  position: relative;
+  width: 80%; /*max-width: 80%;*/
+  height: 100%;/*height: auto;*/
+  background-color:#FCFAFA ;  
+  font-family: "De Vinne", serif;
+  font-size: 0.9em;/*1vw*/
+  font-weight:300%;
+  color:black;
+  line-height: 1em;
+  word-spacing:normal; 
+  letter-spacing:normal;
+  padding:3% 3% 3% 3%;
+ 	margin: 2% auto 2% auto; /*margin: 26px auto 0;*/
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.3); 	
+}
+
+body:before, body:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+body:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-1deg);/*(-8)*/
+}
+body:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1deg); /*(8)*/
+}
+
+
+/*creation of the div style of the text*/
+body div{
+  column-count: 4;  
+  column-width: 3.8em;/*vw*/ 
+  column-gap: 1em;  
+  column-rule: 2px solid black;
+  text-align: justify;
+  orphans: 0;
+  widows: 3;
+}
+
+
+/*functions of the header of the text*/
+header{
+ 	column-span:all;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Abril Fatface', serif; /* bold serif*/
+  line-height: 4em;
+  margin-bottom: 4px;
+  width: 100%;
+  height: auto;
+}
+
+/*functions for the h1 of the header*/
+header h1{
+	order:1;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4vw; /*3vw*/ 
+	letter-spacing:2px;
+	font-kerning: none;
+	line-height: 1em;
+	margin: 0px auto 10px auto;
+	font-weight: initial;
+}
+
+/*functions for the h2 of the header*/
+header h2{
+	order:2;
+	width: 100%;
+	font-family: "OldeEnglish", serif;
+	letter-spacing:1px;
+	font-size: 3vw; /*2.4vw*/
+	font-variant-ligatures: normal;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	width: 70%;	
+	line-height: 1em;
+}
+
+/*functions for the h6 of the header for the text EU*/
+header h6{
+	order:3;
+	width: 100%;
+	text-align: right;
+	font-size: 0.8em; /*0.8vw*/
+	border-bottom: double black;
+	border-top: double black;
+	margin:8px 0px 5px 0px;
+  padding:0px;
+  padding-right: 10px;
+  max-height: 6.5vh;
+}
+
+/*functions for the address of the header*/
+header address{
+	order:4;
+	width: 40%;
+  font-family: 'Abril Fatface', cursive  serif;
+	font-size:1.1vw;/*0.8vw*/
+	border-bottom: double black;
+	border-top: double  black;
+	text-align: right;
+	margin: 15px 0px 5px 0px;
+  flex-grow: 2;
+  padding: 0px;
+  max-height: 6.5vh;
+  padding-right: 10px;
+}
+ 
+/*functions for the paragraph of the header*/
+header p{
+	order:3;
+	width: 40%;
+	text-transform: uppercase;
+	font-size: 1.1vw;/*0.8vw*/
+	border-bottom: double black;
+	border-top: double  black;
+	align-self: flex-start;
+	margin: 0px;
+	margin-top: 15px;
+	padding:0px;
+	max-height: 6.5vh;
+	padding-left: 10px;
+}
+
+/*functions for the span of the paragraph of the header*/
+header p span{
+	position: relative;
+	left:30vw;
+	font-size: 1.1vw; /*0.8vw*/
+	margin:0px;
+	padding:0px;
+}
+
+
+/*functions for the figure of the header*/
+header figure{
+  order:5;
+  width: 100%;
+  margin-bottom:0px; 
+  display: flex;
+  flex-direction: column;   
+}
+
+/*functions for the image of the header*/
+header figure img{
+	order:1;
+	max-width: 28vw; /*28em*/
+	height: auto;
+	border: 30px solid transparent;
+	border-radius: 70%;
+	border-image:url("Border header image.PNG") 50 round;
+	filter:grayscale(100%);
+	align-self: center;
+	margin:0px;
+}
+ 
+/*functions for the caption of the image of the header*/
+ header figcaption{
+ 	order:2;
+	font-family:'Abril Fatface', bold serif;
+	font-size:0.8em; /*0.8vw*/
+	font-weight: bold;
+	text-transform: uppercase;
+	caption-side: bottom;
+	align-self: center;
+	margin: 0px;
+	margin-bottom: 15px;
+	margin-top: -10px;
+	padding: 0px;
+	max-height: 5vh;
+}
+
+
+/*to remove the margins of all the paragrpahs of the text*/
+section p{
+	margin:0px;
+}
+
+/*functions for the section of the text*/
+section{
+	margin: 0px;
+  margin-bottom:10px;
+  text-align: justify;
+  text-indent: 0.9em; /*vw*/
+  overflow: wrap;
+  background-image: url("section and h1 deco.PNG");
+	background-repeat: no-repeat;
+	background-position:bottom;
+	padding-bottom: 30px;
+	background-size: 30% auto;
+}
+
+/*stop margin top effect for the first section of the doc*/
+/*section:first-of-type{
+margin-top: initial;
+/*background-image: initial;
+padding-top: initial;
+}
+
+
+/*functions for the h3 of the text EU*/
+section h3{
+	font-family: 'Abril Fatface', bold serif;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+/*functions for the h4 of the text EU*/
+section h4{
+	font-family: 'Abril Fatface', cursive serif;
+	text-decoration: underline;
+	text-align: center;
+	font-family: "FREAS";
+	font-weight: bold;
+	line-height: 20px;
+}
+
+/*functions for the h5 of the text EU*/
+section h5{
+	font-family: 'Abril Fatface', cursive serif;
+	font-size:1.1em; /*1.1em*/
+	text-transform: capitalize;
+	text-decoration: underline;
+	font-weight: 100%;
+	line-height: 20px;
+}
+
+ /*create the negative indentation effect of the dropcap*/
+section > p:first-of-type{
+	text-indent: -0.7em;
+
+}
+
+/*create the dropcap of all first letters of every first paragraph*/
+section > p:first-of-type::first-letter {
+  font-size: 2.4em; /*2.4vw*/
+  font-weight: bold;
+  float: left;
+  margin-top: .25em;
+  line-height: 8px;
+  padding-right: 10px;
+  margin-left: 10px;  	
+}
+
+
+section figure{
+  display: flex;
+  flex-direction: column; 
+  -webkit-column-break-inside: avoid;
+} 
+
+/*/statements for the images of the text body*/
+section img{
+	/*position: initial;*/
+	order:1;
+	max-width: 100%;
+	height:auto;
+	border: 30px solid transparent;
+	border-image: url("Border section image.PNG") 100 round;
+	filter:grayscale(100%);
+	margin:0px;	
+	justify-content: center;
+}
+/*statements for image section caption*/
+section figure figcaption{
+	order:2;
+	font-family:'Abril Fatface', bold serif;
+	font-size:0.8em;/*0.8vw*/
+	font-weight: bold;
+	text-transform: uppercase;
+	overflow-wrap: break-word;
+	margin-top:0px;
+	caption-side: bottom;
+	text-align: center;
+	justify-content: center;
+	text-indent: initial;
+}
+
+/*statements for all emphasised text*/
+section em{
+	font-family:'Abril Fatface', bold serif;
+	text-transform: uppercase; 
+}
+
+/*drop all the border statements of the tables to be able to create new ones*/
+table{
+	border-collapse: collapse;
+}
+
+/*functions for the tables of the text*/
+section table{
+	width: 100%;
+	height: auto;
+ 	border-top: double black;
+ 	border-bottom: double black;
+ 	margin:0 auto;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	padding-top:5px ;
+ 	padding-bottom: 5px ;
+}
+
+/*functions for the tables head and data border of the text*/
+table th, td{
+	border: 1px dotted black;
+	text-indent: initial;
+
+	
+}
+
+/*functions for the table head style of the text*/
+table th{
+	background: grey;
+	font-weight: bold;
+}
+
+/*functions for the asides of the text*/
+section aside{
+	font-family:'Abril Fatface', cursive , serif;
+	line-height: 1em;
+	word-spacing: normal;
+	height:auto;
+	border: 5px solid black;
+	border-image: url("border asside.jpg") 80 round;
+  padding:5px;
+  margin:10px auto 10px auto;
+  background: #FCEBC1;
+  overflow-wrap: break-word;
+  text-align: justify;
+  -webkit-column-break-inside: avoid;
+}
+
+/*functions for the h1 of the asides of the text*/
+section aside h1{
+  background-image: url("section and h1 deco.PNG");
+  background-repeat: no-repeat;
+  background-position:bottom center;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  background-size: 40% auto;
+  padding-bottom: 10px;
+  font-family:'Abril Fatface', bold serif;
+  text-align: center;
+  font-size: 1.1em; /*1.5vw*/
+  text-transform: uppercase;
+  }
+
+/*functions for the h1 of the asides of the text*/
+section aside h2{
+  background-image: url("section and h1 deco.PNG");
+  background-repeat: no-repeat;
+  background-position:bottom center;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  background-size: 30% auto;
+  padding-bottom: 10px;
+  font-family:'Abril Fatface', bold serif;
+  text-align: center;
+  font-size: 1em; /*1.3vw*/
+  text-transform: uppercase;
+  }
+
+/*for all P elements of aside*/
+section aside p{
+	text-indent: initial;
+	font-family:'Abril Fatface', cursive , bold serif;
+	line-height: 1em;
+	text-align: justify-all;
+	font-size: 1.2em;
+	font-weight: bold;
+
+}
+ 
+ /*to transform the q element of the texts in uppercase*/
+section aside p q{
+	text-transform: uppercase;
+}
+
+
+/*for the p after the h1 in aside*/
+section aside h1 + p:first-of-type{
+	text-indent: 0.9em;
+	font-size:0.9em;
+	font-weight: initial;
+}
+
+section aside h1 + p:first-of-type::first-letter{
+	font-weight: initial;
+	font-size:0.9em; /*1.1vw*/
+  float: none;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-right: 0px;
+  font-weight: initial;
+}
+/*functions for the p immediately afer the asides h2 of the text total*/
+section aside h2 + p{
+ 	font-size: 1.2em; /*1.4em*/
+ 	text-decoration: underline overline wavy;
+ 	text-indent: initial;
+ 	margin-bottom: 15px;
+ 	margin-top: 20px;
+ 	font-weight: bold;
+ }
+
+section aside table + p{
+	text-indent: 0.9em;
+	font-size:0.9em;
+	font-weight: initial;
+}
+
+/*for the tables of aside general statements*/
+aside table{
+	padding: initial;
+	width: initial;
+	margin: initial;
+	column-span: none;
+	border:0px;
+	width: 40%;
+	height:auto;
+	border-top: double black;
+	border-bottom: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	border-collapse: separate;
+	border-spacing: 0px 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*for aside table head*/
+aside table th{
+	/*width: 60%;*/
+	border:0px;
+	border-right: 2px dotted black;
+	border-bottom: 2px dotted black;
+	background: initial;
+	padding:2px;
+	font-size: 1em;
+}
+
+/*for table aside data*/
+aside table td{
+	border:0px;
+	border-bottom: 2px dotted black;
+	padding:2px;
+	font-size: 1em;	
+}
+
+/*for the last child of table head of the tables of aside*/
+aside table tr th:last-child{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right:hidden;
+}
+
+/*style for all links in the text*/
+a{
+	color:black;
+	text-decoration: none;
+}
+
+
+/*footer general statements*/
+ footer{
+ 	column-span:all;
+	width: 70%;
+	border-top: 2px solid black;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/*for h1 of the footer*/
+footer h1{
+	font-family:'Abril Fatface', bold serif;
+	font-size:1.1em; /*1.2vw*/
+}
+
+/*for h2 of the footer*/
+footer h2{
+  font-family:'Abril Fatface', bold serif;
+  font-size:0.9em; /*0.9vw*/
+}
+
+
+/*for paragraphs of the footer*/
+footer p{
+	margin-top: 5px;
+	font-size:0.5em; /*0.5vw*/
+	font-family:"FREAS";
+}
+
+/*for emphasis of the footer*/
+ footer em{
+	font-family:"FREAS";
+	/*font-weight:300%;*/
+	font-style: normal;
+}
+
+
+#eudir{
+	background: #FCFAFA;
+  	/*box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  	/*margin: 26px auto 0;
+  	width: 100%;
+  	height: 90%;
+  	padding: 24px;*/
+  	position: relative;
+  	width: 80%;
+}
+
+#eudir:before, #eudir:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#eudir:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(.15deg);
+}
+#eudir:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(-.15deg);
+}
+
+
+#eudir div{
+  column-count: initial;  
+  column-width:initial;
+  column-gap:initial;  
+  column-rule: initial;
+}
+
+.fx {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  /*padding-top: 5vh;
+  padding-bottom: 5vh;*/
+}
+
+.eng {
+  order:1;
+  width: 45%;
+  padding-right: 10px; 
+  border-right: 2px solid black; 
+}
+
+
+.it {
+  order:2;
+  width: 45%;
+  padding-left: 10px;
+  border-left: 2px solid black;
+}
+
+.tabelEU{
+	overflow-x: auto;
+}
+
+#eudir section table th{
+  font-size:0.9em ;  
+  padding-left:2px;
+  padding-right: 2px;
+}
+
+#eudir section table td{
+  font-size:0.8em ; 
+  padding-left:2px;
+  padding-right:2px; 
+}
+
+#eudir section .fx:first-of-type p:first-of-type{
+	text-indent: -0.7em;
+}
+
+
+#eudir section .fx:first-of-type p:first-of-type::first-letter{
+  font-size: 2.5em; /*2.4vw*/
+  font-weight: bold;
+  float: left;
+  margin-top: .25em;
+  line-height: 8px;
+  padding-right: 10px;
+  margin-left: 10px; 
+}
+
+#eudir section{
+  padding-bottom: 50px;
+}
+
+
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	/*background effect*/
+   	/*body:before, body:after{
+   	width:95%;
+	}
+
+	body:before {
+  transform: rotate(1deg);/*(-8)
+}
+    body:after {
+  transform: rotate(-1deg); /*(8)
+}*/
+
+#whole{
+	column-count: 3; 
+}
+
+header p{
+  font-size:1.3vw;
+  max-height: 6.3vh;
+}
+
+header p span{
+  font-size:1.3vw;
+}
+
+header address{
+  font-size:1.6vw;
+  max-height: 6.3vh;
+}
+
+header figcaption{
+  font-size:0.7em;
+}
+
+header h6{
+  font-size: 0.7em;
+}
+
+section aside{
+  width: 12em;
+}
+
+   /*#eudir{
+   	margin: 0px;
+   }
+
+   #eudir section table{
+   	max-width: 100%;
+   	padding: initial;
+   }
+
+   #eudir table th, td{
+   	font-size: 0.5vw;
+   	text-align: center;
+   }*/
+
+	    }
+
+
+/*phone*/
+@media only screen and (max-width: 767px){  
+	/*bacground effect*/
+	/*body:before, body:after{
+   		width:95%;
+	} 
+
+	body:before {
+  transform: rotate(1deg);/*(-8)
+}
+    body:after {
+  transform: rotate(-1deg); /*(8)
+}*/
+
+    #whole{
+	column-count: 2; 
+  }
+  header p{
+   	font-size:1.5vw;
+   	max-height: 5.8vh;
+   }
+
+   header p span{
+   	font-size:1.5vw;
+   }
+
+   header address{
+   	font-size:1.5vw;
+   	max-height: 5.8vh;
+   }
+
+   header h6{
+   	font-size: 0.5em;
+   }
+
+   header figcaption{
+   	font-size:0.6em;
+   }
+   
+   section aside{
+   	width: 11em;
+   }
+
+   aside table th{
+   	font-size: initial;
+   	font-size: 0.8em;
+   }
+
+   aside table td{
+   	font-size: initial;
+   	font-size: 0.8em;
+   }
+
+   
+   /*#eudir{
+   	margin: 0px;
+   }
+
+   #eudir section table{
+   	max-width: 100%;
+   	padding: initial;
+   }
+
+   #eudir table th, td{
+   	font-size: 0.6vw;
+    text-align: center;
+   }
+
+
+   /*.eng{
+   	width: 48%;
+   }
+
+   .it{
+   	width: 48%;
+   }*/
+}
+
