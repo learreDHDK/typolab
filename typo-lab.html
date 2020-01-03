@@ -18,75 +18,36 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!--navbar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
-      <a class="navbar-brand" href="index.html">
-        <img src="/images/typolab.png" width="80" height="30" alt="logo">
-      </a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html#about-proj">About the project</a>
-          <a class="nav-item nav-link active" href="typo-lab.html">Try<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="documentation.html">Documentation</a>
-          <a class="nav-item nav-link" href="disclaimer.html">Disclaimer</a>
-          <a class="nav-item nav-link" href="about-us.html">About us</a>
+          <a class="nav-item nav-link" id="btn1" href="#">Bloomberg</a>
+          <a class="nav-item nav-link" id="btn2" href="#">EU Directive</a>
+          <a class="nav-item nav-link" id="btn3" href="#">Harpers</a>
+          <a class="nav-item nav-link" id="btn4" href="#">The Huffington Post</a>
+          <a class="nav-item nav-link" id="btn5" href="#">The Cut</a>
+          <a class="nav-item nav-link" id="btn6" href="#">Times Literary Supplement</a>
+          <a class="nav-item nav-link" id="btn1" href="#">Home</a>
         </div>
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" id="btn1" href="#">Bloomberg</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="btn2" href="#">EU Directive</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="btn3" href="#">Harpers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="btn4" href="#">The Huffington Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="btn5" href="#">The Cut</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="btn6" href="#">Times Literary Supplement</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+        
           <main id="div1">
           </main>
-        </div>
-
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#" id="btn7" onclick="setStyleSheet('themes/bef1500/bef1500.css')">Aldo Manuzio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Style2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Style3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Style4</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="btn11" onclick="setStyleSheet('themes/lateXX/lateXX.css')">Prehistoric Web</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Style6</a>
-            </li>
-          </ul>
+        
+        <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light ">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" id="btn7" href="#" onclick="setStyleSheet('css/bef1500/bef1500.css)">Manuzio</a>
+          <a class="nav-item nav-link" id="btn8" href="#">Style2</a>
+          <a class="nav-item nav-link" id="btn9" href="#">Style3</a>
+          <a class="nav-item nav-link" id="btn10" href="#">Style4</a>
+          <a class="nav-item nav-link" id="btn11" href="#" onclick="setStyleSheet('css/lateXX/lateXX.css)">Prehistoric web</a>
+          <a class="nav-item nav-link" id="btn12" href="#">Style6</a>
         </div>
       </div>
-    </div>
+    </nav>
 		
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
