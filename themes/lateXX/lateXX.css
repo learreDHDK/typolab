@@ -32,23 +32,7 @@ html {
 }
 
 /*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL div#monitor DELL'EUDIRECTIVE*/
-div#basic {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	margin-left: 8.5vw;
-	margin-top: 11vh;
-	width: 78.3vw;
-	height: 68vh;
-	border: 5px double grey;
-	overflow: scroll;
-	overflow-x: hidden;
-	text-align: left;
-	background-image: url("sfondo.jpg");
-	padding: 2vw;
-}
-
-div#monitor {
+div#whole {
 	position: absolute;
 	left: 0px;
 	top: 0px;
