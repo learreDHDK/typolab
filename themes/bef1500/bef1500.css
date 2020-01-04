@@ -74,21 +74,21 @@ body {
 
 p {
 	text-indent: 1.8vw;
-	margin-bottom: -0.2vw;
+	margin-bottom: -1.7vw;
 	line-height: 4vh;
 }  
 
-section p:last-of-type {
+/*section p:last-of-type {
 	margin-bottom: initial;
-}
+}*/
 
 section > p:first-of-type {
 	text-indent: initial;
 }
 
-section:last-of-type > p:last-of-type {
+/*section:last-of-type > p:last-of-type {
 	margin-bottom: 20px;
-}
+}*/
 
 a {
 	text-align: justify;
