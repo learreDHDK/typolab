@@ -16,6 +16,22 @@
 	src: url('flanker-griffo.bold.ttf') format('truetype');
 }
 
+.fx {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.eng {
+	order: 1;
+	width: 45%;
+}
+
+.it {
+	order: 2;
+	width: 45%;
+}
+
 .noIndent {
 	text-indent: initial;
 }
