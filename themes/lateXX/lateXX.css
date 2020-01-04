@@ -31,7 +31,7 @@ html {
 	background-position: absolute;
 }
 
-/*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL div#monitor DELL'EUDIRECTIVE*/
+/*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL ID "eudir" DELL'EUDIRECTIVE*/
 div#whole {
 	position: absolute;
 	left: 0px;
