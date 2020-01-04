@@ -32,7 +32,7 @@ html {
 }
 
 /*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL ID "eudir" DELL'EUDIRECTIVE*/
-div#whole {
+main {
 	position: absolute;
 	left: 0px;
 	top: 0px;
