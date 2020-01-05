@@ -16,7 +16,7 @@
 	src: url('flanker-griffo.bold.ttf') format('truetype');
 }
 
-#eudir {
+body#eudir {
 	font-family: flankerbold; Garamond bold; serif;
 	text-align: justify;
 	letter-spacing: -0.1vw;
