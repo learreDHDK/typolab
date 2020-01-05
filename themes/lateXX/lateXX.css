@@ -23,12 +23,12 @@
 	width: 45%;
 }
 
-body {
+html {
 	background-image: url("monitor.png");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
-	background-position: absolute;
+	/*background-position: absolute;*/
 }
 
 /*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL ID "eudir" DELL'EUDIRECTIVE*/
