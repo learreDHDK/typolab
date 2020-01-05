@@ -36,20 +36,6 @@
 	text-indent: initial;
 }
 
-#eudir {
-	font-family: flankerbold; Garamond bold; serif;
-	text-align: justify;
-	letter-spacing: -0.1vw;
-	word-spacing: 0.15vw;
-	font-size: 1.6vw;
-	line-height: 2vw;
-	width: 95%;
-	padding: 2.5%;
-	margin: 0px;
-	background-color: #e2d5bd; 
-	border: none;
-}
-
 html {
 	background-image: url("wood.jpg");
 	background-repeat: repeat;
@@ -70,6 +56,20 @@ body {
 	border: 1px solid black;
 	display: block;
 	line-height: 2vw;
+}
+
+body#eudir {
+	font-family: flankerbold; Garamond bold; serif;
+	text-align: justify;
+	letter-spacing: -0.1vw;
+	word-spacing: 0.15vw;
+	font-size: 1.6vw;
+	line-height: 2vw;
+	width: 95%;
+	padding: 2.5%;
+	margin: 0px;
+	background-color: #e2d5bd; 
+	border: none;
 }
 
 p {
