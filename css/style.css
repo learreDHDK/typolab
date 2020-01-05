@@ -1,17 +1,15 @@
 @font-face {
 	font-family: 'printroom';
-	src: url('fonts/printroom.ttf') format('truetype');
+	src: url('https://learredhdk.github.io/typolab/css/printroom.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'samantha';
-	src: url('fonts/samantha.ttf') format('truetype');
+	src: url('https://learredhdk.github.io/typolab/css/samantha.ttf') format('truetype');
 }
 
-
-
 header {
-	background-image: url('images/firstpage.jpg');
+	background-image: url('https://learredhdk.github.io/typolab/images/firstpage.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
