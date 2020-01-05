@@ -68,6 +68,7 @@ body#eudir {
 	width: 95%;
 	padding: 2.5%;
 	margin: 0px;
+	background-image: none;
 	background-color: #e2d5bd; 
 	border: none;
 }
