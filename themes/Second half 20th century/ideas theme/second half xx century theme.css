@@ -37,7 +37,7 @@ html{
 }
 
 /*statements for the body of the html page*/
-main{
+#div1{
 	width: 55%;
 	height: auto;
 	background:transparent;
@@ -53,7 +53,7 @@ main{
 }
 
 /*image of bloomberg*/
-main img{
+div1 img{
 	max-width: 30%;
 	height: auto;
 	padding:2vw;
@@ -62,7 +62,7 @@ main img{
 } 
 
 /*for all the paragraphs pf the text*/
-main p{
+div1 p{
 	margin: 0px;
 	margin-bottom: 1vh;/*like the text of reference but for vitali it's not not a good effect*/
 	text-indent: 1.8vw;
