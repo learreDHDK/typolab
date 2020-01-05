@@ -87,7 +87,7 @@ h1 {
 
 header h1 {
 	order: 1;
-	flex-basis: 62%;/*!!62%51.5vw*/
+	flex-basis: 51.5vw;/*!!62%51.5vw*/
 	margin: 0px;
 	border-right: 1.5vw solid red;
 	border-bottom: 1.5vw solid red;
@@ -119,7 +119,7 @@ h2 {
 
 header h2 {
 	order: 6;
-	flex-basis: 20%;/*!!20%16.5vw*/
+	flex-basis: 16.5vw;/*!!20%16.5vw*/
 	margin: 0px;
 	border-left: 4.5vw double red;/*!!60px*/
 	padding-top: 1.5vh;/*!!1%*/
@@ -157,7 +157,7 @@ header h2 {
 header address {
 	order: 3;
 	flex: 2;
-	flex-basis: 20%;/*!!20%16.5vw*/
+	flex-basis: 16.5vw;/*!!20%16.5vw*/
 	font-family: 'futura-heavy-font', Helvetica, sans-serif;
 	font-style: normal;
 	text-transform: lowercase;
@@ -211,7 +211,7 @@ header p::before {
 
 header p {
 	order: 5;
-	flex-basis: 18%;/*!!18%14.5vw*/
+	flex-basis: 14.5vw;/*!!18%14.5vw*/
 	font-family: 'futura-book-font', Helvetica, sans-serif;
 	font-size: 1.1vw;/*!!0.8em*/
 	letter-spacing: 0.1vw;/*!!2px*/
