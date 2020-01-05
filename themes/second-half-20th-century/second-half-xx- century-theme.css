@@ -37,7 +37,7 @@ html{
 }
 
 /*statements for the body of the html page*/
-#whole{
+main{
 	width: 55%;
 	height: auto;
 	background:transparent;
