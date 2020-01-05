@@ -66,7 +66,7 @@ body:after {
 
 
 /*creation of the div style of the text*/
-main{
+body div{
   column-count: 4;  
   column-width: 3.8em;/*vw*/ 
   column-gap: 1em;  
@@ -221,16 +221,16 @@ section p{
 
 /*functions for the section of the text*/
 section{
-	margin: 0px;
+  margin: 0px;
   margin-bottom:10px;
   text-align: justify;
   text-indent: 0.9em; /*vw*/
   overflow: wrap;
   background-image: url("section and h1 deco.PNG");
-	background-repeat: no-repeat;
-	background-position:bottom;
-	padding-bottom: 30px;
-	background-size: 30% auto;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  padding-bottom: 30px;
+  background-size: 30% auto;
 }
 
 /*stop margin top effect for the first section of the doc*/
@@ -579,7 +579,7 @@ footer p{
 }
 
 
- main #eudir{
+#eudir div{
   column-count: initial;  
   column-width:initial;
   column-gap:initial;  
