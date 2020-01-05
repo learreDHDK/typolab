@@ -38,8 +38,8 @@ body {
   word-spacing:normal; 
   letter-spacing:normal;
   padding:3% 3% 3% 3%;
- 	margin: 2% auto 2% auto; /*margin: 26px auto 0;*/
- 	box-shadow: 0 0 10px rgba(0,0,0,0.3); 	
+  margin: 2% auto 2% auto; /*margin: 26px auto 0;*/
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 	
 }
 
 body:before, body:after {
@@ -79,7 +79,7 @@ body div{
 
 /*functions of the header of the text*/
 header{
- 	column-span:all;
+  column-span:all;
   display: flex;
   flex-flow: row wrap;
   font-family: 'Abril Fatface', serif; /* bold serif*/
@@ -545,7 +545,7 @@ footer p{
 }
 
 
-#eudir{
+body #eudir{
 	background: #FCFAFA;
   	/*box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	/*margin: 26px auto 0;
@@ -579,7 +579,7 @@ footer p{
 }
 
 
-#eudir div{
+body #eudir div{
   column-count: initial;  
   column-width:initial;
   column-gap:initial;  
