@@ -16,6 +16,20 @@
 	src: url('flanker-griffo.bold.ttf') format('truetype');
 }
 
+#eudir {
+	font-family: flankerbold; Garamond bold; serif;
+	text-align: justify;
+	letter-spacing: -0.1vw;
+	word-spacing: 0.15vw;
+	font-size: 1.6vw;
+	line-height: 2vw;
+	width: 95%;
+	padding: 2.5%;
+	margin: 0px;
+	background-color: #e2d5bd; 
+	border: none;
+}
+
 .fx {
 	display: flex;
 	flex-flow: row nowrap;
@@ -56,21 +70,6 @@ body {
 	border: 1px solid black;
 	display: block;
 	line-height: 2vw;
-}
-
-body#eudir {
-	font-family: flankerbold; Garamond bold; serif;
-	text-align: justify;
-	letter-spacing: -0.1vw;
-	word-spacing: 0.15vw;
-	font-size: 1.6vw;
-	line-height: 2vw;
-	width: 95%;
-	padding: 2.5%;
-	margin: 0px;
-	background-image: none;
-	background-color: #e2d5bd; 
-	border: none;
 }
 
 p {
