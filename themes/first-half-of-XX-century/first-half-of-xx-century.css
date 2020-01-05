@@ -220,7 +220,7 @@ header p {
 	text-align: left;
 	margin: 0px;
 	padding-right: 1vw;/*!!1%*/
-	padding-top: 3vh;/*!!1.5%*/
+	padding-top: 1.5%;/*!!1.5%2vh*/
 }
 
 @media screen and (max-width: 1000px) {
