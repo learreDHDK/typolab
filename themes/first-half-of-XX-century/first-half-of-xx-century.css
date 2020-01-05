@@ -87,6 +87,7 @@ h1 {
 
 header h1 {
 	order: 1;
+	flex: 2;
 	flex-basis: 51.5vw;/*!!62%51.5vw*/
 	margin: 0px;
 	border-right: 1.5vw solid red;
@@ -156,7 +157,6 @@ header h2 {
 
 header address {
 	order: 3;
-	flex: 2;
 	flex-basis: 16.5vw;/*!!20%16.5vw*/
 	font-family: 'futura-heavy-font', Helvetica, sans-serif;
 	font-style: normal;
