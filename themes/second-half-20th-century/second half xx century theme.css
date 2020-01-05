@@ -1,0 +1,828 @@
+/*fonts imported for type*/
+@font-face {
+	font-family: "Veltro W01 Regular"; 
+	src:url("fonts/Veltro W01 Regular.ttf") format("truetype"); 
+  }
+@font-face {
+	font-family: "FuturaLT-Light"; 
+	src:url("fonts/FuturaLT-Light.ttf") format("truetype"); 
+  }
+
+@font-face {
+	font-family: "Arya W00 Double"; 
+	src:url("fonts/Arya W00 Double.otf") format("opentype"); 
+  }
+
+@font-face {
+	font-family: "Helvetica Bold"; 
+	src:url("fonts/Helvetica Bold.ttf") format("truetype"); 
+  }
+
+@font-face {
+	font-family: "Moonshiner-Regular"; 
+	src:url("fonts/Moonshiner-Regular.otf") format("opentype"); 
+  }
+
+  @font-face {
+	font-family: "ArterioNonCommercial"; 
+	src:url("fonts/ArterioNonCommercial.otf") format("opentype"); 
+  }
+
+/* background image which is repeated*/
+html{
+	max-width: 100%;
+	background-image: url("cameroon and nigeria.jpg");
+	background-repeat: repeat;
+	background-position: static;
+}
+
+/*statements for the body of the html page*/
+body{
+	width: 55%;
+	height: auto;
+	background:transparent;
+	padding:2vw 5.5vw 2vw 3vw;
+	font-family:"FuturaLT-Light";
+	font-size:1vw;
+	font-weight: bold;
+	line-height: 1.5em;
+	word-spacing:normal; 
+  	letter-spacing:normal;
+  	text-align: justify;
+	margin: 0 auto;
+}
+
+/*image of bloomberg*/
+body img{
+	max-width: 30%;
+	height: auto;
+	padding:2vw;
+	margin-top: 2vh;
+	border-radius: 50%;
+} 
+
+/*for all the paragraphs pf the text*/
+body p{
+	margin: 0px;
+	margin-bottom: 1vh;/*like the text of reference but for vitali it's not not a good effect*/
+	text-indent: 1.8vw;
+}
+
+/*header of the text*/
+header{
+	display: flex;
+	flex-flow: column wrap;	
+	justify-content: space-around;
+	line-height: 2vh;
+	width: 100%;
+	height: 87vh;
+	margin-bottom: 13vh;
+	background: yellow;
+    margin-right: 4vw;
+    margin-top: 1vh;
+    padding: 3vh 1vw 3vh 1.5vw;
+}
+ 
+/*h1 of the header*/
+ header h1{
+	order:1;
+	font-family:"Arya W00 Double";  
+	font-size:3vw;
+	text-transform: uppercase;
+	line-height: 1em;
+	margin: 0px;
+	text-align: center;
+	letter-spacing: 3px;
+    word-spacing:normal;
+}
+
+/*h2 header*/
+header h2{
+	order:3;
+	font-family: "Moonshiner-Regular";
+	font-size: 2.2vw;
+	margin: 0px;
+	line-height: 1em;
+	word-break: break-word;
+	text-align: center;	
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+/*put the stars of the h2 like the example text*/
+h2::after{
+	content:url("3star.png");
+	position: relative;
+	top:2px;
+	left:5px;
+}
+
+/*for the text Eu*/
+h3{
+	font-family: "Arya W00 Double" ;
+	font-size:1.5em ;
+}
+
+/*for the text Eu*/
+h4{
+ font-family:  "Moonshiner-Regular";
+ text-indent:40px;
+ text-transform: capitalize;
+ font-size: 1.4em;
+}
+
+/*put the stars of the h4 like the example text*/
+h4::after{
+	content:url("2-stars.png");
+	position: relative;
+	bottom: 6px;
+	left:5px; 
+}
+
+/*for the text Eu*/
+h5{
+font-family: "Veltro W01 Regular";
+font-size: 1.2em;
+}
+
+/*for the header of the text Eu*/
+header h6{
+	order:4 ;
+	font-family: "Veltro W01 Regular";
+	font-size: 1.2vw;
+	margin: 0px;
+	align-self: center;
+	margin: 0px;
+	text-transform: capitalize;
+}
+
+/*paragraph of the header*/
+header p{
+	text-indent: initial;
+	order:4 ;
+	font-size: 1.2vw;
+	font-family: "Veltro W01 Regular";
+	margin: 0px;
+	align-self: center;
+	margin-top: 8px;
+	text-transform: capitalize;
+}
+
+/*create space between the p of the header and the span*/
+header p span{
+	position:relative;
+	left:20px;
+}
+
+/*adress of the header*/
+header address{
+   order: 4;
+   font-family: "Veltro W01 Regular";
+   margin: 0px;
+   align-self: center;
+   font-size: 1.2vw;
+   margin-top: 8px;
+}
+
+/*figure of the header*/
+header figure{
+	order:2;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:5px dashed black;
+    width: 50%;
+    height: 50%;
+   	align-self: center;
+   	margin: 0px;
+   	margin-top: 10px;
+   	padding: 10px;
+   	background-image: url("liberia.jpg") ;
+   	background-repeat: no-repeat;
+   	background-size: 100% auto;
+   	background-position: center;
+}
+
+/*image of the header*/
+header figure img{
+	order:1;
+	border: 20px solid transparent;
+	align-self: center;	
+	max-width:65%;
+	max-height: 70%;
+	border-radius: initial;
+	border-radius: 50%;
+    filter:grayscale(100%);
+    position:relative;
+    right:1.2vw;
+    margin: 0px;
+}
+
+/*figure caption of the image of the header*/
+header figure figcaption{
+	order: 2;
+	align-self:center;
+	text-transform: uppercase;
+	font-family: "Helvetica Bold";
+	caption-side: bottom;
+	position:relative;
+	bottom:3vh;
+	line-height: 1em;
+	margin:0px;
+	margin-bottom: 20px;
+	border:2px solid black;
+	border-radius: 10%;
+	background: yellow;
+	padding:3px;
+}
+
+/*stop the indenteffect on the first paragraph of the text*/
+header + section p:first-of-type{
+	text-indent: initial;
+}
+
+/*dropcap of the first letter of the first paragraph of the text*/
+header + section  p:first-of-type::first-letter{
+	float: left;
+	font-family: "ArterioNonCommercial";
+	font-size: 7vw;
+	margin-right: 20px;
+	line-height: 69px;
+	padding: 16px 27px 25px 29px;
+	background-image: url("first letter background.jpg");
+	background-size: 100% 90%;
+	/*background-size: 50vw 40vh;*/
+	background-repeat: no-repeat;
+	background-position: static;
+	margin-top: -45px; 
+	margin-bottom: -10px;
+}
+
+
+/*add border to the sections and determine the width*/
+section{
+   border:5px solid yellow;
+   width: 100%;
+   height: auto;
+   margin-bottom: 8vh;
+   padding: 3vh 1vw 3vh 0.8vw;
+   background: white;
+   outline: 40px solid;
+   outline-color: white;
+   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   margin: 26px auto 18vh;
+   position: relative;  
+}
+
+/*section:last-of-type{
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   	margin: 26px auto 18vh;
+   	position: relative; 
+   	margin-bottom: 20vh;  
+}
+
+section:last-of-type:before,  section:last-of-type:after {
+  content: "";
+  position: absolute; 
+
+}
+
+/*section:last-of-type{
+  margin-bottom: 5vh;
+}*/
+
+section:before,  section:after {
+  content: "";
+  position: absolute; 
+}
+
+/*create space between the header and the begining of the text*/
+header + section{
+	padding-top: 55px;
+}
+
+/*create the inverse indent effect on the fist line of the first section*/
+header + section p:first-of-type{
+	text-indent: -10px;
+}
+
+
+/*fisrt image in the text blomberg*/
+/*p + img{
+	border-radius: initial;
+	border: 20px solid transparent;
+	padding: 20px;
+}*/
+
+section figure{
+	background: #F6F6F6 ;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/*images of the section*/
+section figure img{
+    width: 30%;
+    margin-bottom: 10px;
+    display: inline-block;
+  	filter:grayscale(100%);
+}
+
+/* statement for the image first child of its parents*/
+section img:first-child{
+	background-image:url("cameroon type textile.jpg");
+	background-size: 100%; 
+	border: 30px solid transparent;
+	border-image: url("cameroon type textile.jpg") 20 round;
+}
+
+/* statement for the image first second of its parents*/
+section img:nth-child(2){
+	background-image:url("mandela.jpg");
+	background-size: 100%; 
+	border: 30px solid transparent;
+	border-image: url("mandela.jpg") 20 round;
+}
+
+/* statement for the image third child of its parents*/
+section img:nth-child(3){
+	background-image:url("congo.jpg");
+	background-size: 100%; 
+	border: 30px solid transparent;
+	border-image: url("congo.jpg") 20 round;
+	margin-bottom: 20px;
+}
+
+/*figure caption of the images of the sections*/
+section  figure figcaption{
+	text-indent: initial;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	text-transform: uppercase;
+	font-family: "Helvetica Bold";
+	word-break: break-word;
+ 	word-spacing: normal;
+    text-align: justify;
+	caption-side: bottom;
+	/*width: 70%;*/
+	border:5vw solid transparent;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-image: url("ruban2.png")300 round;
+	padding: 10px;
+	background: #F0C84B;
+ 	text-align: center; /*when applied makes text go to the center but not ordered*/	
+}
+
+/*asides of all texts*/
+section aside{
+	font-family:"Helvetica Bold";
+	text-transform: uppercase;
+	font-size:1.8vw; 
+	line-height:5vh;
+	width: 50%;
+	height: auto;
+	border:5px groove white;
+	margin:0 auto;
+	padding: 15px 10px 5px 10px;
+	background: white;
+	margin-top: 2vh;
+	margin-bottom: 2vh;		
+}
+/* for tls*/
+header + section aside{
+	margin-top: 0px;
+}
+
+/*for the normal aside without table*/
+section aside p{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    /*font-weight: 300%;*/
+ 	text-indent: initial;
+ 	text-align: center;
+ 	/*font-family: "Helvetica Bold" ;*/
+ 	font-family: "Impact" ;
+ 	word-break: break-word;
+ 	word-spacing: normal;
+ }
+
+/*for the aside with table first paragraph*/
+section aside h1 + p{
+	text-transform: initial;
+	font-family:"FuturaLT-Light";
+	font-size:1vw;
+	font-weight: bold;
+	line-height: 1.5em;
+	word-spacing:normal; 
+  	letter-spacing:normal;
+  	text-align: justify;
+  	text-indent: 1.8vw;
+}
+
+/*for the aside with table second paragraph*/
+section aside table + p{
+	text-transform: initial;
+	font-family:"FuturaLT-Light";
+	font-size:1vw;
+	font-weight: bold;
+	line-height: 1.5em;
+	word-spacing:normal; 
+  	letter-spacing:normal;
+  	text-align: justify;
+  	text-indent: 1.8vw;
+}
+
+/*for the h1 of the aside with table*/
+ section aside h1{
+ 	font-family: "Arya W00 Double";
+ 	font-size: 3vw;
+ 	margin: 10px 0px 20px 0px;
+ 	text-align: center;
+ }
+
+/*for the h2 of the aside with table*/
+ section aside h2{
+ 	font-family: "Moonshiner-Regular";
+    font-size: 2.5vw;
+    text-align: center;
+ }
+
+/* to collapse borders of the tables of the text*/
+section table{
+	border-collapse: collapse;
+}
+
+/*creation of the table styleof all the tables of the text*/
+section table{
+	height: auto;
+	border: 2px solid black;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-left: auto;
+ 	margin-right: auto; 
+
+}
+
+/*attributing the borders of the table head and row*/
+table th, td{
+	border: 2px solid black;
+	padding: 1vw;
+	font-size: 1.5vw;
+}
+
+/*giving a background color to the table head*/
+table th{
+	background: yellow;
+}
+
+/*giving a different backgrond color to the sum of the tables*/
+section aside th:last-child{
+	background: lightgrey;
+}
+
+/*grand total of the aside table*/
+section h2 + p{
+	border:2px solid black;
+	background: lightgrey;
+	text-align: center;
+}
+
+/*for all the emphasis of the various sections*/
+section em{
+   font-family: "Helvetica Bold" ;
+   font-size: 1.2vw;
+   text-transform: uppercase;
+}
+
+img:hover{
+   filter: hue-rotate(40deg);
+}
+
+/*links colour in text*/
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/*footer of text like the example text*/
+footer{
+	background: white;
+	outline: 40px solid;
+   	outline-color: white;
+ 	display: block;
+	width:100%;
+	border: 5px solid yellow;
+	font-family: "Veltro W01 Regular";
+	padding:1vw;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   	margin: 26px auto 18vh;
+   	position: relative; 
+   	margin-bottom: 5vh;  
+}
+
+footer:before,  footer:after {
+  content: "";
+  position: absolute; 
+}
+
+/*footer h1*/
+footer h1{
+	text-indent: initial;
+	position: relative;
+	left:5vw;
+	font-size: 1.5vw;
+}
+
+/*footer h2*/
+footer h2{
+ 	text-indent: initial;
+ 	position: relative;
+	left:12vw;
+	font-size: 1.1vw;
+}
+
+/*paragraph of the footer*/
+footer p{
+	text-indent: initial;
+	width: 50%;
+	position: relative;
+	left:25vw;
+	text-indent: -20px;
+	font-size: 1vw;
+}
+
+#eudir{
+	background: transparent;
+	width: 70%;
+	padding: initial;	
+}
+
+.fx {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: initial;
+	margin-left: initial;
+	padding: initial;
+}
+
+.eng {
+    order:1;
+    width: 45%;
+    padding: initial;
+    margin: initial;
+    padding-right: 10px;
+}
+
+.it {
+    order:2;
+    width: 45%;
+    padding: initial;
+    margin: initial;
+    padding-left: 10px;
+}
+
+#eudir header{
+	width: 100%;
+	height: 87vh;
+	padding: initial;
+	margin: initial;
+	margin-bottom: 10vh;
+	margin-top: 6vh;
+}
+
+.fx header{
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 20px;
+  padding: 24px;
+  position: relative;
+}
+
+.fx header:before, .fx header:after{
+  content: "";
+  position: absolute;
+   
+}
+
+#eudir section .it{
+	border-left: 5px solid yellow;
+}
+
+#eudir section .eng {
+	border-right:5px solid yellow;
+}
+
+#eudir section{
+	width: initial;
+	padding: initial;
+	margin: initial;
+	outline: 40px solid;
+    outline-color: white;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 26px auto 18vh;
+    position: relative;  
+    /*padding: 3vh 1vw 3vh 0.8vw;
+    /*padding-bottom: 3vh;
+    padding-top: 5vh; */
+}
+
+ #eudir section:last-of-type{
+  margin-bottom: 8vh;
+}
+ 
+ #eudir section:first-of-type{
+ 	padding-top: 9vh;
+ }
+
+#eudir section:before, #eudir section:after {
+  content: "";
+  position: absolute; 
+}
+
+#eudir section table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30vw;
+}
+
+.tabelEU{
+	overflow-x: auto;
+}
+
+#eudir section table tr{
+	padding: initial;
+}
+
+#eudir section table th{
+	padding: initial;
+	font-size: 1em;
+	padding: 0.1vh 0.1vw 0.1vh 0.2vw;
+}
+
+#eudir section table td{
+	padding: initial;
+	font-size: 0.9em;
+	padding: 0.1vh 0.15vw 0.1vh 0.2vw;
+} 
+
+#eudir section:first-of-type .fx:first-of-type p:first-of-type{
+	text-indent: -10px;
+}
+ 
+#eudir section:first-of-type .fx:first-of-type p:first-of-type::first-letter{
+	float: left;
+	font-family: "ArterioNonCommercial";
+	font-size: 7vw;
+	margin-right: 20px;
+	line-height: 9vh;
+	padding: 25px 27px 25px 29px;
+	background-image: url("first letter background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: static;
+	margin-top: -45px; 
+	/*margin-bottom: 30px;*/
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) { 
+	body{
+		font-size: 1.5vw;
+	}
+	header{
+	height:75vh;
+	   }
+
+	header figure{
+		background-size: 100% 100%;
+		  }
+
+	header h2{
+		font-size: 2.4vw;
+	}
+
+	h3{
+	font-size:1.7vw ;
+	}
+
+	header p{
+		font-size:1.8vw ;
+	}
+
+	header address{
+		font-size:1.8vw ;
+	}
+
+	#eudir header{
+		height: 75vh;
+	}
+
+	#eudir header h6{
+		font-size:1.8vw ;
+	}
+	
+
+	section em{
+   font-size: 1.5vw;
+	}
+
+	section aside h1 + p{
+		font-size:1.5vw ;
+	}
+
+	section aside table + p{
+       font-size:1.5vw ;
+	}
+
+
+	footer h1{
+		font-size: 1.7vw;
+	}
+
+	footer h2{
+		font-size: 1.3;
+	}
+
+
+	footer p{
+		font-size: 1.5vw;
+	}
+
+	   }
+
+	   /*phone*/
+@media only screen and (max-width: 767px){
+	body{
+		font-size: 2vw;
+	}
+
+    header{
+    height: 55vh;
+	}
+
+	header figure{
+		background-size: 100% 100%;
+		  }
+	header h2{
+		font-size: 2.7vw ;
+	}
+
+	h3{
+	font-size:1.9vw ;
+	}
+
+	header p{
+		font-size:2.5vw ;
+	}
+
+	header address{
+		font-size:2.5vw ;
+	}
+
+	#eudir header{
+		height: 65vh;
+		
+	}
+
+	#eudir header h6{
+		font-size:1.7vw ;
+	}
+
+	aside p{
+		line-height: 3vh;
+		  }
+
+	section aside h1 + p{
+		font-size: 2vw;
+	}
+
+	section aside table + p{
+       font-size:2vw ;
+	}
+
+	section em{
+   font-size:2vw;
+	}
+
+	footer h1{
+		font-size:1.9 ;
+	}
+
+	footer h2{
+		font-size:1.4vw ;
+	}
+
+	footer p{
+		font-size: 2vw;
+	}
+	  }
+
+
+
+
