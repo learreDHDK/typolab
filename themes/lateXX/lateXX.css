@@ -95,7 +95,7 @@ p, footer, figcaption {
 section::after {
 	display: absolute;
   	content: url("meshspin.gif");
-  	padding-left: 36vw; 
+  	padding-left: 45vw; 
 }
 
 h1 {
