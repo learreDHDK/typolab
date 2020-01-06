@@ -35,13 +35,11 @@ main body {
 main {
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: 150px;
 	/*margin-left: 8.5vw;
 	margin-top: 11vh;
 	width: 78.3vw;
 	height: 68vh;*/
-	margin-top: 150px;
-	margin-bottom: 150px;
 	width: 100vw;
 	height: 80vh;
 	border: 5px double grey;
