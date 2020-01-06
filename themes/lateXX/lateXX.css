@@ -41,7 +41,7 @@ main {
 	width: 78.3vw;
 	height: 68vh;*/
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	border: 5px double grey;
 	overflow: scroll;
 	overflow-x: hidden;
