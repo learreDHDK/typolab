@@ -36,10 +36,12 @@ main {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	margin-left: 8.5vw;
+	/*margin-left: 8.5vw;
 	margin-top: 11vh;
 	width: 78.3vw;
-	height: 68vh;
+	height: 68vh;*/
+	width: 100vw;
+	height: 100vh;
 	border: 5px double grey;
 	overflow: scroll;
 	overflow-x: hidden;
