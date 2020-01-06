@@ -167,11 +167,11 @@ header address {
 	writing-mode: vertical-lr;
 	text-align: right; 
 	margin-left: 1.45vw;
-	border-left: 1.5vw solid black;/*!!20px*/
+	border-left: 1.5vw solid red;/*!!20px*/
 	border-bottom: 1.5vw solid red;/*!!20px*/
 	padding-left: 1vw;/*!!1%*/
-	padding-bottom: 1%;/*!!1%*/
-	margin-bottom: -0.4%;
+	padding-bottom: 0.5%;/*!!1%*/
+	margin-bottom: -0.5%;
 }
 
 @media screen and (max-width: 1150px) {
