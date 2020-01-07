@@ -67,7 +67,7 @@ body:after {
 
 
 /*creation of the div style of the text*/
-#whole{
+body #whole{
 	column-count: 4;  
 	column-width: 3.8em;/*vw*/ 
 	column-gap: 1em;  
@@ -572,7 +572,7 @@ footer p{
 }
 
 
-#eudir div{
+#eudir + #whole{
 	  column-count: initial;  
 	  column-width:initial;
 	  column-gap:initial;  
