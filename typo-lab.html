@@ -51,7 +51,7 @@
           <a class="nav-item nav-link" id="btn8" href="#" onclick="setStyleSheet('themes/19th century/theme ideas/19th century theme.css')">VicNewspaper</a>
           <a class="nav-item nav-link" id="btn9" href="#" onclick="setStyleSheet('themes/first-half-of-XX-century/first-half-of-xx-century.css')">Bauhaus</a>
           <a class="nav-item nav-link" id="btn10" href="#" onclick="setStyleSheet('themes/second-half-20th-century/second-half-xx-century-theme.css')">AfrIndependence</a>
-          <a class="nav-item nav-link" id="btn11" href="#" onclick="setStyleSheet('themes/lateXX/lateXX.css')">Prehistoric web</a>
+          <a class="nav-item nav-link" id="btn11" href="#" onclick="setStyleSheet('themes/lateXX/lateXX.css'); play()">Prehistoric web</a>
           <a class="nav-item nav-link" id="btn12" href="#">Style6</a>
 
         </div>
@@ -63,6 +63,15 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
       
+    <script>
+     function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+    </script>
+		
+    <audio id="audio" src="https://learredhdk.github.io/typolab/themes/lateXX/dialup.mp3" ></audio>
+
     <!-- starting css -->  
     <link id="style" rel="stylesheet" type="text/css" href="select.css"/> 
 
