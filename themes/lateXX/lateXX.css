@@ -285,7 +285,7 @@ table {
 
 th, td {
 	border: 1px solid grey;
-	border-collapse: collapse;
+	border-collapse: separate;
 }
 
 th {
