@@ -26,72 +26,72 @@ html{
 
 /*statements for the body of the text*/
 body {
-  position: relative;
-  width: 80%; /*max-width: 80%;*/
-  height: auto;/*height: auto;*/
-  background-color:#FCFAFA ;  
-  font-family: "De Vinne", serif;
-  font-size: 0.9em;/*1vw*/
-  font-weight:300%;
-  color:black;
-  line-height: 1em;
-  word-spacing:normal; 
-  letter-spacing:normal;
-  padding:3% 3% 3% 3%;
-  margin: 5% auto 5% auto; /*margin: 26px auto 0;*/
-  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
-  background:black;
+	  position: relative;
+	  width: 80%; /*max-width: 80%;*/
+	  height: auto;/*height: auto;*/
+	  background-color:#FCFAFA ;  
+	  font-family: "De Vinne", serif;
+	  font-size: 0.9em;/*1vw*/
+	  font-weight:300%;
+	  color:black;
+	  line-height: 1em;
+	  word-spacing:normal; 
+	  letter-spacing:normal;
+	  padding:3% 3% 3% 3%;
+	  margin: 5% auto 5% auto; /*margin: 26px auto 0;*/
+	  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 body:before, body:after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
+	  content: "";
+	  height: 100%;
+	  position: absolute;
+	  width: 100%;
+	  z-index: -1;
 }
 body:before {
-  background: #fafafa;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  left: -5px;
-  top: 4px;
-  transform: rotate(-1deg);/*(-8)*/
+	  background: #fafafa;
+	  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	  left: -5px;
+	  top: 4px;
+	  transform: rotate(-1deg);/*(-8)*/
 }
 body:after {
-  background: #f6f6f6;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-  right: -3px;
-  top: 1px;
-  transform: rotate(1deg); /*(8)*/
+	  background: #f6f6f6;
+	  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	  right: -3px;
+	  top: 1px;
+	  transform: rotate(1deg); /*(8)*/
 }
 
 
 /*creation of the div style of the text*/
 #whole{
-  column-count: 4;  
-  column-width: 3.8em;/*vw*/ 
-  column-gap: 1em;  
-  column-rule: 2px solid black;
-  text-align: justify;
-  orphans: 0;
-  widows: 3;
-}
+	  column-count: 4;  
+	  column-width: 3.8em;/*vw*/ 
+	  column-gap: 1em;  
+	  column-rule: 2px solid black;
+	  text-align: justify;
+	  orphans: 0;
+	  widows: 3;
+	}
 
 
 /*functions of the header of the text*/
 header{
-  column-span:all;
-  display: flex;
-  flex-flow: row wrap;
-  font-family: 'Abril Fatface', serif; /* bold serif*/
-  line-height: 4em;
-  margin-bottom: 4px;
-  width: 100%;
-  height: auto;
+	  column-span:all;
+	  display: flex;
+	  flex-flow: row wrap;
+	  font-family: 'Abril Fatface', serif; /* bold serif*/
+	  line-height: 4em;
+	  margin-bottom: 4px;
+	  width: 100%;
+	  height: auto;
 }
 
 /*functions for the h1 of the header*/
 header h1{
+	
 	order:1;
 	width: 100%;
 	text-transform: uppercase;
@@ -129,25 +129,25 @@ header h6{
 	border-bottom: double black;
 	border-top: double black;
 	margin:8px 0px 5px 0px;
-  padding:0px;
-  padding-right: 10px;
-  max-height: 6.5vh;
+  	padding:0px;
+  	padding-right: 10px;
+  	max-height: 6.5vh;
 }
 
 /*functions for the address of the header*/
 header address{
 	order:4;
 	width: 40%;
-  font-family: 'Abril Fatface', cursive  serif;
+  	font-family: 'Abril Fatface', cursive  serif;
 	font-size:1.1vw;/*0.8vw*/
 	border-bottom: double black;
 	border-top: double  black;
 	text-align: right;
 	margin: 15px 0px 5px 0px;
-  flex-grow: 2;
-  padding: 0px;
-  max-height: 6.5vh;
-  padding-right: 10px;
+	flex-grow: 2;
+	padding: 0px;
+	max-height: 6.5vh;
+	padding-right: 10px;
 }
  
 /*functions for the paragraph of the header*/
@@ -178,11 +178,11 @@ header p span{
 
 /*functions for the figure of the header*/
 header figure{
-  order:5;
-  width: 100%;
-  margin-bottom:0px; 
-  display: flex;
-  flex-direction: column;   
+	  order:5;
+	  width: 100%;
+	  margin-bottom:0px; 
+	  display: flex;
+	  flex-direction: column;   
 }
 
 /*functions for the image of the header*/
@@ -222,25 +222,17 @@ section p{
 
 /*functions for the section of the text*/
 section{
-  margin: 0px;
-  margin-bottom:10px;
-  text-align: justify;
-  text-indent: 0.9em; /*vw*/
-  overflow: wrap;
-  background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
-  background-repeat: no-repeat;
-  background-position:bottom;
-  padding-bottom: 30px;
-  background-size: 30% auto;
+	  margin: 0px;
+	  margin-bottom:10px;
+	  text-align: justify;
+	  text-indent: 0.9em; /*vw*/
+	  overflow: wrap;
+	  background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	  background-repeat: no-repeat;
+	  background-position:bottom;
+	  padding-bottom: 30px;
+	  background-size: 30% auto;
 }
-
-/*stop margin top effect for the first section of the doc*/
-/*section:first-of-type{
-margin-top: initial;
-/*background-image: initial;
-padding-top: initial;
-}
-
 
 /*functions for the h3 of the text EU*/
 section h3{
@@ -278,20 +270,20 @@ section > p:first-of-type{
 
 /*create the dropcap of all first letters of every first paragraph*/
 section > p:first-of-type::first-letter {
-  font-size: 2.4em; /*2.4vw*/
-  font-weight: bold;
-  float: left;
-  margin-top: .25em;
-  line-height: 8px;
-  padding-right: 10px;
-  margin-left: 10px;  	
+	  font-size: 2.4em; /*2.4vw*/
+	  font-weight: bold;
+	  float: left;
+	  margin-top: .25em;
+	  line-height: 8px;
+	  padding-right: 10px;
+	  margin-left: 10px;  	
 }
 
 
 section figure{
-  display: flex;
-  flex-direction: column; 
-  -webkit-column-break-inside: avoid;
+	  display: flex;
+	  flex-direction: column; 
+	  -webkit-column-break-inside: avoid;
 } 
 
 /*/statements for the images of the text body*/
@@ -361,48 +353,49 @@ table th{
 
 /*functions for the asides of the text*/
 section aside{
+	
 	font-family:'Abril Fatface', cursive , serif;
 	line-height: 1em;
 	word-spacing: normal;
 	height:auto;
 	border: 5px solid black;
 	border-image: url("border asside.jpg") 80 round;
-  padding:5px;
-  margin:10px auto 10px auto;
-  background: #FCEBC1;
-  overflow-wrap: break-word;
-  text-align: justify;
-  -webkit-column-break-inside: avoid;
+	padding:5px;
+	margin:10px auto 10px auto;
+	background: #FCEBC1;
+	overflow-wrap: break-word;
+	text-align: justify;
+	-webkit-column-break-inside: avoid;
 }
 
 /*functions for the h1 of the asides of the text*/
 section aside h1{
-  background-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
-  background-repeat: no-repeat;
-  background-position:bottom center;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  background-size: 40% auto;
-  padding-bottom: 10px;
-  font-family:'Abril Fatface', bold serif;
-  text-align: center;
-  font-size: 1.1em; /*1.5vw*/
-  text-transform: uppercase;
-  }
+	  background-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	  background-repeat: no-repeat;
+	  background-position:bottom center;
+	  /*margin-left: auto;
+	  margin-right: auto;*/
+	  background-size: 40% auto;
+	  padding-bottom: 10px;
+	  font-family:'Abril Fatface', bold serif;
+	  text-align: center;
+	  font-size: 1.1em; /*1.5vw*/
+	  text-transform: uppercase;
+}
 
 /*functions for the h1 of the asides of the text*/
 section aside h2{
-  background-image: url("section and h1 deco.PNG");
-  background-repeat: no-repeat;
-  background-position:bottom center;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  background-size: 30% auto;
-  padding-bottom: 10px;
-  font-family:'Abril Fatface', bold serif;
-  text-align: center;
-  font-size: 1em; /*1.3vw*/
-  text-transform: uppercase;
+	  background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	  background-repeat: no-repeat;
+	  background-position:bottom center;
+	  /*margin-left: auto;
+	  margin-right: auto;*/
+	  background-size: 30% auto;
+	  padding-bottom: 10px;
+	  font-family:'Abril Fatface', bold serif;
+	  text-align: center;
+	  font-size: 1em; /*1.3vw*/
+	  text-transform: uppercase;
   }
 
 /*for all P elements of aside*/
@@ -432,11 +425,11 @@ section aside h1 + p:first-of-type{
 section aside h1 + p:first-of-type::first-letter{
 	font-weight: initial;
 	font-size:0.9em; /*1.1vw*/
-  float: none;
-  margin-top:0px;
-  margin-bottom:0px;
-  padding-right: 0px;
-  font-weight: initial;
+  	float: none;
+  	margin-top:0px;
+  	margin-bottom:0px;
+  	padding-right: 0px;
+  	font-weight: initial;
 }
 /*functions for the p immediately afer the asides h2 of the text total*/
 section aside h2 + p{
@@ -526,8 +519,8 @@ footer h1{
 
 /*for h2 of the footer*/
 footer h2{
-  font-family:'Abril Fatface', bold serif;
-  font-size:0.9em; /*0.9vw*/
+  	font-family:'Abril Fatface', bold serif;
+  	font-size:0.9em; /*0.9vw*/
 }
 
 
@@ -551,63 +544,63 @@ footer p{
   	/*box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	/*margin: 26px auto 0;
   	width: 100%;
-  	height: 90%;
+  	height: auto;
   	padding: 24px;*/
   	position: relative;
   	width: 80%;
 }
 
 #eudir:before, #eudir:after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
+	  content: "";
+	  height: 100%;
+	  position: absolute;
+	  width: 100%;
+	  z-index: -1;
 }
 #eudir:before {
-  background: #fafafa;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  left: -5px;
-  top: 4px;
-  transform: rotate(.15deg);
+	  background: #fafafa;
+	  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	  left: -5px;
+	  top: 4px;
+	  transform: rotate(.15deg);
 }
 #eudir:after {
-  background: #f6f6f6;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-  right: -3px;
-  top: 1px;
-  transform: rotate(-.15deg);
+	  background: #f6f6f6;
+	  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	  right: -3px;
+	  top: 1px;
+	  transform: rotate(-.15deg);
 }
 
 
 #eudir #whole{
-  column-count: initial;  
-  column-width:initial;
-  column-gap:initial;  
-  column-rule: initial;
+	  column-count: initial;  
+	  column-width:initial;
+	  column-gap:initial;  
+	  column-rule: initial;
 }
 
 .fx {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  /*padding-top: 5vh;
-  padding-bottom: 5vh;*/
+	  display: flex;
+	  flex-flow: row nowrap;
+	  justify-content: space-around;
+	  /*padding-top: 5vh;
+	  padding-bottom: 5vh;*/
 }
 
 .eng {
-  order:1;
-  width: 45%;
-  padding-right: 10px; 
-  border-right: 2px solid black; 
+	  order:1;
+	  width: 45%;
+	  padding-right: 10px; 
+	  border-right: 2px solid black; 
 }
 
 
 .it {
-  order:2;
-  width: 45%;
-  padding-left: 10px;
-  border-left: 2px solid black;
+	  order:2;
+	  width: 45%;
+	  padding-left: 10px;
+	  border-left: 2px solid black;
 }
 
 .tabelEU{
@@ -615,15 +608,15 @@ footer p{
 }
 
 #eudir section table th{
-  font-size:0.9em ;  
-  padding-left:2px;
-  padding-right: 2px;
+	  font-size:0.9em ;  
+	  padding-left:2px;
+	  padding-right: 2px;
 }
 
 #eudir section table td{
-  font-size:0.8em ; 
-  padding-left:2px;
-  padding-right:2px; 
+	  font-size:0.8em ; 
+	  padding-left:2px;
+	  padding-right:2px; 
 }
 
 #eudir section .fx:first-of-type p:first-of-type{
@@ -632,17 +625,17 @@ footer p{
 
 
 #eudir section .fx:first-of-type p:first-of-type::first-letter{
-  font-size: 2.5em; /*2.4vw*/
-  font-weight: bold;
-  float: left;
-  margin-top: .25em;
-  line-height: 8px;
-  padding-right: 10px;
-  margin-left: 10px; 
+	  font-size: 2.5em; /*2.4vw*/
+	  font-weight: bold;
+	  float: left;
+	  margin-top: .25em;
+	  line-height: 8px;
+	  padding-right: 10px;
+	  margin-left: 10px; 
 }
 
 #eudir section{
-  padding-bottom: 50px;
+  	padding-bottom: 50px;
 }
 
 
@@ -666,29 +659,29 @@ footer p{
 }
 
 header p{
-  font-size:1.3vw;
-  max-height: 6.3vh;
-}
+	  font-size:1.3vw;
+	  max-height: 6.3vh;
+	}
 
 header p span{
-  font-size:1.3vw;
+  	font-size:1.3vw;
 }
 
 header address{
-  font-size:1.6vw;
-  max-height: 6.3vh;
+  	font-size:1.6vw;
+ 	 max-height: 6.3vh;
 }
 
 header figcaption{
-  font-size:0.7em;
+  	font-size:0.7em;
 }
 
 header h6{
-  font-size: 0.7em;
+  	font-size: 0.7em;
 }
 
 section aside{
-  width: 12em;
+  	width: 12em;
 }
 
    /*#eudir{
@@ -722,7 +715,7 @@ section aside{
   transform: rotate(-1deg); /*(8)
 }*/
 
-    #whole{
+#whole{
 	column-count: 2; 
   }
   header p{
@@ -773,16 +766,8 @@ section aside{
 
    #eudir table th, td{
    	font-size: 0.6vw;
-    text-align: center;
+    	text-align: center;
    }
 
-
-   /*.eng{
-   	width: 48%;
-   }
-
-   .it{
-   	width: 48%;
-   }*/
 }
 
