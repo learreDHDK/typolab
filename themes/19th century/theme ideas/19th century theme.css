@@ -538,16 +538,16 @@ footer p{
 }
 
 
-#eudir{
+/*#eudir{
 	background: #FCFAFA;
   	/*box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	/*margin: 26px auto 0;
   	width: 100%;
   	height: auto;
   	padding: 24px;*/
-  	position: relative;
+  	/*position: relative;
   	width: 80%;
-}
+}*/
 
 /*#eudir:before, #eudir:after {
 	  content: "";
@@ -572,7 +572,7 @@ footer p{
 }*/
 
 
-#eudir + #whole{
+#eudir #whole{
 	  column-count: initial;  
 	  column-width:initial;
 	  column-gap:initial;  
