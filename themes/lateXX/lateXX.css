@@ -279,13 +279,15 @@ table {
 	margin-bottom: 5vh;
     text-align: center;
     background-color: white;
-    width: 90%;
+    width: 100%;
     font-size: 1.1vw;
     border: 1px solid grey;
+	border-collapse: initial;
 }
 
 th, td {
 	border: 1px solid grey;
+	border-collapse: initial;
 }
 
 th {
