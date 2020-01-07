@@ -288,11 +288,13 @@ table {
 th, td {
 	border: 1px solid grey;
 	border-collapse: initial;
+	padding: 5px;
 }
 
 th {
 	background-color: navy; 
 	color: white;
+	padding: 5px;
 }
 
 /* width */
