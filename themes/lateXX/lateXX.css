@@ -187,13 +187,11 @@ h4 {
 
 /*REGOLE PER SFALSARE ALCUNI H4 CHE SI SOVRAPPONEVANO */
 section:nth-of-type(4) div.fx div.eng h4 {
-	margin-top: -30px;
-	padding: 10px;
+	margin-top: -10px;
 }
 
 section:nth-of-type(4) div.fx div.it h4 {
-	margin-top: 15px;
-	padding: 10px;
+	margin-top: 10px;
 }
 
 section:nth-of-type(5) div.fx div.eng h4 {
