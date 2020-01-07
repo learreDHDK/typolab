@@ -1,5 +1,6 @@
 /*fonts imported*/
 @font-face {
+	
 	font-family: "FREAS"; 
 	src: url("fonts/FREAS.TTF") format("truetype"); 
      }
@@ -10,8 +11,8 @@
 	 }
 
 @font-face {
-	 font-family: "De Vinne";
-	 src:url("fonts/De Vinne.ttf") format("truetype"); 
+	font-family: "De Vinne";
+	src:url("fonts/De Vinne.ttf") format("truetype"); 
 	 }
 
 @font-face {
@@ -26,67 +27,67 @@ html{
 
 /*statements for the body of the text*/
 body {
-	  position: relative;
-	  width: 80%; /*max-width: 80%;*/
-	  height: auto;/*height: auto;*/
-	  background-color:#FCFAFA ;  
-	  font-family: "De Vinne", serif;
-	  font-size: 0.9em;/*1vw*/
-	  font-weight:300%;
-	  color:black;
-	  line-height: 1em;
-	  word-spacing:normal; 
-	  letter-spacing:normal;
-	  padding:3% 3% 3% 3%;
-	  margin: 5% auto 5% auto; /*margin: 26px auto 0;*/
-	  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	position: relative;
+	width: 80%; /*max-width: 80%;*/
+	height: auto;/*height: auto;*/
+	background-color:#FCFAFA ;  
+	font-family: "De Vinne", serif;
+	font-size: 0.9em;/*1vw*/
+	font-weight:300%;
+	color:black;
+	line-height: 1em;
+	word-spacing:normal; 
+	letter-spacing:normal;
+	padding:3% 3% 3% 3%;
+	margin: 5% auto 5% auto; /*margin: 26px auto 0;*/
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 body:before, body:after {
-	  content: "";
-	  height: 100%;
-	  position: absolute;
-	  width: 100%;
-	  z-index: -1;
+	content: "";
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
 }
 body:before {
-	  background: #fafafa;
-	  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-	  left: -5px;
-	  top: 4px;
-	  transform: rotate(-1deg);/*(-8)*/
+	background: #fafafa;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	left: -5px;
+	top: 4px;
+	transform: rotate(-1deg);/*(-8)*/
 }
 body:after {
-	  background: #f6f6f6;
-	  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-	  right: -3px;
-	  top: 1px;
-	  transform: rotate(1deg); /*(8)*/
+	background: #f6f6f6;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	right: -3px;
+	top: 1px;
+	transform: rotate(1deg); /*(8)*/
 }
 
 
 /*creation of the div style of the text*/
 #whole{
-	  column-count: 4;  
-	  column-width: 3.8em;/*vw*/ 
-	  column-gap: 1em;  
-	  column-rule: 2px solid black;
-	  text-align: justify;
-	  orphans: 0;
-	  widows: 3;
+	column-count: 4;  
+	column-width: 3.8em;/*vw*/ 
+	column-gap: 1em;  
+	column-rule: 2px solid black;
+	text-align: justify;
+	orphans: 0;
+	widows: 3;
 	}
 
 
 /*functions of the header of the text*/
 header{
-	  column-span:all;
-	  display: flex;
-	  flex-flow: row wrap;
-	  font-family: 'Abril Fatface', serif; /* bold serif*/
-	  line-height: 4em;
-	  margin-bottom: 4px;
-	  width: 100%;
-	  height: auto;
+	column-span:all;
+	display: flex;
+	flex-flow: row wrap;
+	font-family: 'Abril Fatface', serif; /* bold serif*/
+	line-height: 4em;
+	margin-bottom: 4px;
+	width: 100%;
+	height: auto;
 }
 
 /*functions for the h1 of the header*/
@@ -178,11 +179,11 @@ header p span{
 
 /*functions for the figure of the header*/
 header figure{
-	  order:5;
-	  width: 100%;
-	  margin-bottom:0px; 
-	  display: flex;
-	  flex-direction: column;   
+	order:5;
+	width: 100%;
+	margin-bottom:0px; 
+	display: flex;
+	flex-direction: column;   
 }
 
 /*functions for the image of the header*/
@@ -222,16 +223,16 @@ section p{
 
 /*functions for the section of the text*/
 section{
-	  margin: 0px;
-	  margin-bottom:10px;
-	  text-align: justify;
-	  text-indent: 0.9em; /*vw*/
-	  overflow: wrap;
-	  background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
-	  background-repeat: no-repeat;
-	  background-position:bottom;
-	  padding-bottom: 30px;
-	  background-size: 30% auto;
+	margin: 0px;
+	margin-bottom:10px;
+	text-align: justify;
+	text-indent: 0.9em; /*vw*/
+	overflow: wrap;
+	background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-repeat: no-repeat;
+	background-position:bottom;
+	padding-bottom: 30px;
+	background-size: 30% auto;
 }
 
 /*functions for the h3 of the text EU*/
@@ -270,20 +271,20 @@ section > p:first-of-type{
 
 /*create the dropcap of all first letters of every first paragraph*/
 section > p:first-of-type::first-letter {
-	  font-size: 2.4em; /*2.4vw*/
-	  font-weight: bold;
-	  float: left;
-	  margin-top: .25em;
-	  line-height: 8px;
-	  padding-right: 10px;
-	  margin-left: 10px;  	
+	font-size: 2.4em; /*2.4vw*/
+	font-weight: bold;
+	float: left;
+	margin-top: .26em;
+	line-height: 8px;
+	padding-right: 10px;
+	margin-left: 10px;  	
 }
 
 
 section figure{
-	  display: flex;
-	  flex-direction: column; 
-	  -webkit-column-break-inside: avoid;
+	display: flex;
+	flex-direction: column; 
+	-webkit-column-break-inside: avoid;
 } 
 
 /*/statements for the images of the text body*/
@@ -340,9 +341,7 @@ section table{
 /*functions for the tables head and data border of the text*/
 table th, td{
 	border: 1px dotted black;
-	text-indent: initial;
-
-	
+	text-indent: initial;	
 }
 
 /*functions for the table head style of the text*/
@@ -370,32 +369,32 @@ section aside{
 
 /*functions for the h1 of the asides of the text*/
 section aside h1{
-	  background-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
-	  background-repeat: no-repeat;
-	  background-position:bottom center;
-	  /*margin-left: auto;
-	  margin-right: auto;*/
-	  background-size: 40% auto;
-	  padding-bottom: 10px;
-	  font-family:'Abril Fatface', bold serif;
-	  text-align: center;
-	  font-size: 1.1em; /*1.5vw*/
-	  text-transform: uppercase;
+	background-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	background-size: 40% auto;
+	padding-bottom: 10px;
+	font-family:'Abril Fatface', bold serif;
+	text-align: center;
+	font-size: 1.1em; /*1.5vw*/
+	text-transform: uppercase;
 }
 
 /*functions for the h1 of the asides of the text*/
 section aside h2{
-	  background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
-	  background-repeat: no-repeat;
-	  background-position:bottom center;
-	  /*margin-left: auto;
-	  margin-right: auto;*/
-	  background-size: 30% auto;
-	  padding-bottom: 10px;
-	  font-family:'Abril Fatface', bold serif;
-	  text-align: center;
-	  font-size: 1em; /*1.3vw*/
-	  text-transform: uppercase;
+	background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-repeat: no-repeat;
+	background-position:bottom center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	background-size: 30% auto;
+	padding-bottom: 10px;
+	font-family:'Abril Fatface', bold serif;
+	text-align: center;
+	font-size: 1em; /*1.3vw*/
+	text-transform: uppercase;
   }
 
 /*for all P elements of aside*/
@@ -604,7 +603,7 @@ footer p{
 }
 
 .tabelEU{
-	overflow-x: auto;
+	  overflow-x: auto;
 }
 
 #eudir section table th{
@@ -614,9 +613,9 @@ footer p{
 }
 
 #eudir section table td{
-	  font-size:0.8em ; 
-	  padding-left:2px;
-	  padding-right:2px; 
+	font-size:0.8em ; 
+	padding-left:2px;
+	padding-right:2px; 
 }
 
 #eudir section .fx:first-of-type p:first-of-type{
@@ -625,13 +624,13 @@ footer p{
 
 
 #eudir section .fx:first-of-type p:first-of-type::first-letter{
-	  font-size: 2.5em; /*2.4vw*/
-	  font-weight: bold;
-	  float: left;
-	  margin-top: .25em;
-	  line-height: 8px;
-	  padding-right: 10px;
-	  margin-left: 10px; 
+	font-size: 2.5em; /*2.4vw*/
+	font-weight: bold;
+	float: left;
+	margin-top: .25em;
+	line-height: 8px;
+	padding-right: 10px;
+	margin-left: 10px; 
 }
 
 #eudir section{
@@ -648,57 +647,56 @@ footer p{
 	}
 
 	body:before {
-  transform: rotate(1deg);/*(-8)
-}
-    body:after {
-  transform: rotate(-1deg); /*(8)
-}*/
+  	transform: rotate(1deg);/*(-8)
+	}
+    	body:after {
+  	transform: rotate(-1deg); /*(8)
+	}*/
 
-#whole{
-	column-count: 3; 
-}
-
-header p{
-	  font-size:1.3vw;
-	  max-height: 6.3vh;
+	#whole{
+		column-count: 3; 
 	}
 
-header p span{
-  	font-size:1.3vw;
-}
+	header p{
+	  	font-size:1.3vw;
+	  	max-height: 6.3vh;
+	}
 
-header address{
+	header p span{
+  		font-size:1.3vw;
+	}
+
+	header address{
   	font-size:1.6vw;
  	 max-height: 6.3vh;
+	}
+
+	header figcaption{
+  		font-size:0.7em;
+	}
+
+	header h6{
+		font-size: 0.7em;
+	}
+
+	section aside{
+		width: 12em;
+	}
+
+   	/*#eudir{
+   		margin: 0px;
+   	}
+
+   	#eudir section table{
+		max-width: 100%;
+		padding: initial;
+   	}
+
+   	#eudir table th, td{
+		font-size: 0.5vw;
+		text-align: center;
+   	}*/
 }
-
-header figcaption{
-  	font-size:0.7em;
-}
-
-header h6{
-  	font-size: 0.7em;
-}
-
-section aside{
-  	width: 12em;
-}
-
-   /*#eudir{
-   	margin: 0px;
-   }
-
-   #eudir section table{
-   	max-width: 100%;
-   	padding: initial;
-   }
-
-   #eudir table th, td{
-   	font-size: 0.5vw;
-   	text-align: center;
-   }*/
-
-	    }
 
 
 /*phone*/
@@ -709,65 +707,65 @@ section aside{
 	} 
 
 	body:before {
-  transform: rotate(1deg);/*(-8)
-}
-    body:after {
-  transform: rotate(-1deg); /*(8)
-}*/
+  		transform: rotate(1deg);/*(-8)
+	}
+    	body:after {
+  		transform: rotate(-1deg); /*(8)
+	}*/
 
-#whole{
-	column-count: 2; 
-  }
-  header p{
-   	font-size:1.5vw;
-   	max-height: 5.8vh;
-   }
+	#whole{
+		column-count: 2; 
+	  }
+	  header p{
+		font-size:1.5vw;
+		max-height: 5.8vh;
+	   }
 
-   header p span{
-   	font-size:1.5vw;
-   }
+	   header p span{
+		font-size:1.5vw;
+	   }
 
-   header address{
-   	font-size:1.5vw;
-   	max-height: 5.8vh;
-   }
+	   header address{
+		font-size:1.5vw;
+		max-height: 5.8vh;
+	   }
 
-   header h6{
-   	font-size: 0.5em;
-   }
+	   header h6{
+		font-size: 0.5em;
+	   }
 
-   header figcaption{
-   	font-size:0.6em;
-   }
-   
-   section aside{
-   	width: 11em;
-   }
+	   header figcaption{
+		font-size:0.6em;
+	   }
 
-   aside table th{
-   	font-size: initial;
-   	font-size: 0.8em;
-   }
+	   section aside{
+		width: 11em;
+	   }
 
-   aside table td{
-   	font-size: initial;
-   	font-size: 0.8em;
-   }
+	   aside table th{
+		font-size: initial;
+		font-size: 0.8em;
+	   }
 
-   
-   /*#eudir{
-   	margin: 0px;
-   }
+	   aside table td{
+		font-size: initial;
+		font-size: 0.8em;
+	   }
 
-   #eudir section table{
-   	max-width: 100%;
-   	padding: initial;
-   }
 
-   #eudir table th, td{
-   	font-size: 0.6vw;
-    	text-align: center;
-   }
+	   /*#eudir{
+		margin: 0px;
+	   }
+
+	   #eudir section table{
+		max-width: 100%;
+		padding: initial;
+	   }
+
+	   #eudir table th, td{
+		font-size: 0.6vw;
+		text-align: center;
+	   }
 
 }
 
