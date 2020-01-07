@@ -193,7 +193,7 @@ header figure img{
 	height: auto;
 	border: 30px solid transparent;
 	border-radius: 70%;
-	border-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideasg/Border header image.PNG") 50 round;
+	border-image:url("Border header.png") 50 round;
 	filter:grayscale(100%);
 	align-self: center;
 	margin:0px;
@@ -228,7 +228,7 @@ section{
 	text-align: justify;
 	text-indent: 0.9em; /*vw*/
 	overflow: wrap;
-	background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom;
 	padding-bottom: 30px;
@@ -294,7 +294,7 @@ section img{
 	max-width: 100%;
 	height:auto;
 	border: 30px solid transparent;
-	border-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideasg/Border header image.PNG") 100 round;
+	border-image:url("Border section.png") 100 round;
 	filter:grayscale(100%);
 	margin:0px;	
 	justify-content: center;
@@ -352,7 +352,6 @@ table th{
 
 /*functions for the asides of the text*/
 section aside{
-	
 	font-family:'Abril Fatface', cursive , serif;
 	line-height: 1em;
 	word-spacing: normal;
@@ -369,7 +368,7 @@ section aside{
 
 /*functions for the h1 of the asides of the text*/
 section aside h1{
-	background-image:url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-image:url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom center;
 	/*margin-left: auto;
@@ -384,7 +383,7 @@ section aside h1{
 
 /*functions for the h1 of the asides of the text*/
 section aside h2{
-	background-image: url("https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG");
+	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom center;
 	/*margin-left: auto;
