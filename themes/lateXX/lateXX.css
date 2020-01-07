@@ -280,12 +280,11 @@ table {
     background-color: white;
     width: 100%;
     font-size: 1.1vw;
-    border: 1px solid grey;
+    border: 2px solid grey;
 }
 
 th, td {
-	border: 1px solid grey;
-	border-collapse: separate;
+	border: 2px solid grey;
 }
 
 th {
