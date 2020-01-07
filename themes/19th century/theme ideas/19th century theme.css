@@ -1,7 +1,7 @@
 /*fonts imported*/
 @font-face {
 	font-family: "FREAS"; 
-	src: url("fonts/FREAS.ttf") format("truetype"); 
+	src: url("fonts/FREAS.TTF") format("truetype"); 
      }
 
 @font-face {
@@ -562,18 +562,18 @@ footer p{
 	  box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	  left: -5px;
 	  top: 4px;
-	  transform: rotate(.15deg);
+	  transform: rotate(-1deg);
 }
 #eudir:after {
 	  background: #f6f6f6;
 	  box-shadow: 0 0 3px rgba(0,0,0,0.2);
 	  right: -3px;
 	  top: 1px;
-	  transform: rotate(-.15deg);
+	  transform: rotate(1deg);
 }
 
 
-#eudir #whole{
+#eudir div{
 	  column-count: initial;  
 	  column-width:initial;
 	  column-gap:initial;  
