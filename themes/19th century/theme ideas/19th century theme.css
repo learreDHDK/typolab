@@ -549,7 +549,7 @@ footer p{
   	width: 80%;
 }
 
-#eudir:before, #eudir:after {
+/*#eudir:before, #eudir:after {
 	  content: "";
 	  height: 100%;
 	  position: absolute;
@@ -569,7 +569,7 @@ footer p{
 	  right: -3px;
 	  top: 1px;
 	  transform: rotate(1deg);
-}
+}*/
 
 
 #eudir + #whole{
