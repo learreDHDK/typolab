@@ -175,6 +175,7 @@ h3 {
 }
 
 h4 {
+	font-family: Times New Roman;
 	white-space: nowrap;
 	overflow: visible;
 	display: inline-block;
