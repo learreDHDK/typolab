@@ -191,7 +191,7 @@ header figure img{
 	height: auto;
 	border: 30px solid transparent;
 	border-radius: 70%;
-	border-image:url("Border header image.PNG") 50 round;
+	border-image:src="https://learredhdk.github.io/typolab/themes/19th century/theme ideasg/Border header image.PNG" 50 round;
 	filter:grayscale(100%);
 	align-self: center;
 	margin:0px;
@@ -226,7 +226,7 @@ section{
   text-align: justify;
   text-indent: 0.9em; /*vw*/
   overflow: wrap;
-  background-image: url("section and h1 deco.PNG");
+  background-image: "https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG";
   background-repeat: no-repeat;
   background-position:bottom;
   padding-bottom: 30px;
@@ -300,7 +300,7 @@ section img{
 	max-width: 100%;
 	height:auto;
 	border: 30px solid transparent;
-	border-image: url("Border section image.PNG") 100 round;
+	border-image: "https://learredhdk.github.io/typolab/themes/19th century/theme ideasg/Border header image.PNG" 100 round;
 	filter:grayscale(100%);
 	margin:0px;	
 	justify-content: center;
@@ -376,7 +376,7 @@ section aside{
 
 /*functions for the h1 of the asides of the text*/
 section aside h1{
-  background-image: url("section and h1 deco.PNG");
+  background-image: "https://learredhdk.github.io/typolab/themes/19th century/theme ideas/section and h1 deco.PNG";
   background-repeat: no-repeat;
   background-position:bottom center;
   /*margin-left: auto;
@@ -579,7 +579,7 @@ footer p{
 }
 
 
-#eudir div{
+#eudir #whole{
   column-count: initial;  
   column-width:initial;
   column-gap:initial;  
