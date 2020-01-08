@@ -86,9 +86,9 @@ section > p:first-of-type {
 	text-indent: initial;
 }
 
-/*section:last-of-type > p:last-of-type {
+section:last-of-type > p:last-of-type {
 	margin-bottom: 20px;
-}*/
+}
 
 a {
 	text-align: justify;
