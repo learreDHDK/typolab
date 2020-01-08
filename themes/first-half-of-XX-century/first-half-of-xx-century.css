@@ -95,7 +95,7 @@ header h1 {
 	padding-bottom: 1%;/*!d1%*/
 	padding-right: 4vw;/*!d5%*/
 	padding-left: 4vw;/*!d5%*/
-	margin-right: -0.5%;
+	/*margin-right: -0.5%;*/
 }
 
 @media screen and (max-width: 660px) and (min-width: 600px) {
