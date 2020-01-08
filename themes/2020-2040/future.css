@@ -5,9 +5,7 @@
 
 main {
   cursor: none;
-	background-image: url('futuristic-city.gif');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background: url('futuristic-city.gif') no-repeat center center fixed;
 	background-size: cover;
   z-index: 2;
 }
