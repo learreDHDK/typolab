@@ -75,7 +75,7 @@ body {
 p {
 	text-indent: 1.8vw;
 	margin-bottom: -0.2vw;
-	line-height: 4vh;
+	line-height: 3vh;
 }  
 
 section p:last-of-type {
@@ -190,9 +190,9 @@ header > img {
 	margin-top: 60px;
 }
  
-figure {
+/*figure {
 	margin-top: initial;
-}
+}*/
 
 header > figure {
 	order: 5;
