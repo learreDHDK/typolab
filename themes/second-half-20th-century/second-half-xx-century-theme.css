@@ -211,7 +211,7 @@ header figure img{
 	order:1;
 	border: 20px solid transparent;
 	align-self: center;	
-	width:60%;
+	width:90%;
 	height: auto;
 	border-radius: initial;
 	border-radius: 50%;
@@ -432,7 +432,7 @@ section aside table + p{
 /*for the h1 of the aside with table*/
  section aside h1{
  	font-family: "Arya W00 Double";
- 	font-size: 3vw;
+ 	font-size: 2.8vw;
  	margin: 10px 0px 20px 0px;
  	text-align: center;
  }
