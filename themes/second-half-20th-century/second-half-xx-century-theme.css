@@ -49,7 +49,8 @@ body{
 	word-spacing:normal; 
   	letter-spacing:normal;
   	text-align: justify;
-	margin: 0 auto;
+	margin: 0 auto;ù
+	margin-bottom:5vh;
 }
 
 /*image of bloomberg*/
@@ -75,7 +76,7 @@ header{
 	justify-content: space-around;
 	line-height: 2vh;
 	width: 100%;
-	height: 84vh;
+	height: 87vh;
 	margin-bottom: 13vh;
 	background: yellow;
 	margin-left:auto;
@@ -210,7 +211,8 @@ header figure img{
 	order:1;
 	border: 20px solid transparent;
 	align-self: center;	
-	max-width:65%;
+	max-
+	width:60%;
 	max-height: 70%;
 	border-radius: initial;
 	border-radius: 50%;
