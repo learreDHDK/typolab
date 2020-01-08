@@ -179,14 +179,13 @@ img {
 	margin: 0px;
 	border: 7px double black;
 	outline: 4px solid black;
-	margin-top: 10px;
+	margin-top: 25px;
 	margin-bottom: 10px;
 	max-width: 100%;
 }
 
 header > img {
 	order: 5;
-	margin-top: -0.1vh;
 	max-width: 100%;
 }
  
