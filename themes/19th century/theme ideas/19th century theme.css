@@ -133,6 +133,7 @@ header h6{
   	padding:0px;
   	padding-right: 10px;
   	max-height: 6.5vh;
+	padding-bottom: 8vh;
 }
 
 /*functions for the address of the header*/
@@ -149,7 +150,7 @@ header address{
 	padding: 0px;
 	max-height: 6.5vh;
 	padding-right: 10px;
-	padding-bottom: 6vh;
+	padding-bottom: 8vh;
 }
  
 /*functions for the paragraph of the header*/
@@ -166,7 +167,7 @@ header p{
 	padding:0px;
 	max-height: 6.5vh;
 	padding-left: 10px;
-	padding-bottom: 6vh;
+	padding-bottom: 8vh;
 }
 
 /*functions for the span of the paragraph of the header*/
