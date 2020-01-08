@@ -78,7 +78,8 @@ header{
 	height: 84vh;
 	margin-bottom: 15vh;
 	background: yellow;
-	margin-right: 4vw;
+	margin-left:auto;
+	margin-right:auto;
 	margin-top: 3vh;
 	padding: 3vh 1vw 3vh 1vw;
 }
@@ -271,7 +272,7 @@ section{
 	outline: 40px solid;
 	outline-color: white;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	margin: 26px auto 18vh;
+	margin: 26px auto 20vh auto;
 	position: relative;  
 }
 
