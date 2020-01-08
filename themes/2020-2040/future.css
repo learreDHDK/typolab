@@ -5,7 +5,7 @@
 
 main {
   cursor: none;
-	background: url('futuristic-city.gif') no-repeat center center fixed;
+	background: url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiZ49KgmvTmAhULKlAKHXa9Bo8QjRx6BAgBEAQ&url=https%3A%2F%2Fwindowscustomization.com%2F2018%2F08%2F31%2Fcyberpunk-futuristic-city%2F&psig=AOvVaw23ih794ZeNWQ06mzsT4Ga5&ust=1578579824969751') no-repeat center center fixed;
 	background-size: cover;
   z-index: 2;
 }
