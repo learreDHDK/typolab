@@ -3,7 +3,7 @@
   src: url('librecaslontext-regular.otf') format('opentype');
 }
 
-body {
+main {
   cursor: none;
 	background-image: url('brcity6.jpg');
   background-repeat: no-repeat;
