@@ -3,7 +3,7 @@
   src: url('librecaslontext-regular.otf') format('opentype');
 }
 
-body main {
+html {
   cursor: none;
 	background-image: url('futuristic-city.gif');
   background-repeat: no-repeat;
@@ -30,6 +30,7 @@ body main {
   font-size: 0.3vw;
   text-align: justify;
   padding: 3% 5% 3% 5%;
+  color: red;
 }
 
 ::-webkit-scrollbar-track {
