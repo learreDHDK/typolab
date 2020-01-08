@@ -212,7 +212,7 @@ header figure img{
 	border: 20px solid transparent;
 	align-self: center;	
 	width:60%;
-	max-height: 70%;
+	height: auto;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
@@ -543,7 +543,7 @@ footer p{
 	text-indent: initial;
 	width: 50%;
 	position: relative;
-	left:25vw;
+	left:20vw;
 	text-indent: -20px;
 	font-size: 1vw;
 }
