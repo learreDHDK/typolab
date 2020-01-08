@@ -572,15 +572,15 @@ footer p{
 	  transform: rotate(1deg);
 }*/
 
-main #eudir{
+#eudir{
 	background:red;
 }
 
-main #eudir div{
-	  column-count: initial;  
-	  column-width:initial;
-	  column-gap:initial;  
-	  column-rule: initial;
+#eudir div{
+	  column-count: initial !important;  
+	  column-width:initial !important;
+	  column-gap:initial!important;  
+	  column-rule: initial !important;
 }
 
 
