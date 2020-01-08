@@ -572,11 +572,11 @@ footer p{
 	  transform: rotate(1deg);
 }*/
 
-#eudir{
+main #eudir{
 	background:red;
 }
 
-#eudir div{
+main #eudir div{
 	  column-count: initial;  
 	  column-width:initial;
 	  column-gap:initial;  
