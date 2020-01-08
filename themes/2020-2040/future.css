@@ -3,7 +3,7 @@
   src: url('librecaslontext-regular.otf') format('opentype');
 }
 
-main body {
+main {
   cursor: none;
 	background-image: url('futuristic-city.gif');
   background-repeat: no-repeat;
