@@ -235,7 +235,8 @@ h6 {
 table {
 	border: 7px double black;
 	outline: 6px solid black;
-    margin-top: 7vh;
+    margin-top: 10px;
+	margin-bottom: 10px;
     text-align: center;
     border-collapse: collapse;
     width: 100%;
