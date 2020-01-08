@@ -167,7 +167,7 @@ header address {
 	line-height: 110%;
 	writing-mode: vertical-lr;
 	text-align: right; 
-	margin-left: 1.45vw;
+	margin-left: 1.5vw;
 	border-left: 1.5vw solid red;/*!!20px*/
 	border-bottom: 1.5vw solid red;/*!!20px*/
 	padding-left: 1vw;/*!!1%*/
@@ -221,7 +221,7 @@ header p {
 	writing-mode: vertical-rl;
 	text-align: left;
 	margin: 0px;
-	padding-right: 1vw;/*!!1%*/
+	padding-right: 1%;/*!!1%*/
 	padding-top: 1.5%;/*!!1.5%2vh*/
 }
 
