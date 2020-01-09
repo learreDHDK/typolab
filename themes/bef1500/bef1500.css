@@ -38,7 +38,7 @@ body#eudir {
 	background-color: #e2d5bd;
 }
 
-body div.fx {
+#whole {
 	position: absolute;
 	left: 0px;
 	top: 0px;
