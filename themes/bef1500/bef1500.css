@@ -175,7 +175,7 @@ h2 {
 img {
 	display: block;
 	width: 100%;
-	filter: sepia(70%);
+	filter: sepia(80%);
 	margin: 0px;
 	border: 7px double black;
 	outline: 4px solid black;
@@ -187,7 +187,7 @@ img {
 header > img {
 	order: 5;
 	max-width: 100%;
-	margin-top: 25px;
+	margin-top: 20px;
 }
  
 /*figure {
@@ -196,7 +196,7 @@ header > img {
 
 header > figure {
 	order: 5;
-	margin-top: 25px;
+	margin-top: 20px;
 } 
 
 header > p {
