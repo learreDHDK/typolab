@@ -98,7 +98,7 @@ section::after {
   	padding-left: 45vw; 
 }
 
-body::after {
+section:last-of-type::after {
 	display: absolute;
   	content: url("counter.gif");
   	padding-left: 40vw; 
