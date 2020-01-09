@@ -48,7 +48,7 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 .wrapper {
   animation: sliding-background 40s linear infinite;
-  background: url("typolab/images/firstpage.jpg") no-repeat left/120%;
+  background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat left/120%;
   height: 88vh;
   text-align: center;
   width: 100vw;
