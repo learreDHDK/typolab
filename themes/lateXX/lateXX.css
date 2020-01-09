@@ -23,26 +23,26 @@
 	width: 45%;
 }
 
-body {
+main body {
 	background-image: url("monitor.png");
 	background-repeat: no-repeat;
-	background-size: 80vw 80vh;
+	background-size: 100vw 100vh;
 	background-attachment: fixed;
-	background-position: absolute;
+	/*background-position: absolute;*/
 }
 
 /*NOME DA DARE AI DIV IN OGNI DOCUMENTO; MI SERVE PER DIFFERENZIARLO DAL ID "eudir" DELL'EUDIRECTIVE*/
-#whole {
+main {
 	position: absolute;
 	left: 0px;
 	top: 9.8vh;
 	bottom: 6.8vh;
-	margin-left: 8.5vw;
+	/*margin-left: 8.5vw;
 	margin-top: 11vh;
 	width: 78.3vw;
-	height: 68vh;
-	/*width: 100vw;
-	height: 80vh;*/
+	height: 68vh;*/
+	width: 100vw;
+	height: 80vh;
 	border: 5px double grey;
 	overflow: scroll;
 	overflow-x: hidden;
