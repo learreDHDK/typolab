@@ -98,6 +98,12 @@ section::after {
   	padding-left: 45vw; 
 }
 
+body::after {
+	display: absolute;
+  	content: url("counter.gif");
+  	padding-left: 40vw; 
+}
+
 h1 {
 	order: 2;
 	background-color: fuchsia;
