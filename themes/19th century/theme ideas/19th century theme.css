@@ -67,7 +67,7 @@ body:after {
 
 
 /*creation of the div style of the text*/
-body div{
+#whole{
 	column-count: 4;  
 	column-width: 3.8em;/*vw*/ 
 	column-gap: 1em;  
@@ -572,16 +572,16 @@ footer p{
 	  transform: rotate(1deg);
 }*/
 
- main #eudir{
+/*#eudir{
 	background:red;
 }
 
-main #eudir div{
+#eudir{
 	  column-count: initial !important;  
 	  column-width:initial !important;
 	  column-gap:initial!important;  
 	  column-rule: initial !important;
-}
+}*/
 
 
 .fx {
