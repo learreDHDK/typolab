@@ -43,8 +43,10 @@ body#eudir {
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: 9.8vh;
-	bottom: 6.8vh;
+	top: 10vh;
+	bottom: 10vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .eng {
