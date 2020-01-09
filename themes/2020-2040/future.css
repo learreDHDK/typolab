@@ -12,7 +12,7 @@ body {
   z-index: 2;
 }
 
-main {
+#whole {
   position: absolute;
   left: 25%;
   top: 15%;
