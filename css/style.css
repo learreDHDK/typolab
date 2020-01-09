@@ -1,52 +1,110 @@
 @font-face {
 	font-family: 'printroom';
-	src: url('https://learredhdk.github.io/typolab/css/printroom.ttf') format('truetype');
+	src: url('printroom.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'samantha';
-	src: url('https://learredhdk.github.io/typolab/css/samantha.ttf') format('truetype');
+	src: url('samantha.ttf') format('truetype');
 }
 
-header {
-	background-image: url('https://learredhdk.github.io/typolab/images/firstpage.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 100vh;
-	font-family: 'printroom';
-
+@font-face {
+	font-family: 'Varela';
+	src: url('varela.regular.ttf') format('truetype');
 }
 
-h1 {
-	font-size: 20vw;
-	color: rgb(55,55,55);
-	background: rgba(255,255,255,0.6);
-	text-align: center;
-	position: absolute;
-	top: 25vh;
-	width: 100%;
-	padding: 2vh 5vw;
+@font-face {
+	font-family: 'Spectral';
+	src: url('Spectral-Regular.ttf') format('truetype');
 }
 
-h1 span {
-	font-family: 'samantha';
-	font-size: 15vw;
-	vertical-align: baseline;
+.navbar {
+	background: white !important;
+	font-size: 0.8em;
 }
 
-h2 {
-	font-family: 'samantha';
-	text-align: center;
-	font-size: 5vw;
-	margin-top: 15vh;
-	margin-bottom: 10vh;
+.nav-item {
+	color: black !important;
+	font-family: 'Varela';
 }
 
-p {
-	text-align: center;
+ #navbarNavAltMarkup {
+	padding-left: 50vw;
 }
 
-section {
-	margin-bottom: 20vh;
+#navbarNavAltMarkup a {
+	padding-left: 2vw;
+}
+
+body {
+	font-family: 'Spectral';
+	overflow-x: hidden;
+}
+
+#about-proj {
+	margin-top: 10vh;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+.wrapper {
+  animation: sliding-background 40s linear infinite;
+  background: url("images/firstpage.jpg") no-repeat left/120%;
+  height: 88vh;
+  text-align: center;
+  width: 100vw;
+}
+
+.title {
+  background: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20vw;
+  letter-spacing: 3vw;
+  line-height: 40vh;
+  margin: 0;
+  mix-blend-mode: lighten;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black, 16px 16px black, 17px 17px black, 18px 18px black, 19px 19px black, 20px 20px black, 21px 21px black, 22px 22px black, 23px 23px black, 24px 24px black, 25px 25px black, 26px 26px black, 27px 27px black, 28px 28px black, 29px 29px black, 30px 30px black, 31px 31px black, 32px 32px black, 33px 33px black, 34px 34px black, 35px 35px black;
+}
+.title:before {
+  color: white;
+  content: attr(data-text);
+  margin-left: -1%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+.lab {
+  background: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20vw;
+  letter-spacing: 3vw;
+  line-height: 50vh;
+  margin: 0;
+  mix-blend-mode: lighten;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black, 16px 16px black, 17px 17px black, 18px 18px black, 19px 19px black, 20px 20px black, 21px 21px black, 22px 22px black, 23px 23px black, 24px 24px black, 25px 25px black, 26px 26px black, 27px 27px black, 28px 28px black, 29px 29px black, 30px 30px black, 31px 31px black, 32px 32px black, 33px 33px black, 34px 34px black, 35px 35px black;
+}
+.lab:before {
+  color: white;
+  content: attr(data-text);
+  margin-left: -1%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+@keyframes sliding-background {
+  0%,
+  100% {
+    background-position: 0 40%;
+  }
+  50% {
+    background-position: 100% 40%;
+  }
+}
+
+  50% {
+    background-position: 100% 40%;
+  }
 }
