@@ -36,8 +36,8 @@ body#eudir {
 	justify-content: space-around;
 	width: 100vw !important;
 	background-color: #e2d5bd;
-	margin-top: 0px;
-	margin-left: 0px;
+	position: absolute;
+	left: 0px;
 }
 
 .eng {
