@@ -41,17 +41,19 @@ body#eudir {
 #whole {
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	right: 0px;
+	top: 9.8vh;
+	bottom: 6.8vh;
 }
 
 .eng {
 	order: 1;
-	width: 45%;
+	width: 40%;
 }
 
 .it {
 	order: 2;
-	width: 45%;
+	width: 40%;
 }
 
 .noIndent {
