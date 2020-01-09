@@ -299,8 +299,8 @@ footer h3 {
 section>p:first-of-type:first-letter {
 	float: left;
 	font-family: flankerbold;
-	font-size: 8vw; 
-	/*line-height: 9vw;*/
+	font-size: 7vw; /*8vw*/
+	line-height: 8vw; /*9vw*/
 	size: 5vw auto;
 	padding-right: 2vw; 
 	padding-left: 2vw;
