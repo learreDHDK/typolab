@@ -38,7 +38,7 @@ body#eudir {
 	background-color: #e2d5bd;
 }
 
-/*da cambiare con #eudir*/
+/*da cambiare con #eudir
 #whole {
 	position: absolute;
 	left: 0px;
@@ -47,7 +47,7 @@ body#eudir {
 	bottom: 50px;
 	padding-top: 50px;
 	padding-bottom: 100px;
-}
+}*/
 
 .eng {
 	order: 1;
