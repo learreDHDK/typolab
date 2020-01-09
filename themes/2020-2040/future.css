@@ -3,7 +3,7 @@
   src: url('librecaslontext-regular.otf') format('opentype');
 }
 
-main body {
+body {
   cursor: none;
 	background-image: url('brcity6.jpg');
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ main body {
   z-index: 2;
 }
 
-#whole {
+main {
   position: absolute;
   left: 25%;
   top: 15%;
