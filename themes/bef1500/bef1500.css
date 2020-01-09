@@ -209,7 +209,6 @@ h3 {
 	font-size: 120%;
 	line-height: initial;
 	text-align: center;
-	margin-bottom: -2vh;
 }
 
 h4 {
@@ -296,11 +295,12 @@ footer h3 {
 	margin: initial;
 }
 
+/*dropcap*/
 section>p:first-of-type:first-letter {
 	float: left;
 	font-family: flankerbold;
 	font-size: 8vw; 
-	line-height: 9vw; 
+	/*line-height: 9vw;*/
 	size: 5vw auto;
 	padding-right: 2vw; 
 	padding-left: 2vw;
