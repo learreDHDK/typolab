@@ -96,6 +96,7 @@ header h1 {
 	padding-right: 4vw;/*!d5%*/
 	padding-left: 4vw;/*!d5%*/
 	margin-right: 0.1%;
+	align-self: stretch;
 }
 
 @media screen and (max-width: 660px) and (min-width: 600px) {
@@ -163,7 +164,7 @@ header address {
 	font-family: 'futura-heavy-font', Helvetica, sans-serif;
 	font-style: normal;
 	text-transform: lowercase;
-	font-size: 2.1vw;/*!!1.8em*/
+	font-size: 2.2vw;/*!!1.8em*/
 	letter-spacing: 0.1vw;/*!!2px*/
 	line-height: 110%;
 	writing-mode: vertical-lr;
@@ -269,7 +270,7 @@ figure img {
 
 figure {
 	max-width: 100%;
-	margin: 4% 18% 4% -20%;
+	margin: 4% 18% 4% -40%;
 }
 
 @media screen and (max-width: 600px) {
@@ -420,7 +421,7 @@ section {
 
 section figure {
 	margin: 0%;
-	margin: 10% 20% 15% -80%;
+	margin: 10% 10% 15% -80%;
 	padding-left: 60%;
 	text-align: right;
 	background-color: #fcba03;
