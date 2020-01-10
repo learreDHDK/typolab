@@ -228,7 +228,7 @@ section{
 	margin: 0px;
 	margin-bottom:10px;
 	text-align: justify;
-	text-indent: 0.9em; /*vw*/
+	text-indent: 0.9em;
 	overflow: wrap;
 	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
@@ -258,7 +258,7 @@ section h4{
 /*functions for the h5 of the text EU*/
 section h5{
 	font-family: 'Abril Fatface', cursive serif;
-	font-size:1.1em; /*1.1em*/
+	font-size:1.1em;
 	text-transform: capitalize;
 	text-decoration: underline;
 	font-weight: 100%;
@@ -273,7 +273,7 @@ section > p:first-of-type{
 
 /*create the dropcap of all first letters of every first paragraph*/
 section > p:first-of-type::first-letter {
-	font-size: 2.5em; /*2.4vw*/
+	font-size: 2.5em; 
 	font-weight: bold;
 	float: left;
 	margin-top: .24em;
@@ -291,7 +291,6 @@ section figure{
 
 /*/statements for the images of the text body*/
 section img{
-	/*position: initial;*/
 	order:1;
 	max-width: 100%;
 	height:auto;
@@ -305,7 +304,7 @@ section img{
 section figure figcaption{
 	order:2;
 	font-family:'Abril Fatface', bold serif;
-	font-size:0.8em;/*0.8vw*/
+	font-size:0.8em;
 	font-weight: bold;
 	text-transform: uppercase;
 	overflow-wrap: break-word;
@@ -373,13 +372,11 @@ section aside h1{
 	background-image:url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom center;
-	/*margin-left: auto;
-	margin-right: auto;*/
 	background-size: 40% auto;
 	padding-bottom: 10px;
 	font-family:'Abril Fatface', bold serif;
 	text-align: center;
-	font-size: 1.1em; /*1.5vw*/
+	font-size: 1.1em; 
 	text-transform: uppercase;
 }
 
@@ -388,13 +385,11 @@ section aside h2{
 	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom center;
-	/*margin-left: auto;
-	margin-right: auto;*/
 	background-size: 30% auto;
 	padding-bottom: 10px;
 	font-family:'Abril Fatface', bold serif;
 	text-align: center;
-	font-size: 1em; /*1.3vw*/
+	font-size: 1em;
 	text-transform: uppercase;
   }
 
@@ -424,7 +419,7 @@ section aside h1 + p:first-of-type{
 
 section aside h1 + p:first-of-type::first-letter{
 	font-weight: initial;
-	font-size:0.9em; /*1.1vw*/
+	font-size:0.9em; 
   	float: none;
   	margin-top:0px;
   	margin-bottom:0px;
@@ -433,7 +428,7 @@ section aside h1 + p:first-of-type::first-letter{
 }
 /*functions for the p immediately afer the asides h2 of the text total*/
 section aside h2 + p{
- 	font-size: 1.2em; /*1.4em*/
+ 	font-size: 1.2em; 
  	text-decoration: underline overline wavy;
  	text-indent: initial;
  	margin-bottom: 15px;
@@ -468,7 +463,6 @@ aside table{
 
 /*for aside table head*/
 aside table th{
-	/*width: 60%;*/
 	border:0px;
 	border-right: 2px dotted black;
 	border-bottom: 2px dotted black;
@@ -514,73 +508,28 @@ a{
 /*for h1 of the footer*/
 footer h1{
 	font-family:'Abril Fatface', bold serif;
-	font-size:1.1em; /*1.2vw*/
+	font-size:1.1em; 
 }
 
 /*for h2 of the footer*/
 footer h2{
   	font-family:'Abril Fatface', bold serif;
-  	font-size:0.9em; /*0.9vw*/
+  	font-size:0.9em; 
 }
 
 
 /*for paragraphs of the footer*/
 footer p{
 	margin-top: 5px;
-	font-size:0.5em; /*0.5vw*/
+	font-size:0.5em; 
 	font-family:"FREAS";
 }
 
 /*for emphasis of the footer*/
  footer em{
 	font-family:"FREAS";
-	/*font-weight:300%;*/
 	font-style: normal;
 }
-
-
-/*#eudir{
-	background: red;
-  	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  	margin: 26px auto 0;
-  	width: 100%;
-  	height: auto;
-  	padding: 24px;
-  	position: relative;
-  	width: 80%;
-}
-#eudir:before, #eudir:after {
-	  content: "";
-	  height: 100%;
-	  position: absolute;
-	  width: 100%;
-	  z-index: -1;
-}
-#eudir:before {
-	  background: #fafafa;
-	  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-	  left: -5px;
-	  top: 4px;
-	  transform: rotate(-1deg);
-}
-#eudir:after {
-	  background: #f6f6f6;
-	  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-	  right: -3px;
-	  top: 1px;
-	  transform: rotate(1deg);
-}*/
-
-/*#eudir{
-	background:red;
-}
-
-#eudir{
-	  column-count: initial !important;  
-	  column-width:initial !important;
-	  column-gap:initial!important;  
-	  column-rule: initial !important;
-}*/
 
 
 .fx {
@@ -658,8 +607,6 @@ footer p{
 
 	header p span{
   		font-size:0.8em;
-		position:relative;
-		left:24vw;
 	}
 
 	header address{
