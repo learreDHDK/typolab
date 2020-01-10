@@ -243,6 +243,7 @@ section h3{
 	text-align: center;
 	text-decoration: underline;
 	text-transform: uppercase;
+	marging-bottom:2vh;
 }
 
 /*functions for the h4 of the text EU*/
@@ -252,7 +253,8 @@ section h4{
 	text-align: center;
 	font-family: "FREAS";
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 10vh;
+	marging-bottom:2vh;
 }
 
 /*functions for the h5 of the text EU*/
