@@ -172,7 +172,7 @@ header p{
 /*functions for the span of the paragraph of the header*/
 header p span{
 	position: relative;
-	left:30vw;
+	left:28vw;
 	font-size: 1.1vw;
 	margin:0px;
 	padding:0px;
@@ -658,6 +658,8 @@ footer p{
 
 	header p span{
   		font-size:1em;
+		position:relative;
+		left:24vw;
 	}
 
 	header address{
@@ -693,6 +695,8 @@ footer p{
 
 	   header p span{
 		font-size:1em;
+		position:relative;
+		left:20vw;
 	   }
 
 	   header address{
