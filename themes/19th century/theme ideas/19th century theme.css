@@ -555,7 +555,7 @@ footer p{
 	  border-left: 2px solid black;
 }
 
-.tabelEU{
+/*.tabelEU{
 	  overflow-x: auto;
 }
 
@@ -577,7 +577,7 @@ footer p{
 
 
 #eudir section .fx:first-of-type p:first-of-type::first-letter{
-	font-size: 2.5em; /*2.4vw*/
+	font-size: 2.5em; 
 	font-weight: bold;
 	float: left;
 	margin-top: .25em;
@@ -588,7 +588,7 @@ footer p{
 
 #eudir section{
   	padding-bottom: 50px;
-}
+}*/
 
 
 
