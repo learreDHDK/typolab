@@ -536,8 +536,8 @@ footer p{
 	  display: flex;
 	  flex-flow: row nowrap;
 	  justify-content: space-around;
-	  /*padding-top: 5vh;
-	  padding-bottom: 5vh;*/
+	  padding-top: 5vh;
+	  /*padding-bottom: 5vh;*/
 }
 
 .eng {
