@@ -50,7 +50,7 @@ body{
   	letter-spacing:normal;
   	text-align: justify;
 	margin: 0 auto;ù
-	margin-bottom:5vh;
+	margin-bottom:20vh;
 }
 
 /*image of bloomberg*/
@@ -211,8 +211,8 @@ header figure img{
 	order:1;
 	border: 20px solid transparent;
 	align-self: center;	
-	width:90%;
-	height: 90%;
+	width:93%;
+	height: 93%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
@@ -512,9 +512,7 @@ footer{
 	font-family: "Veltro W01 Regular";
 	padding:1vw;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-   	
-   	position: relative; 
-   	margin-bottom: 10vh;  
+   	position: relative;   
 }
 
 footer:before,  footer:after {
