@@ -822,7 +822,7 @@ footer h2 {
 }
 
 #eudir {
-	margin: initial;
+	margin: 0px;
 	margin: 10% 5vw 10% 5vw;
 }
 
@@ -834,22 +834,22 @@ footer h2 {
 }
 
 .eng {
-	margin-left: initial;
+	margin-left: 0px;
 	margin: 0px;
 	order:1;
 	width: 45%;	
 }
 
 .it {
-	margin-left: initial;
+	margin-left: 0px;
 	margin: 0px;
 	order:2;
 	width: 45%;	
 }
 
 #eudir header {
-	margin-left: initial;
-	margin-bottom: initial;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -865,7 +865,7 @@ footer h2 {
 
 @media screen and (max-width: 1000px) {
 	#eudir .eng header {
-		margin-left: initial;
+		margin-left: 0px;
 	}
 }
 
@@ -875,7 +875,7 @@ footer h2 {
 
 @media screen and (max-width: 1000px) {
 	#eudir .it header {
-		margin-left: initial;
+		margin-left: 0px;
 	}
 }
 
@@ -953,7 +953,7 @@ footer h2 {
 }
 
 #eudir h3 {
-	margin-left: initial;
+	margin-left: 0px;
 }
 
 @media screen and (max-width: 600px) {
