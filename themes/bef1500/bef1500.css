@@ -94,13 +94,18 @@ p {
 
 div.fx em {
 	font-size: 110%;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	font-weight: bold;
 }
 
 div.fx h3 {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+div.fx h4{
+	margin-bottom: 50px;
+	font-weight: bold;
 }
 
 section p:last-of-type {
@@ -248,7 +253,6 @@ h5 {
 	font-family: 'flankerbold';
 	font-size: 110%;
 	line-height: initial;
-	margin-bottom: -1vh;
 }
 
 h6 {
