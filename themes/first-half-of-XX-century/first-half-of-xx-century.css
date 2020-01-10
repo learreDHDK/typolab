@@ -357,6 +357,7 @@ h3 {
 	background-color: black;
 	color: white;
 	margin-left: -20%;
+	padding: 0px;
 	padding-top: 3%;
 }
 
@@ -364,6 +365,7 @@ h3::first-letter {
 	font-size: 12vw; 
 	background: white;
 	color: black;
+	padding: 0px;
 }
 
 @media screen and (max-width: 600px) {
