@@ -212,7 +212,7 @@ header figure img{
 	border: 20px solid transparent;
 	align-self: center;	
 	width:90%;
-	height: auto;
+	height: 80%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
