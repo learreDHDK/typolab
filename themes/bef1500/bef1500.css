@@ -16,7 +16,7 @@
 	src: url('flanker-griffo.bold.ttf') format('truetype');
 }
 
-body#eudir {
+/*body#eudir {
 	font-family: flankerbold; Garamond bold; serif;
 	text-align: justify;
 	letter-spacing: -0.1vw;
@@ -28,7 +28,7 @@ body#eudir {
 	margin: 0px;
 	background-color: #e2d5bd; 
 	border: none;
-}
+}*/
 
 .fx {
 	display: flex;
@@ -85,11 +85,18 @@ body {
 	line-height: 2vw;
 }
 
+
 p {
 	text-indent: 1.8vw;
 	margin-bottom: -0.2vw;
 	line-height: 3.8vh;
 }  
+
+div.fx em {
+	font-size: 110%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
 
 section p:last-of-type {
 	margin-bottom: initial;
