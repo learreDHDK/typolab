@@ -664,7 +664,7 @@ footer p{
 	header p{
 	  	font-size:1.2vw;
 	  	max-height: 6.3vh;
-		padding-bottom:5vh;
+		padding-bottom:6vh;
 	}
 
 	header p span{
@@ -674,7 +674,7 @@ footer p{
 	header address{
 		font-size:1.2vw;
 		max-height: 6.5vh;
-		padding-bottom:5vh;
+		padding-bottom:6vh;
 	}
 
 	header figcaption{
@@ -725,7 +725,7 @@ footer p{
 	  header p{
 		font-size:1.3vw;
 		max-height: 5.8vh;
-		padding-bottom:4vh;
+		padding-bottom:6vh;
 	   }
 
 	   header p span{
@@ -735,7 +735,7 @@ footer p{
 	   header address{
 		font-size:1.3vw;
 		max-height: 5.8vh;
-		padding-bottom:4vh;
+		padding-bottom:6vh;
 	   }
 
 	   header h6{
