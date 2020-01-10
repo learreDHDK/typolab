@@ -651,19 +651,19 @@ footer p{
 	}
 
 	header p{
-	  	font-size:1em;
+	  	font-size:0.8em;
 		max-height:6vh;
 	  	
 	}
 
 	header p span{
-  		font-size:1em;
+  		font-size:0.8em;
 		position:relative;
 		left:24vw;
 	}
 
 	header address{
-		font-size:1em;
+		font-size:0.8em;
 		max-height:6vh;
 		
 	}
@@ -689,18 +689,18 @@ footer p{
 		column-count: 2; 
 	  }
 	  header p{
-		font-size:1em;
+		font-size:0.8em;
 		max-height:5.8vh;
 	   }
 
 	   header p span{
-		font-size:1em;
+		font-size:0.8em;
 		position:relative;
 		left:20vw;
 	   }
 
 	   header address{
-		font-size:1em;
+		font-size:0.8em;
 		max-height:5.8vh;
 	   }
 
