@@ -539,7 +539,7 @@ footer p{
 }
 
 
-#eudir{
+/*#eudir{
 	background: red;
   	box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	margin: 26px auto 0;
@@ -569,7 +569,7 @@ footer p{
 	  right: -3px;
 	  top: 1px;
 	  transform: rotate(1deg);
-}
+}*/
 
 /*#eudir{
 	background:red;
@@ -645,17 +645,6 @@ footer p{
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
-	/*background effect*/
-   	/*body:before, body:after{
-   	width:95%;
-	}
-
-	body:before {
-  	transform: rotate(1deg);/*(-8)
-	}
-    	body:after {
-  	transform: rotate(-1deg); /*(8)
-	}*/
 
 	#whole{
 		column-count: 3; 
@@ -663,8 +652,7 @@ footer p{
 
 	header p{
 	  	font-size:1.2vw;
-	  	max-height: 6.5vh;
-		padding-bottom:6vh;
+	  	
 	}
 
 	header p span{
@@ -673,8 +661,7 @@ footer p{
 
 	header address{
 		font-size:1.2vw;
-		max-height: 6.5vh;
-		padding-bottom:6vh;
+		
 	}
 
 	header figcaption{
@@ -688,44 +675,18 @@ footer p{
 	section aside{
 		width: 12em;
 	}
-
-   	/*#eudir{
-   		margin: 0px;
-   	}
-
-   	#eudir section table{
-		max-width: 100%;
-		padding: initial;
-   	}
-
-   	#eudir table th, td{
-		font-size: 0.5vw;
-		text-align: center;
-   	}*/
 }
 
 
 /*phone*/
 @media only screen and (max-width: 767px){  
-	/*bacground effect*/
-	/*body:before, body:after{
-   		width:95%;
-	} 
-
-	body:before {
-  		transform: rotate(1deg);/*(-8)
-	}
-    	body:after {
-  		transform: rotate(-1deg); /*(8)
-	}*/
 
 	#whole{
 		column-count: 2; 
 	  }
 	  header p{
 		font-size:1.3vw;
-		max-height: 6.5vh;
-		padding-bottom:6vh;
+		
 	   }
 
 	   header p span{
@@ -734,8 +695,7 @@ footer p{
 
 	   header address{
 		font-size:1.3vw;
-		max-height: 6.5vh;
-		padding-bottom:6vh;
+		
 	   }
 
 	   header h6{
@@ -758,21 +718,6 @@ footer p{
 	   aside table td{
 		font-size: initial;
 		font-size: 0.8em;
-	   }
-
-
-	   /*#eudir{
-		margin: 0px;
-	   }
-
-	   #eudir section table{
-		max-width: 100%;
-		padding: initial;
-	   }
-
-	   #eudir table th, td{
-		font-size: 0.6vw;
-		text-align: center;
 	   }
 
 }
