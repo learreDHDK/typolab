@@ -359,6 +359,8 @@ h3 {
 	margin-left: -20%;
 	padding: 0px;
 	padding-top: 3%;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
 }
 
 h3::first-letter {
@@ -426,7 +428,7 @@ section {
 section figure {
 	margin: 0%;
 	margin: 10% 10% 15% -80%;
-	padding-left: 150%;
+	padding-left: 145%;
 	text-align: right;
 	background-color: #fcba03;
 	border: 3vw solid #fcba03;
