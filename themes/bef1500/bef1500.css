@@ -34,8 +34,8 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
-	/*width: 100vw !important;
-	background-color: #e2d5bd;*/
+	/*width: 100vw !important;*/
+	background-color: #e2d5bd;
 }
 
 
