@@ -38,10 +38,8 @@ html{
 
 /*statements for the body of the html page*/
 body{
-	max-width: 55%;
 	height: auto;
 	background:transparent;
-	/*padding:2vw 5.5vw 2vw 3vw;*/
 	font-family:"FuturaLT-Light";
 	font-size:1vw;
 	font-weight: bold;
@@ -212,7 +210,7 @@ header figure img{
 	border: 20px solid transparent;
 	align-self: center;	
 	width:93%;
-	height: 93%;
+	height: 97%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
