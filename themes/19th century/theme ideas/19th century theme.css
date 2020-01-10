@@ -643,6 +643,8 @@ footer p{
 
 	   header p span{
 		font-size:0.6em;
+		position: relative;
+		left:24vw;
 	   }
 
 	   header address{
