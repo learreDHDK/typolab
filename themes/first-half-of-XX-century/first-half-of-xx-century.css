@@ -353,10 +353,10 @@ header figure figcaption {
 h3 {
 	font-family: 'mandala-bold', sans-serif;
 	font-size: 2em;
-	/*letter-spacing: 2px;
+	letter-spacing: 2px;
 	background-color: black;
 	color: white;
-	margin-left: -20%;
+	/*margin-left: -20%;
 	padding: 0px;
 	padding-top: 3%;
 	margin: 0px;*/
@@ -523,7 +523,7 @@ section figure figcaption:nth-of-type(1) {
 	order: 1;
 	position: absolute;
 	left: 105%;
-	top: -17%;
+	top: -20%;
 	width: 15%;
 	text-align: justify;
 	line-height: 1.1em;
@@ -822,6 +822,7 @@ footer h2 {
 }
 
 #eudir {
+	width: 100%;
 	margin: 0px;
 	margin: 10% 5vw 10% 5vw;
 }
