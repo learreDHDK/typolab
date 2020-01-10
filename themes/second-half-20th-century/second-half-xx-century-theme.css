@@ -212,7 +212,7 @@ header figure img{
 	border: 20px solid transparent;
 	align-self: center;	
 	width:90%;
-	height: 80%;
+	height: 90%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
@@ -514,7 +514,7 @@ footer{
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
    	
    	position: relative; 
-   	margin-bottom: 5vh;  
+   	margin-bottom: 10vh;  
 }
 
 footer:before,  footer:after {
