@@ -674,6 +674,7 @@ footer p{
 
 	header h6{
 		font-size: 0.7em;
+		max-height:6vh;
 	}
 
 	section aside{
@@ -695,8 +696,6 @@ footer p{
 
 	   header p span{
 		font-size:0.6em;
-		position:relative;
-		left:20vw;
 	   }
 
 	   header address{
