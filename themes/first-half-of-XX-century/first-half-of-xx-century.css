@@ -163,7 +163,7 @@ header address {
 	font-family: 'futura-heavy-font', Helvetica, sans-serif;
 	font-style: normal;
 	text-transform: lowercase;
-	font-size: 2.2vw;/*!!1.8em*/
+	font-size: 2.1vw;/*!!1.8em*/
 	letter-spacing: 0.1vw;/*!!2px*/
 	line-height: 110%;
 	writing-mode: vertical-lr;
@@ -269,7 +269,7 @@ figure img {
 
 figure {
 	max-width: 100%;
-	margin: 4% 18% 4% -40%;
+	margin: 4% 18% 4% -20%;
 }
 
 @media screen and (max-width: 600px) {
