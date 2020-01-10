@@ -539,7 +539,7 @@ footer p{
 }
 
 
-/*#eudir{
+#eudir{
 	background: red;
   	box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	margin: 26px auto 0;
@@ -548,8 +548,8 @@ footer p{
   	padding: 24px;
   	position: relative;
   	width: 80%;
-}*/
-/*#eudir:before, #eudir:after {
+}
+#eudir:before, #eudir:after {
 	  content: "";
 	  height: 100%;
 	  position: absolute;
@@ -569,7 +569,7 @@ footer p{
 	  right: -3px;
 	  top: 1px;
 	  transform: rotate(1deg);
-}*/
+}
 
 /*#eudir{
 	background:red;
