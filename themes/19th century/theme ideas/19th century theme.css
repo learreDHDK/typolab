@@ -662,8 +662,9 @@ footer p{
 	}
 
 	header p{
-	  	font-size:1.3vw;
+	  	font-size:1.2vw;
 	  	max-height: 6.3vh;
+		padding-bottom:6.3vh;
 	}
 
 	header p span{
@@ -671,8 +672,9 @@ footer p{
 	}
 
 	header address{
-  	font-size:1.6vw;
- 	 max-height: 6.3vh;
+  	font-size:1.2vw;
+ 	max-height: 6.3vh;
+	padding-bottom:;
 	}
 
 	header figcaption{
@@ -721,8 +723,9 @@ footer p{
 		column-count: 2; 
 	  }
 	  header p{
-		font-size:1.5vw;
+		font-size:1.3vw;
 		max-height: 5.8vh;
+		padding-bottom:5.8vh;
 	   }
 
 	   header p span{
@@ -730,8 +733,9 @@ footer p{
 	   }
 
 	   header address{
-		font-size:1.5vw;
+		font-size:1.3vw;
 		max-height: 5.8vh;
+		padding-bottom:5.8vh;
 	   }
 
 	   header h6{
@@ -739,7 +743,7 @@ footer p{
 	   }
 
 	   header figcaption{
-		font-size:0.6em;
+		font-size:0.4em;
 	   }
 
 	   section aside{
