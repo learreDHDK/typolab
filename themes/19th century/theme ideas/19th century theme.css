@@ -131,6 +131,8 @@ header h6{
 	margin:8px 0px 5px 0px;
   	padding:0px;
   	padding-right: 10px;
+	padding-top:2vh;
+	padding-bottom:2vh;
   	max-height: 6.5vh;
 }
 
@@ -325,6 +327,7 @@ section em{
 /*drop all the border statements of the tables to be able to create new ones*/
 table{
 	border-collapse: collapse;
+	overflow-x: auto;
 }
 
 /*functions for the tables of the text*/
@@ -558,7 +561,7 @@ footer p{
 	  padding-top: 2vh;
 }
 
-#eudir .tabelEU{
+.tabelEU{
 	  overflow-x: auto;
 }
 
