@@ -630,7 +630,7 @@ footer p{
    	outline-color: white;
     	background: #fff;
     	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    	margin: 26px auto 18vh;
+    	margin: 26px auto 20vh auto;
     	position: relative;  
     	/*padding: 3vh 1vw 3vh 0.8vw;
     	/*padding-bottom: 3vh;
