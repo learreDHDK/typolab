@@ -574,7 +574,7 @@ footer p{
         padding-left: 10px;
 }
 
-#eudir header{
+/*#eudir header{
 	width: 100%;
 	height: 87vh;
 	padding: initial;
@@ -612,7 +612,7 @@ footer p{
   	content: "";
   	position: absolute;
    
-}
+}*/
 
 #eudir section .it{
 	border-left: 5px solid yellow;
