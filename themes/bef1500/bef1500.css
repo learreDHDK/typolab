@@ -24,13 +24,12 @@
 	background-color: #e2d5bd;
 }
 
-
 #eudir {
 	position: absolute;
 	left: 0px;
 	right: 0px;
 	top: 50px;
-	bottom: 200px;
+	bottom: -200px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 99vw !important;
