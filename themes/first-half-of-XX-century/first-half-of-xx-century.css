@@ -360,8 +360,8 @@ h3 {
 	padding: 0px !important;
 	margin: 0px !important;
 	margin-left: -20% !important;
-	margin-block-start: 0px !important; 
-	margin-block-end: 0px !important;
+	margin-block-start: 1%; 
+	margin-block-end: 1%;
 	/*padding-top: 3%;
 	margin: 0px;*/
 }
@@ -834,15 +834,15 @@ footer h2 {
 }
 
 #eudir {
-	width: 100%;
+	width: 100% !important;
 	/*position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	margin: 10% 5vw 10% 5vw;*/
-	margin-left: -100%;
-	margin-right: -100%;
+	margin-left: -100% !important;
+	margin-right: -100% !important;
 	border: 1px solid black;
 }
 
