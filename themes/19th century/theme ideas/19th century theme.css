@@ -611,7 +611,7 @@ footer p{
 
 	header p{
 	  	font-size:0.8em;
-		max-height:6vh;
+		/*max-height:6vh;*/
 	  	
 	}
 
@@ -621,7 +621,7 @@ footer p{
 
 	header address{
 		font-size:0.8em;
-		max-height:6vh;
+		/*max-height:6vh;*/
 		
 	}
 
@@ -648,7 +648,7 @@ footer p{
 	  }
 	  header p{
 		font-size:0.6em;
-		max-height:5.8vh;
+		/*max-height:5.8vh;*/
 	   }
 
 	   header p span{
@@ -659,7 +659,7 @@ footer p{
 
 	   header address{
 		font-size:0.6em;
-		max-height:5.8vh;
+		/*max-height:5.8vh;*/
 	   }
 
 	   header h6{
