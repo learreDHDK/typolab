@@ -29,16 +29,13 @@
 	left: 0px;
 	right: 0px;
 	top: 50px;
-	bottom: -200px;
+	bottom: 0px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 500px;
 	width: 99vw !important;
 	background-color: #e2d5bd;
 }
 
-body > div#eudir {
-	margin-bottom: 200px;
-}
 
 .eng {
 	order: 1;
