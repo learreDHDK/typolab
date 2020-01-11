@@ -593,7 +593,6 @@ footer p{
 	margin-left:auto;
 	margin-right:auto;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  	padding: 24px;
   	position: relative;
 }
 
@@ -713,13 +712,13 @@ footer p{
 		font-size:1.8vw ;
 	}
 
-	#eudir header{
+	/*#eudir header{
 		height: 75vh;
 	}
 
 	#eudir header h6{
 		font-size:1.8vw ;
-	}
+	}*/
 	
 
 	section em{
@@ -779,14 +778,14 @@ footer p{
 		font-size:2.5vw ;
 	}
 
-	#eudir header{
+	/*#eudir header{
 		height: 65vh;
 		
 	}
 
 	#eudir header h6{
 		font-size:1.7vw ;
-	}
+	}*/
 
 	aside p{
 		line-height: 3vh;
