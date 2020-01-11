@@ -826,13 +826,16 @@ footer h2 {
 	margin: 0px;
 	/*margin: 10% 5vw 10% 5vw;*/
 	margin-left: -100%;
+	border: 1px solid black;
 }
 
 .fx {
+	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	margin-top: 5vh;
+	border: 1px solid black;
 }
 
 .eng {
