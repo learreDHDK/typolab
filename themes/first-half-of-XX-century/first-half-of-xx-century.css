@@ -354,8 +354,8 @@ h3 {
 	font-family: 'mandala-bold', sans-serif;
 	font-size: 2em;
 	letter-spacing: 2px;
-	/*background-color: black;*/
-	color: white;
+	/*background-color: black;
+	color: white;*/
 	margin-left: -20%;
 	border: 1px solid black;
 	padding: 0px;
@@ -506,8 +506,7 @@ section figure img:nth-of-type(1) {
 section figure img:nth-of-type(2) {
 	order: 3;
 	max-width: 370px;/*!!*/
-	margin-right: 10%;
-	align-self: center;
+	align-self: flex-start;
 }
 
 @media screen and (max-width: 715px) {
@@ -784,6 +783,10 @@ aside table {
 	border-spacing: 1px;
 }
 
+aside table th {
+	padding-top: 5px;
+}
+
 footer {
 	margin-top: 20%;
 	margin-left: -41vw;/*!d-100%*/
@@ -816,8 +819,8 @@ footer h1 {
 	color: red;
 	font-size: 3em;
 	display: inline-block;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 4%;
 }
 
 footer h2 {
@@ -828,7 +831,7 @@ footer h2 {
 }
 
 #eudir {
-	width: 100%;
+	width: 100vw;
 	margin: 0px;
 	/*margin: 10% 5vw 10% 5vw;*/
 	margin-left: -100%;
