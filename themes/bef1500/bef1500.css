@@ -362,3 +362,7 @@ section > div.fx p:first-of-type:first-letter{
 	background-repeat: no-repeat;
 	background-position: static;
 }
+
+section > div.fx p:first-of-type {
+	text-indent: initial;
+}
