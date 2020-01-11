@@ -38,7 +38,6 @@ html{
 
 /*statements for the body of the html page*/
 body{
-	/*max-width:55%;*/
 	height: auto;
 	background:transparent;
 	font-family:"FuturaLT-Light";
@@ -50,7 +49,7 @@ body{
   	text-align: justify;
 	margin: 0 auto;
 	margin-bottom:20vh;
-	margin-top: 10vh;
+	margin-top: 15vh;
 }
 
 /*image of bloomberg*/
@@ -516,7 +515,8 @@ footer{
 	font-family: "Veltro W01 Regular";
 	padding:1vw;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-   	position: relative;   
+   	position: relative; 
+	margin:0 auto;
 }
 
 footer:before,  footer:after {
@@ -550,11 +550,11 @@ footer p{
 	font-size: 1vw;
 }
 
-#eudir{
+/*#eudir{
 	background: transparent;
 	width: 70%;
 	padding: initial;	
-}
+}*/
 
 .fx {
         display: flex;
