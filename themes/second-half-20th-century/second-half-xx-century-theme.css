@@ -74,14 +74,12 @@ header{
 	flex-flow: column wrap;	
 	justify-content: space-around;
 	line-height: 2vh;
-	/*width: 100%;*/
 	max-width:55%;
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
 	margin-left:auto;
 	margin-right:auto;
-	/*margin-top: 7vh;*/
 	padding: 3vh 1vw 3vh 1vw;
 }
  
@@ -595,6 +593,13 @@ footer p{
   	position: relative;
 }
 
+.fx .eng header{
+	margin:initial;
+}
+
+.fx .it header{
+	margin:initial;
+}
 .fx header:before, .fx header:after{
   	content: "";
   	position: absolute;
