@@ -243,12 +243,12 @@ section h3{
 /*functions for the h4 of the text EU*/
 section h4{
 	font-family: 'Abril Fatface', cursive serif;
-	font-size:1.8vw;
+	font-size:1.5vw;
 	text-decoration: underline;
 	text-align: center;
 	font-family: "FREAS";
 	font-weight: bold;
-	line-height: 6vh;
+	line-height: 5vh;
 	marging-bottom:2vh;
 }
 
