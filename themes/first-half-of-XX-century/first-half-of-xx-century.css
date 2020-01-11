@@ -505,6 +505,7 @@ section figure img:nth-of-type(1) {
 section figure img:nth-of-type(2) {
 	order: 3;
 	max-width: 370px;/*!!*/
+	padding-right: 2%;
 	align-self: center;
 }
 
