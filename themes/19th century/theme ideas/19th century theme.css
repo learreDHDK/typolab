@@ -133,7 +133,6 @@ header h6{
   	padding:0px;
   	padding-right: 10px;
   	max-height: 6.5vh;
-	padding-bottom: 6.5vh;
 }
 
 /*functions for the address of the header*/
@@ -254,7 +253,7 @@ section h4{
 	text-align: center;
 	font-family: "FREAS";
 	font-weight: bold;
-	line-height: 10vh;
+	line-height: 6vh;
 	marging-bottom:2vh;
 }
 
@@ -548,7 +547,7 @@ footer p{
 	  width: 45%;
 	  padding-right: 10px; 
 	  border-right: 2px solid black; 
-	  padding-top: 3vh;
+	  padding-top: 2vh;
 }
 
 
@@ -557,7 +556,7 @@ footer p{
 	  width: 45%;
 	  padding-left: 10px;
 	  border-left: 2px solid black;
-	  padding-top: 3vh;
+	  padding-top: 2vh;
 }
 
 #eudir .tabelEU{
@@ -626,7 +625,7 @@ footer p{
 
 	header h6{
 		font-size: 0.7em;
-		max-height:6vh;
+		
 	}
 
 	section aside{
