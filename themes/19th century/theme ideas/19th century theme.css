@@ -548,9 +548,6 @@ footer p{
 }
 
 
-.eng header{
-	border-top:initial;
-}
 
 .it {
 	  order:2;
@@ -562,13 +559,13 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-.it header{
+.fx header{
 	border-top:initial;
+	
 }
-
-.tabelEU{
-	-webkit-overflow-x: scroll;
-	 /*overflow-x: auto;*/
+.tabeleu{
+	
+	 overflow-x: auto;
 }
 
 #eudir section table th{
