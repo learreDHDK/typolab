@@ -78,8 +78,8 @@ header{
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
-	margin-left:auto;
-	margin-right:auto;
+	/*margin-left:auto;
+	margin-right:auto;*/
 	padding: 3vh 1vw 3vh 1vw;
 }
  
@@ -276,17 +276,6 @@ section{
 	position: relative;  
 }
 
-/*section:last-of-type{
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-   	margin: 26px auto 18vh;
-   	position: relative; 
-   	margin-bottom: 20vh;  
-}
-
-section:before,  section:after {
-  	content: "";
-  	position: absolute; 
-}
 
 /*create space between the header and the begining of the text*/
 header + section{
@@ -306,6 +295,7 @@ header + section p:first-of-type{
 	padding: 20px;
 }*/
 
+/*statement for figure of text*/
 section figure{
 	background: #F6F6F6 ;
 	padding-top: 5px;
@@ -583,29 +573,25 @@ footer p{
 	margin-top: 6vh;
 	margin-left:auto;
 	margin-right:auto;
-}
+}*/
 
 .fx header{
 	padding: initial;
 	margin: initial;
 	margin-left:auto;
 	margin-right:auto;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  	position: relative;
 	margin-bottom: 13vh;
-}*/
+}
 
 .fx .eng header{
 	margin:initial;
-	margin-left:auto;
-	margin-right:auto;
+	
 	
 }
 
 .fx .it header{
 	margin:initial;
-	margin-left:auto;
-	margin-right:auto;
+	
 	
 }
 .fx header:before, .fx header:after{
