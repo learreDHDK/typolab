@@ -581,14 +581,14 @@ footer p{
         padding-left: 10px;
 }
 
-#eudir header{
+/*#eudir header{
 	width: 100%;
 	height: 87vh;
 	padding: initial;
 	margin: initial;
 	margin-bottom: 10vh;
 	margin-top: 6vh;
-}
+}*/
 
 .fx header{
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
