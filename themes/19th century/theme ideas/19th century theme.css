@@ -560,7 +560,8 @@ footer p{
 	  width: 45%;
 	  padding-left: 10px;
 	  border-left: 2px solid black;
-	  padding-top: 2vh;
+	  padding-top: 1vh;
+	  padding-bottom:1vh;
 	  border-top: 2px solid black; 
 }
 
