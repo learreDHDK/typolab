@@ -602,11 +602,11 @@ footer p{
   	padding-bottom: 50px;
 }
 
-section + .eng{
+section > .eng{
   	border-top: initial;
 }
 
-section + .it{
+section > .it{
   	border-top: initial;
 }
 
