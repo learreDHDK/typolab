@@ -358,16 +358,16 @@ h3 {
 	color: white;*/
 	margin-left: -20%;
 	border: 1px solid black;
-	padding: 0px;
-	margin: 0px;
+	padding: 0px !important;
+	margin: 0px !important;
 	/*padding-top: 3%;
 	margin: 0px;*/
 }
 
 h3::first-letter {
 	font-size: 12vw; 
-	padding: 0px;
-	margin: 0px;
+	padding: 0px !important;
+	margin: 0px !important;
 	/*background: white;
 	color: black;*/
 }
@@ -506,7 +506,8 @@ section figure img:nth-of-type(1) {
 section figure img:nth-of-type(2) {
 	order: 3;
 	max-width: 370px;/*!!*/
-	align-self: flex-start;
+	margin-right: 20px;
+	align-self: center;
 }
 
 @media screen and (max-width: 715px) {
@@ -784,7 +785,7 @@ aside table {
 }
 
 aside table th {
-	padding-top: 5px;
+	padding: 1% 0px;
 }
 
 footer {
@@ -819,7 +820,7 @@ footer h1 {
 	color: red;
 	font-size: 3em;
 	display: inline-block;
-	padding-top: 2%;
+	padding-top: 3%;
 	padding-bottom: 4%;
 }
 
@@ -832,6 +833,9 @@ footer h2 {
 
 #eudir {
 	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 5%;
 	margin: 0px;
 	/*margin: 10% 5vw 10% 5vw;*/
 	margin-left: -100%;
