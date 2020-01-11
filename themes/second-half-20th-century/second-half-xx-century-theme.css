@@ -78,8 +78,8 @@ header{
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
-	/*margin-left:auto;
-	margin-right:auto;*/
+	margin-left:auto;
+	margin-right:auto;
 	padding: 3vh 1vw 3vh 1vw;
 }
  
@@ -287,13 +287,6 @@ header + section p:first-of-type{
 	text-indent: -10px;
 }
 
-
-/*fisrt image in the text blomberg*/
-/*p + img{
-	border-radius: initial;
-	border: 20px solid transparent;
-	padding: 20px;
-}*/
 
 /*statement for figure of text*/
 section figure{
@@ -576,6 +569,7 @@ footer p{
 }*/
 
 .fx header{
+	width:100%;
 	padding: initial;
 	margin: initial;
 	margin-left:auto;
@@ -584,12 +578,14 @@ footer p{
 }
 
 .fx .eng header{
+	width:45%;
 	margin:initial;
 	
 	
 }
 
 .fx .it header{
+	width:45%;
 	margin:initial;
 	
 	
