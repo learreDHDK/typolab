@@ -557,16 +557,6 @@ footer p{
         padding-left: 10px;
 }
 
-/*#eudir header{
-	width: 100%;
-	height: 87vh;
-	padding: initial;
-	margin: initial;
-	margin-bottom: 10vh;
-	margin-top: 6vh;
-	margin-left:auto;
-	margin-right:auto;
-}*/
 
 .fx header{
 	width:100%;
@@ -576,19 +566,7 @@ footer p{
 	margin-right:auto;
 	margin-bottom: 13vh;
 }
-
-.fx .eng header{
-	width:45%;
-	margin:initial;
-	
-	
-}
-
-.fx .it header{
-	width:45%;
-	margin:initial;
-	
-	
+		
 }
 .fx header:before, .fx header:after{
   	content: "";
