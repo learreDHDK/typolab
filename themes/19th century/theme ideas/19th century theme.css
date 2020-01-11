@@ -332,7 +332,7 @@ section table{
  	margin-bottom: 30px;
  	padding-top:5px ;
  	padding-bottom: 5px ;
-	overflow-x: scroll;
+	-webkit-overflow-x: scroll;
 }
 
 /*functions for the tables head and data border of the text*/
