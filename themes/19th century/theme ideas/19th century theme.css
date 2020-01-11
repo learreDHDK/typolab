@@ -131,8 +131,7 @@ header h6{
 	margin:8px 0px 5px 0px;
   	padding:0px;
   	padding-right: 10px;
-	padding-top:-20px;
-	padding-bottom:-20px;
+	
   	
 }
 
@@ -148,10 +147,7 @@ header address{
 	margin: 15px 0px 5px 0px;
 	flex-grow: 2;
 	padding: 0px;
-	padding-top:-2vh;
-	padding-top:-20px;
-	padding-bottom:-20px;
-}
+	max-height:3vh;
  
 /*functions for the paragraph of the header*/
 header p{
@@ -165,9 +161,7 @@ header p{
 	margin: 0px;
 	margin-top: 15px;
 	padding:0px;
-	padding-top:-20px;
-	padding-bottom:-20px;
-	padding-left: 10px;
+	max-height:3vh;
 	
 }
 
