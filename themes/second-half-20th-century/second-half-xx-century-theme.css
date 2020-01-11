@@ -581,6 +581,8 @@ footer p{
 	margin: initial;
 	margin-bottom: 10vh;
 	margin-top: 6vh;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .fx header{
@@ -595,11 +597,15 @@ footer p{
 
 .fx .eng header{
 	margin:initial;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 
 .fx .it header{
 	margin:initial;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 .fx header:before, .fx header:after{
