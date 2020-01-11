@@ -550,11 +550,6 @@ footer p{
 	font-size: 1vw;
 }
 
-/*#eudir{
-	background: transparent;
-	width: 70%;
-	padding: initial;	
-}*/
 
 .fx {
         display: flex;
@@ -591,6 +586,9 @@ footer p{
 }*/
 
 .fx header{
+	width:100%;
+	padding: initial;
+	margin: initial;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
   	/*margin: 26px auto 20px;*/
   	padding: 24px;
