@@ -638,8 +638,8 @@ footer p{
 	width: 30vw;
 }
 
-.tabelEU{
-	-webkit-overflow-x: auto;
+.tabeleu{
+	overflow-x: auto;
 }
 
 #eudir section table tr{
