@@ -548,6 +548,10 @@ footer p{
 }
 
 
+.eng header{
+	border-top:initial;
+}
+
 .it {
 	  order:2;
 	  width: 45%;
@@ -556,6 +560,10 @@ footer p{
 	  padding-top: 1vh;
 	  padding-bottom:1vh;
 	  border-top: 2px solid black; 
+}
+
+.it header{
+	border-top:initial;
 }
 
 .tabelEU{
@@ -593,6 +601,15 @@ footer p{
 #eudir section{
   	padding-bottom: 50px;
 }
+
+#eudir section .eng:first-child{
+  	border-top: initial;
+}
+
+#eudir section .it:first-child{
+  	border-top: initial;
+}
+
 
 
 
