@@ -362,12 +362,12 @@ h3 {
 	margin: 0px;*/
 }
 
-/*h3::first-letter {
+h3::first-letter {
 	font-size: 12vw; 
-	background: white;
+	/*background: white;
 	color: black;
-	padding: 0px;
-}*/
+	padding: 0px;*/
+}
 
 @media screen and (max-width: 600px) {
 	h3 {
