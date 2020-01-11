@@ -651,7 +651,7 @@ footer p{
 }
 
 .tabelEU{
-	overflow-x: auto;
+	-webkit-overflow-x: auto;
 }
 
 #eudir section table tr{
