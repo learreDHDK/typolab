@@ -550,6 +550,7 @@ footer p{
 	  padding-right: 10px; 
 	  border-right: 2px solid black; 
 	  padding-top: 2vh;
+	  border-top: 2px solid black; 
 }
 
 
@@ -559,6 +560,7 @@ footer p{
 	  padding-left: 10px;
 	  border-left: 2px solid black;
 	  padding-top: 2vh;
+	  border-top: 2px solid black; 
 }
 
 .tabelEU{
