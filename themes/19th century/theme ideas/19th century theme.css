@@ -131,8 +131,8 @@ header h6{
 	margin:8px 0px 5px 0px;
   	padding:0px;
   	padding-right: 10px;
-	padding-top:-2vh;
-	padding-bottom:-2vh;
+	padding-top:20px;
+	padding-bottom:20px;
   	
 }
 
@@ -149,8 +149,8 @@ header address{
 	flex-grow: 2;
 	padding: 0px;
 	padding-top:-2vh;
-	padding-bottom:-2vh;
-	padding-right: 10px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
  
 /*functions for the paragraph of the header*/
@@ -328,7 +328,6 @@ section em{
 /*drop all the border statements of the tables to be able to create new ones*/
 table{
 	border-collapse: collapse;
-	overflow-x: scroll;
 }
 
 /*functions for the tables of the text*/
@@ -342,6 +341,7 @@ section table{
  	margin-bottom: 30px;
  	padding-top:5px ;
  	padding-bottom: 5px ;
+	overflow-x: scroll;
 }
 
 /*functions for the tables head and data border of the text*/
