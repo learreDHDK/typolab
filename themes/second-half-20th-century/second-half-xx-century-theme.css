@@ -38,7 +38,7 @@ html{
 
 /*statements for the body of the html page*/
 body{
-	max-width:55%;
+	/*max-width:55%;*/
 	height: auto;
 	background:transparent;
 	font-family:"FuturaLT-Light";
@@ -50,7 +50,7 @@ body{
   	text-align: justify;
 	margin: 0 auto;
 	margin-bottom:20vh;
-	margin-top: 20vh;
+	margin-top: 10vh;
 }
 
 /*image of bloomberg*/
@@ -76,6 +76,7 @@ header{
 	justify-content: space-around;
 	line-height: 2vh;
 	/*width: 100%;*/
+	max-width:55%;
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
@@ -266,6 +267,7 @@ header + section  p:first-of-type::first-letter{
 section{
 	border:5px solid yellow;
 	/*width: 100%;*/
+	max-width:55%;
 	height: auto;
 	margin-bottom: 8vh;
 	padding: 3vh 1vw 3vh 0.8vw;
@@ -507,7 +509,9 @@ footer{
 	outline: 40px solid;
    	outline-color: white;
  	display: block;
-	width:100%;
+	/*width:100%;*/
+	max-width:55%;
+	height:auto;
 	border: 5px solid yellow;
 	font-family: "Veltro W01 Regular";
 	padding:1vw;
