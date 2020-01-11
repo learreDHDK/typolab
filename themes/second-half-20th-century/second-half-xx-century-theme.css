@@ -595,12 +595,10 @@ footer p{
 
 .fx .eng header{
 	margin:initial;
-	max-width:45%;
 }
 
 .fx .it header{
 	margin:initial;
-	max-width:45%;
 }
 .fx header:before, .fx header:after{
   	content: "";
