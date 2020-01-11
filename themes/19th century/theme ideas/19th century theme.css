@@ -131,9 +131,9 @@ header h6{
 	margin:8px 0px 5px 0px;
   	padding:0px;
   	padding-right: 10px;
-	padding-top:2vh;
-	padding-bottom:2vh;
-  	/*max-height: 6.5vh;*/
+	padding-top:-2vh;
+	padding-bottom:-2vh;
+  	
 }
 
 /*functions for the address of the header*/
@@ -148,8 +148,8 @@ header address{
 	margin: 15px 0px 5px 0px;
 	flex-grow: 2;
 	padding: 0px;
-	padding-top:2vh;
-	padding-bottom:2vh;
+	padding-top:-2vh;
+	padding-bottom:-2vh;
 	padding-right: 10px;
 }
  
