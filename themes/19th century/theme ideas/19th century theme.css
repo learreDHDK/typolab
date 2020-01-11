@@ -147,7 +147,7 @@ header address{
 	margin: 15px 0px 5px 0px;
 	flex-grow: 2;
 	padding: 0px;
- 
+ }
 /*functions for the paragraph of the header*/
 header p{
 	order:3;
