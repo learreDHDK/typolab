@@ -558,13 +558,10 @@ footer p{
 }
 
 
-/*#eudir header{	
-	margin: initial;
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom: 13vh;
+#eudir header{	
+	width:100%;
 	
-}*/
+}
 #eudir .eng header{
 	margin-right:initial;
 	width:48%;
