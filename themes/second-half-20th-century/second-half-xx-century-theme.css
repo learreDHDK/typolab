@@ -558,7 +558,7 @@ footer p{
 }
 
 
-body .fx header{
+#eudir header{
 	width:100%;
 	padding: initial;
 	margin: initial;
@@ -575,7 +575,7 @@ body .fx header{
 	margin-left:0px;
 }
 
-.fx header:before, .fx header:after{
+/*.fx header:before, .fx header:after{
   	content: "";
   	position: absolute;
    
