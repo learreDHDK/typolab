@@ -567,8 +567,14 @@ body .fx header{
 	margin-bottom: 13vh;
 	background:black;
 }
-		
+.eng header{
+	margin-right:0px;
 }
+
+.it header{
+	margin-left:0px;
+}
+
 .fx header:before, .fx header:after{
   	content: "";
   	position: absolute;
