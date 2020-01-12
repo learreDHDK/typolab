@@ -24,7 +24,7 @@
 	background-color: #e2d5bd;
 }
 
-div.fx:nth-last-child(1) {
+div.fx:last-of-type {
 	margin-bottom: 200px;
 	padding-bottom: 200px;
 }
