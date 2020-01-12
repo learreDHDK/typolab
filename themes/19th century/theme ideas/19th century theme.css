@@ -248,7 +248,7 @@ section h4{
 	text-align: center;
 	font-family: "FREAS";
 	font-weight: bold;
-	line-height: 5vh;
+	line-height: 4vh;
 	marging-bottom:2vh;
 }
 
@@ -560,21 +560,11 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-#eudir section .eng:first-child{
-	boder-top:initial;
-}
 
-#eudir section .it:first-child{
-	boder-top:initial;
-}
-
-#eudir header{
-	boder-top:initial;
-}
 
 #eudir .tabelEU{
 	display:block;
-	 overflow-x: auto;
+	-webkit-overflow-scroll: auto;
 }
 
 #eudir section table th{
