@@ -569,11 +569,13 @@ footer p{
 	margin-bottom: 13vh;
 	
 }
-.eng header{
+eudir .eng header{
+	margin-right:initial;
 	margin-right:0px;
 }
 
-.it header{
+#eudir .it header{
+	margin-left:initial;
 	margin-left:0px;
 }
 
