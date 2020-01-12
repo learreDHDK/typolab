@@ -125,7 +125,7 @@ header h6{
 	order:3;
 	width: 100%;
 	text-align: right;
-	font-size: 0.8em;
+	font-size: 1.1vw ; /*0.8em;*/
 	border-bottom: double black;
 	border-top: double black;
 	margin:8px 0px 5px 0px;
