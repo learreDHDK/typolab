@@ -93,7 +93,7 @@ header h1 {
 	border: 1px solid black;
 	border-right: 1.5vw solid red;
 	border-bottom: 1.5vw solid red;
-	/*padding-bottom: 1%;!d1%*/
+	padding-bottom: 1%;/*!d1%*/
 	padding-right: 4vw;/*!d5%*/
 	padding-left: 4vw;/*!d5%*/
 	margin-right: 0.1%;
@@ -175,7 +175,7 @@ header address {
 	border-left: 1.5vw solid red;/*!!20px*/
 	border-bottom: 1.5vw solid red;/*!!20px*/
 	padding-left: 1vw;/*!!1%*/
-	/*padding-bottom: 1%;!!1%*/
+	padding-bottom: 2%;/*!!1%*/
 	margin-bottom: 0%;
 }
 
