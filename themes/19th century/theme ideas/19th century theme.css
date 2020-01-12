@@ -576,7 +576,7 @@ footer p{
 }
 
 #eudir .tabLeEU{
-	overflow-scroll: auto;
+	overflow-x: auto;
 }
 
 #eudir section table th{
