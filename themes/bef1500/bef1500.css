@@ -24,7 +24,7 @@
 	background-color: #e2d5bd;
 }
 
-div.fx:last-of-type {
+div#eudir > div.fx:nth-child(49) {
 	margin-bottom: 200px;
 	padding-bottom: 200px;
 }
