@@ -329,6 +329,8 @@ section table{
 	height: auto;
  	border-top: double black;
  	border-bottom: double black;
+	border-right:transparent;
+	border-left:transparent;
  	margin:0 auto;
  	margin-top: 30px;
  	margin-bottom: 30px;
