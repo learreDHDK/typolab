@@ -565,12 +565,12 @@ footer p{
 }
 #eudir .eng header{
 	margin-right:initial;
-	width:48%;
+	
 }
 
 #eudir .it header{
 	margin-left:initial;
-	width:48%;
+	
 }
 
 /*.fx header:before, .fx header:after{
