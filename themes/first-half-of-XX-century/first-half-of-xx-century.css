@@ -979,7 +979,7 @@ footer h2 {
 }
 
 #eudir h3 {
-	margin-left: 0px;
+	margin-left: 0px !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -1000,7 +1000,7 @@ footer h2 {
 }
 
 .eng table::after {
-	display: none;
+	display: none !important;
 }
 
 .it table {
@@ -1008,5 +1008,5 @@ footer h2 {
 }
 
 .it table::before {
-	display: none;
+	display: none !important;
 }
