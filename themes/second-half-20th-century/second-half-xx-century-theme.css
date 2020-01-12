@@ -558,14 +558,16 @@ footer p{
 }
 
 
-#eudir header{
+#eudir header{	
+	justify-content: space-between;
+	max-width:55%;
 	width:100%;
 	padding: initial;
 	margin: initial;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: 13vh;
-	background:black;
+	
 }
 .eng header{
 	margin-right:0px;
@@ -623,7 +625,7 @@ footer p{
 	width: 30vw;
 }
 
-.tabeleu{
+#eudir .tabeleu{
 	overflow-x: auto;
 }
 
