@@ -78,9 +78,8 @@ header{
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
-	/*margin-left:auto;
-	margin-right:auto;*/
-	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 	padding: 3vh 1vw 3vh 1vw;
 }
  
@@ -560,10 +559,6 @@ footer p{
 
 
 #eudir header{	
-	justify-content: space-between;
-	max-width:55%;
-	width:100%;
-	padding: initial;
 	margin: initial;
 	margin-left:auto;
 	margin-right:auto;
