@@ -78,8 +78,9 @@ header{
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
-	margin-left:auto;
+	/*margin-left:auto;
 	margin-right:auto;
+	text-align:center;*/
 	padding: 3vh 1vw 3vh 1vw;
 }
  
@@ -569,7 +570,7 @@ footer p{
 	margin-bottom: 13vh;
 	
 }
-eudir .eng header{
+#eudir .eng header{
 	margin-right:initial;
 	margin-right:0px;
 }
