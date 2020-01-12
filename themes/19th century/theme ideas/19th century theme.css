@@ -537,6 +537,7 @@ footer p{
 	  
 }
 
+
 .eng {
 	  order:1;
 	  width: 45%;
@@ -559,12 +560,16 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-.fx header{
-	border-top:initial;
-	
+.eng:first-of-type{
+	boder-top:initial;
 }
-.tabeleu{
-	
+
+.it:first-of-type{
+	boder-top:initial;
+}
+
+.tabelEU{
+	display:block;
 	 overflow-x: auto;
 }
 
@@ -597,14 +602,6 @@ footer p{
 
 #eudir section{
   	padding-bottom: 50px;
-}
-
-section > .eng{
-  	border-top: initial;
-}
-
-section > .it{
-  	border-top: initial;
 }
 
 
