@@ -560,15 +560,17 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-.eng:first-of-type{
+#eudir .eng:first-of-type{
 	boder-top:initial;
+	background:black;
 }
 
-.it:first-of-type{
+#eudir .it:first-of-type{
 	boder-top:initial;
+	background:black;
 }
 
-.tabelEU{
+#eudir .tabelEU{
 	display:block;
 	 overflow-x: auto;
 }
