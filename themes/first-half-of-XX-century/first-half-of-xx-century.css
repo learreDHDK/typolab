@@ -886,7 +886,7 @@ footer h2 {
 }
 
 #eudir .eng header {
-	margin-left: -4vw;
+	margin-left: -2%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -896,7 +896,7 @@ footer h2 {
 }
 
 #eudir .it header {
-	margin-right: -3vw;
+	margin-right: -2%;
 } 
 
 @media screen and (max-width: 1000px) {
