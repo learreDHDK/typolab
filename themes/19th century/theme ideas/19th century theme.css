@@ -575,9 +575,8 @@ footer p{
 	border-top:initial;
 }
 
-#eudir .tabelEU{
-	display:block;
-	-webkit-overflow-scroll: auto;
+#eudir .tabLeEU{
+	overflow-scroll: auto;
 }
 
 #eudir section table th{
