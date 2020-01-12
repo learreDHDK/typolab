@@ -574,11 +574,6 @@ footer p{
 	
 }
 
-/*.fx header:before, .fx header:after{
-  	content: "";
-  	position: absolute;
-   
-}*/
 
 #eudir section .it{
 	border-left: 5px solid yellow;
@@ -622,7 +617,7 @@ footer p{
 	width: 30vw;
 }
 
-#eudir .tabeleu{
+#eudir .tableEU{
 	overflow-x: auto;
 }
 
