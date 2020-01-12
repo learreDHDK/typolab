@@ -560,8 +560,12 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-
-
+#eudir section .it:first-of-type{
+	border-top:initial;
+}
+#eudir section .eng:first-of-type{
+	border-top:initial;
+}
 #eudir .tabelEU{
 	display:block;
 	-webkit-overflow-scroll: auto;
