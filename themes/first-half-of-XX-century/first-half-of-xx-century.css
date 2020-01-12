@@ -856,7 +856,7 @@ footer h2 {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
-	margin-bottom: 5vh;
+	margin-top: 5vh;
 }
 
 .eng {
