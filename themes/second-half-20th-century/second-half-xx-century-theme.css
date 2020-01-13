@@ -590,7 +590,7 @@ footer p{
    	outline-color: white;
     	background: #fff;
     	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    	margin: 26px auto 20vh auto;
+    	/*margin: 26px auto 20vh auto;*/
     	position: relative; 
 	max-width:60%;
     	/*padding: 3vh 1vw 3vh 0.8vw;
