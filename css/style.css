@@ -20,11 +20,11 @@
 
 .nav-item {
   color: black !important;
-  font-family: Varela;
+  font-family: 'Varela';
 }
 
 .nav-item:hover {
-  border: 1px solid black;
+  border: 1px solid #daa520;
 }
 
 .navbar-brand {
@@ -41,22 +41,66 @@
 }
 
 #navbarNavAltMarkup a.active {
-  background-color: yellow;
+  border: 1px solid #daa520;
 }
 
 body {
-	font-family: Spectral;
-	overflow-x: hidden;
+  font-family: 'Spectral';
+  overflow-x: hidden;
 }
 
 #about-proj {
-	margin-top: 10vh;
+  background-color: #303030;
+  height: 40vh;
+}
+
+#normal {
+  height:10vh;
+}
+
+#spine {
+  background-color: #303030;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+  height: 20vh;
+  z-index: 2;
+  color: #daa520;
+  text-shadow: 0 0 5px black;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 8.5vh;
+}
+
+#t {
+  float: left;
+  width: 3vw;
+  margin-left: 5vw;
+  height: 20vh;
+  margin-top: -2.5vh;
+}
+
+#t img {
+  max-width: 100%;
+  -webkit-transform: rotate(-90deg);
+}
+
+#author {
+  width: 40vw;
+}
+
+#title {
+  font-size: 1.3vw;
+  margin-top: -0.5vh;
+  padding-right: 2vw;
+  float: right;
+  width: 55vw;
+  text-transform: uppercase;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 .wrapper {
   animation: sliding-background 40s linear infinite;
-  background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat left/120%;
+  background: url("images/firstpage.jpg") no-repeat left/120%;
   height: 92vh;
   text-align: center;
   width: 100vw;
@@ -72,7 +116,8 @@ body {
   margin: 0;
   margin-left: 14vw;
   margin-right: 14vw;
-  border-top: 10px solid black;
+  padding-top: 2vh;
+  border-top: 12px solid black;
   mix-blend-mode: lighten;
   text-transform: uppercase;
   text-shadow: 0 0 0px, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black, 6px 6px black, 7px 7px black, 8px 8px black, 9px 9px black, 10px 10px black, 11px 11px black, 12px 12px black, 13px 13px black, 14px 14px black, 15px 15px black, 16px 16px black, 17px 17px black, 18px 18px black, 19px 19px black, 20px 20px black, 21px 21px black, 22px 22px black, 23px 23px black, 24px 24px black, 25px 25px black, 26px 26px black, 27px 27px black, 28px 28px black, 29px 29px black, 30px 30px black, 31px 31px black, 32px 32px black, 33px 33px black, 34px 34px black, 35px 35px black;
@@ -91,7 +136,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20vw;
   letter-spacing: 3vw;
-  line-height: 46.5vh;
+  line-height: 44vh;
   margin: 0;
   margin-left: 14vw;
   margin-right: 14vw;
@@ -121,4 +166,41 @@ body {
   50% {
     background-position: 100% 40%;
   }
+}
+
+#spine {
+  margin-top: 100px;
+  height: 200px;
+  width: 100vw;
+}
+
+#intro-sect {
+  background: url("images/firstpage.jpg") no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+#intro {
+  display: block;
+  background: white;
+  margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 5vw;
+    border: 7px double #daa520;
+    outline: 5px solid black;
+}
+
+#void {
+  height: 25vh;
+}
+
+footer {
+  width: 100vw;
+  background: white;
+  font-size: 0.8em;
+  font-family: 'Varela';
+  text-align: center;
+  padding-top: 2vh;
 }
