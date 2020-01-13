@@ -220,7 +220,8 @@ footer {
 }
 
 h2 {
-  padding-top: 10vh;
+  /*padding-top: 10vh;*/
+  padding-top: 1vh;
   text-align: center;
   font-size: 1.8vw;
   text-transform: uppercase;
