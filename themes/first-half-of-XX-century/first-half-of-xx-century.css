@@ -365,13 +365,13 @@ h3 {
 	margin: 0px;*/
 }
 
-h3::first-letter {
+/*h3::first-letter {
 	font-size: 12vw; 
 	padding: 0px !important;
 	margin: 0px !important;
-	/*background: white;
-	color: black;*/
-}
+	background: white;
+	color: black;
+}*/
 
 @media screen and (max-width: 600px) {
 	h3 {
