@@ -20,7 +20,7 @@
 
 .nav-item {
   color: black !important;
-  font-family: 'Varela';
+  font-family: Varela;
 }
 
 .nav-item:hover {
@@ -45,7 +45,7 @@
 }
 
 body {
-	font-family: 'Spectral';
+	font-family: Spectral;
 	overflow-x: hidden;
 }
 
