@@ -54,14 +54,14 @@ body:before {
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	left: -5px;
 	top: 4px;
-	transform: rotate(-1deg);/*(-8)*/
+	transform: rotate(-1deg);
 }
 body:after {
 	background: #f6f6f6;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 	right: -3px;
 	top: 1px;
-	transform: rotate(1deg); /*(8)*/
+	transform: rotate(1deg);
 }
 
 
@@ -183,7 +183,7 @@ header figure{
 /*functions for the image of the header*/
 header figure img{
 	order:1;
-	max-width: 28vw; /*28em*/
+	max-width: 28vw; 
 	height: auto;
 	border: 30px solid transparent;
 	border-radius: 70%;
