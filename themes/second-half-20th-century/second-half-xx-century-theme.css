@@ -557,7 +557,8 @@ footer p{
 }
 
 
-#eudir header{	
+#eudir header{
+	margin-bottom:initial;
 	width:initial;
 	max-width: 60%;
 }
