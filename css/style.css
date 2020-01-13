@@ -100,7 +100,7 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 .wrapper {
   animation: sliding-background 40s linear infinite;
-  background: url("images/firstpage.jpg") no-repeat left/120%;
+  background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat left/120%;
   height: 92vh;
   text-align: center;
   width: 100vw;
@@ -175,7 +175,7 @@ body {
 }
 
 #intro-sect {
-  background: url("images/firstpage.jpg") no-repeat;
+  background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat;
   background-size: 100vw;
   height: 100vh;
   text-align: center;
