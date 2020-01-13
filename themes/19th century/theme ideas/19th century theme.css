@@ -1,6 +1,5 @@
 /*fonts imported*/
 @font-face {
-	
 	font-family: "FREAS"; 
 	src: url("fonts/FREAS.TTF") format("truetype"); 
      }
@@ -139,6 +138,7 @@ header h6{
 header address{
 	order:4;
 	width: 40%;
+	height:2vw;
   	font-family: 'Abril Fatface', serif;
 	font-size:1.1vw;
 	border-bottom: double black;
@@ -152,6 +152,7 @@ header address{
 header p{
 	order:3;
 	width: 40%;
+	height:2vw;
 	text-transform: uppercase;
 	font-size: 1.1vw;
 	border-bottom: double black;
