@@ -204,3 +204,26 @@ footer {
   text-align: center;
   padding-top: 2vh;
 }
+
+#about-proj {
+  background-image: url('images/pages3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  padding: 10vh 25vw;
+  text-align: justify;
+}
+
+#about-proj div {
+  background-color: white;
+  padding: 5vw;
+}
+
+h2 {
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin-bottom: 5vh;
+}
