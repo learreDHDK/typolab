@@ -369,3 +369,7 @@ body>p:first-of-type:first-letter {
 	background-repeat: no-repeat;
 	background-position: static;
 }
+
+#eudir section .fx:first-of-type p:first-of-type{
+	text-indent: initial;
+}
