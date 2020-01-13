@@ -560,18 +560,15 @@ footer p{
 
 #eudir header{	
 	width:initial;
-	width:100%;
-	height:100%:
-	
+	max-width: 60%;
 }
+
 #eudir .eng header{
 	margin-right:initial;
 }
 
 #eudir .it header{
 	margin-left:initial;
-	margin-right:initial;
-
 }
 
 
