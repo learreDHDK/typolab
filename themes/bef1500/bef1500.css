@@ -356,7 +356,7 @@ body>p:first-of-type:first-letter {
 }
 
 /*PARALLEL dropcap*/
-section > div.fx p:first-of-type:first-letter{
+#eudir section .fx:first-of-type p:first-of-type::first-letter {
 	float: left;
 	font-family: flankerbold;
 	font-size: 6.5vw; 
