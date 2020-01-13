@@ -393,7 +393,7 @@ h4 {
 	color: white;
 	padding-top: 7%;
 	text-transform: lowercase;
-	margin-top: 8%;
+	margin-top: 7%;
 	margin-bottom: 5%;
 }
 
@@ -413,7 +413,7 @@ h5 {
 	letter-spacing: 2px;
 	text-transform: lowercase;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 35px;
 	padding-top: 30px;
 }
 
@@ -863,7 +863,6 @@ footer h2 {
 
 .fx:nth-last-child(1) {
 	margin-bottom: 100px;
-	/*padding-bottom: 200px;*/
 }
 
 .eng {
