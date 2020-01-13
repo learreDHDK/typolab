@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
 	font-family: 'Montserrat';
 	src: url('montserrat.ttf') format('truetype');
-}
+}*/
 
 @font-face {
 	font-family: 'Varela';
@@ -53,6 +53,7 @@ body {
 	margin-top: 10vh;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 .wrapper {
   animation: sliding-background 40s linear infinite;
   background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat left/120%;
@@ -64,7 +65,7 @@ body {
 .title {
   background: white;
   color: black;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20vw;
   letter-spacing: 3vw;
   line-height: 40vh;
@@ -87,7 +88,7 @@ body {
 .lab {
   background: white;
   color: black;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20vw;
   letter-spacing: 3vw;
   line-height: 46.5vh;
