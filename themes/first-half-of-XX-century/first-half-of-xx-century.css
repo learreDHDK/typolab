@@ -169,7 +169,6 @@ header address {
 	writing-mode: vertical-lr;
 	text-align: right; 
 	margin-left: 1.5vw;
-	border: 1px solid black;
 	border-left: 1.5vw solid red;/*!!20px*/
 	border-bottom: 1.5vw solid red;/*!!20px*/
 	padding-left: 1vw;/*!!1%*/
@@ -354,7 +353,6 @@ h3 {
 	letter-spacing: 2px;
 	background-color: black;
 	color: white;
-	border: 1px solid black;
 	padding: 0px !important;
 	margin: 0px !important;
 	margin-left: -20% !important;
@@ -958,7 +956,7 @@ footer h2 {
 }
 
 #eudir header h2 {
-	font-size: 0.7vw;
+	font-size: 0.9vw;
 	letter-spacing: 0px;
 	word-spacing: 0px;
 	padding: 0px;
