@@ -561,6 +561,10 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
+#eudir header{
+	height:70vh;
+}
+
 #eudir  .it header{
 	border-top:initial;
 }
