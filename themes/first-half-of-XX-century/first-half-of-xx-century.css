@@ -355,23 +355,23 @@ h3 {
 	font-family: 'mandala-bold', sans-serif;
 	font-size: 2em;
 	letter-spacing: 2px;
-	/*background-color: black;
-	color: white;*/
+	background-color: black;
+	color: white;
 	border: 1px solid black;
 	padding: 0px !important;
 	margin: 0px !important;
 	margin-left: -20% !important;
-	/*padding-top: 3%;
-	margin: 0px;*/
+	padding-top: 3%;
+	margin: 0px;
 }
 
-/*h3::first-letter {
+h3::first-letter {
 	font-size: 12vw; 
 	padding: 0px !important;
 	margin: 0px !important;
 	background: white;
 	color: black;
-}*/
+}
 
 @media screen and (max-width: 600px) {
 	h3 {
