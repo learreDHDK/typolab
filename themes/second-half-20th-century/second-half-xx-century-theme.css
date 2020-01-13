@@ -566,11 +566,12 @@ footer p{
 }
 #eudir .eng header{
 	margin-right:initial;
-	
+	margin-left:initial;
 }
 
 #eudir .it header{
 	margin-left:initial;
+	margin-right:initial;
 
 }
 
