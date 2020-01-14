@@ -14,23 +14,6 @@
 
 		<title>Documentation</title>
 		
-		<!--<style>
-			img {
-				max-width: 100%; 
-			}
-
-		      p img {
-			width: 10em;
-			height: auto;
-			float: left;
-		      }
-
-		      p {
-			float: right;
-			display: block;
-		      }
-		</style>-->
-		
 	</head>
 	<body>
 	<!-- Optional JavaScript -->
@@ -60,7 +43,7 @@
     <div class="books spines">
 
       <!-- BOOK -->
-      <a href="" style="text-decoration: none;" >
+      <a id="button1" href="#" style="text-decoration: none;" >
         <div class="book" id="book1">
         <div class="back-cover">
           <div class="container">
@@ -224,6 +207,17 @@
     </div>
   </div>
 </div>
+
+		<div id="documentation"></div>
+
+		
+    <script>
+      $(document).ready(function(){
+        $("#button1").click(function(){
+          $("#documentation").load("https://learredhdk.github.io/typolab/descrizione_bef1500.html")
+        });
+      });
+    </script>
 	
 	<!--<div style="margin-left: 20%; margin-right: 20%;">
       		<h2>Aldo Manuzio</h2>
