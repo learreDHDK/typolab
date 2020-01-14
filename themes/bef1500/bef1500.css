@@ -26,7 +26,7 @@
 
 .fx:nth-last-child(1) {
 	/*margin-bottom: 200px;*/
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 #eudir {
@@ -370,6 +370,6 @@ body>p:first-of-type:first-letter {
 	background-position: static;
 }
 
-#eudir section .fx:first-of-type p:first-of-type{
+#eudir section > p:first-of-type {
 	text-indent: initial;
 }
