@@ -1,0 +1,231 @@
+* { box-sizing: border-box; }
+body { font-family: Sans-serif; }
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+.shelf-wrap {
+  display: block;
+  margin: 30px auto;
+  width: 590px;
+  height: 308px; //158px;
+  padding: 8px;
+  background: #ccc;
+  background-image: url(http://static.anobii.com/anobii/static/image/shelfnew_dark_frame.jpg);
+}
+
+.shelf {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background: #ddd;
+  background-image: url(http://static.anobii.com/anobii/static/image/shelfnew_dark_shelf.jpg);
+}
+.books { text-align: center; width: 100%; padding: 0 10px; }
+
+#book1 { 
+  .front-cover, .back-cover { 
+    background-color: #4B9; 
+    background-image: url(//image.anobii.com/anobi/image_book.php?type=2&item_id=013acff590658d508f&time=1412950997); 
+  }
+  .front-cover * { display: none; }
+}
+#book2 { 
+  .front-cover, .back-cover { 
+    background-color: #BD6; 
+    background-image: url(http://image.anobii.com/anobi/image_book.php?type=2&item_id=0151f6295a3ff61239&time=1370275565);
+  }
+  .front-cover * { display: none; }
+}
+#book3 { .front-cover, .back-cover { background-color: #C8B; }}
+#book4 { .front-cover, .back-cover { background-color: #6AB; }}
+#book5 { .front-cover, .back-cover { background-color: #9CE; }}
+#book6 { .front-cover, .back-cover { background-color: #D66; }}
+#book7 { .front-cover, .back-cover { background-color: #668; }}
+#book8 { .front-cover, .back-cover { background-color: #C53; }}
+
+// BOOK
+@bookBg: #DDD;
+@bookHeight: 125px; //180px
+@bookWidth: @bookHeight * 0.84;
+@bookDepth: @bookWidth * 0.17;
+.book {
+  display: inline-block;
+  position: relative;
+  //float: left;
+  height: @bookHeight;
+  width: @bookWidth;
+  margin: 10px 5px;
+  color: #FFF;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.25;
+  -webkit-transition: all .33s ease-in-out;
+  -webkit-perspective: 800px;
+  transform: translateX(-@bookDepth / 2);
+  border-radius: 1px;
+  &:hover {
+    box-shadow: 0px 0px 0px 3px rgba(255,225,40,0.9), 0px 1px 10px 3px rgba(0,0,0,0.7);
+  }
+  .front-cover, .back-cover, .colophon {
+    -webkit-transition: all .33s ease-in-out;
+    border-radius: 1px;
+  }
+  .back-cover {
+    position: relative;
+    display: block;
+    float: left;
+    width: @bookDepth;
+    line-height: @bookDepth;
+    height: 100%;
+    background-color: @bookBg;
+    background-size: 6000% 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 0px 100px rgba(0,0,0,0.03);
+    box-shadow: inset -10px 0px 10px -10px rgba(255,255,255,0.2);
+    transform: rotateY(-90deg);
+    transform-origin: right;
+    font-size: 70%;
+    .container {
+      padding: 0px 0px;
+      height: @bookDepth;
+      width: @bookHeight;
+      float: left;
+      position: absolute;
+      bottom: 0;
+      top: 100%;
+      left: 0;
+      right: 100%;
+      display: block;
+      transform: rotate(-90deg);
+      transform-origin: 0 0;
+      padding: 0px 6px;
+      vertical-align: middle;
+    }
+    .title { 
+      float: left; 
+      width: 70%;
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: nowrap;
+    }
+    .author { 
+      float: left; 
+      text-align: right; 
+      width: 30%; 
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: nowrap;
+    }
+  }
+  .front-cover {
+    float: left;
+    position: relative;
+    width: @bookWidth - @bookDepth;
+    height: 100%;
+    background-color: @bookBg;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: rotateY(0deg);
+    transform-origin: left;
+    transform-style: preserve-3d;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-shadow: 0 0 6px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.1);
+    .container {
+      padding: @bookWidth * 0.1; //15px;
+      position: relative;
+      * { width: @bookWidth - @bookDepth - (15px * 2); }
+    }
+  }
+  .title { 
+    font-size: 88%; 
+    font-weight: 600;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+  }
+  .subtitle { 
+    font-size: 75%; 
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: .2em;
+  }
+  .author { 
+    font-size: 90%; 
+    font-weight: 200;
+    margin-top: .2em;
+    margin-bottom: .2em;
+  }
+  .publisher { 
+    font-size: 75%; 
+    font-weight: 600;
+    margin-top: @bookHeight * 0.1;
+    margin-bottom: 0;
+    align-self: flex-end;
+  }
+  .colophon {
+    width: @bookWidth - @bookDepth;
+    height: @bookHeight;
+    float: left;
+    display: block;
+    color: #554F49;
+    background-color: #FAF6F3;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    opacity: 0;
+    transform: translateX(100%);
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: @bookWidth * 0.1; //15px;
+    }
+  }
+  &:hover {
+    //transform: translateX(0);
+    .back-cover { transform: rotateY(0deg); }
+    .front-cover { transform: rotateY(92.5deg); }
+    .colophon { opacity: 1; transform: translateX(@bookDepth); }
+  }
+}
+
+.img-cover .front-cover * { display: none; }
+
+.spines:active {
+  .book {
+    //transform: rotate(90deg);
+    //transform-origin: 50% 50%;
+    width: @bookDepth;
+    margin-left: 2px;
+    margin-right: 2px;
+    .front-cover {
+      transform: rotateY(110deg);
+      width: 0;
+      opacity: 0;
+      .container {}
+    }
+    .back-cover {
+      transform: rotateY(0deg);
+      z-index: 1;
+      .container {}
+    }
+    .colophon {
+      width: 0;
+      opacity: 0;
+      .container {}
+    }
+  }
+}
