@@ -48,12 +48,12 @@
         <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light ">
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" id="btn7" href="#" onclick="setStyleSheet('themes/bef1500/bef1500.css')">Aldo Manuzio</a>
-          <a class="nav-item nav-link" id="btn8" href="#" onclick="setStyleSheet('themes/19th century/theme ideas/19th century theme.css')">VicNewspaper</a>
-          <a class="nav-item nav-link" id="btn9" href="#" onclick="setStyleSheet('themes/first-half-of-XX-century/first-half-of-xx-century.css')">Bauhaus</a>
+          <a class="nav-item nav-link" id="btn7" href="#" onclick="setStyleSheet('themes/bef1500/bef1500.css'); play3()">Aldo Manuzio</a>
+          <a class="nav-item nav-link" id="btn8" href="#" onclick="setStyleSheet('themes/19th century/theme ideas/19th century theme.css'); play4()">VicNewspaper</a>
+          <a class="nav-item nav-link" id="btn9" href="#" onclick="setStyleSheet('themes/first-half-of-XX-century/first-half-of-xx-century.css'); play5()">Bauhaus</a>
           <a class="nav-item nav-link" id="btn10" href="#" onclick="setStyleSheet('themes/second-half-20th-century/second-half-xx-century-theme.css'); play1()">AfrIndependence</a>
           <a class="nav-item nav-link" id="btn11" href="#" onclick="setStyleSheet('themes/lateXX/lateXX.css'); play2()">Prehistoric web</a>
-          <a class="nav-item nav-link" id="btn12" href="#" onclick="setStyleSheet('themes/2020-2040/future.css')">Future</a>
+          <a class="nav-item nav-link" id="btn12" href="#" onclick="setStyleSheet('themes/2020-2040/future.css'); play6()">Future</a>
 
         </div>
 
@@ -75,7 +75,28 @@
        var x = document.getElementById("silence");
        var y = x.setAttribute('src', 'https://learredhdk.github.io/typolab/themes/lateXX/dialup.mp3');
 	   y.play();
-                 }	
+	  
+  function play3(){
+       var x = document.getElementById("silence");
+       var y = x.setAttribute('src', 'https://learredhdk.github.io/typolab/themes/lateXX/silence.mp3');
+	   y.play();
+                 }
+  function play4(){
+       var x = document.getElementById("silence");
+       var y = x.setAttribute('src', 'https://learredhdk.github.io/typolab/themes/lateXX/silence.mp3');
+	   y.play();
+                 }
+  function play5(){
+       var x = document.getElementById("silence");
+       var y = x.setAttribute('src', 'https://learredhdk.github.io/typolab/themes/lateXX/silence.mp3');
+	   y.play();
+                 }
+  function play6(){
+       var x = document.getElementById("silence");
+       var y = x.setAttribute('src', 'https://learredhdk.github.io/typolab/themes/lateXX/silence.mp3');
+	   y.play();
+                 }
+	    
    </script>
 		
   <audio autoplay id="silence">
