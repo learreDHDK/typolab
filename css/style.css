@@ -1,7 +1,12 @@
-/*@font-face {
-	font-family: 'Montserrat';
-	src: url('montserrat.ttf') format('truetype');
-}*/
+@font-face {
+	font-family: 'printroom';
+	src: url('printroom.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'samantha';
+	src: url('samantha.ttf') format('truetype');
+}
 
 @font-face {
 	font-family: 'Varela';
@@ -14,87 +19,103 @@
 }
 
 .navbar {
-  background: white !important;
-  font-size: 0.8em;
+	background: white !important;
+	font-size: 0.8em;
 }
 
 .nav-item {
-  color: black !important;
-  font-family: 'Varela';
+	color: black !important;
+	font-family: 'Varela';
 }
 
 .nav-item:hover {
-  border: 1px solid #daa520;
+	border: 1px solid #daa520;
 }
 
 .navbar-brand {
-  padding-left: 2vw;
+	padding-left: 2vw;
 }
 
  #navbarNavAltMarkup {
-  padding-left: 48vw;
+	padding-left: 48vw;
+}
+
+#articles {
+	padding-left: initial;
+	padding-right: initial;
+	text-align: center;
+}
+
+#icons {
+	padding-left: initial;
+	padding-right: initial;
+	text-align: center;
 }
 
 #navbarNavAltMarkup a {
-  padding-left: 1vw;
-  padding-right: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 #navbarNavAltMarkup a.active {
-  border: 1px solid #daa520;
+	border: 1px solid #daa520;
+}
+
+#navbarNavAltMarkup a img {
+	width: 1px;
 }
 
 body {
-  font-family: 'Spectral';
-  overflow-x: hidden;
+	font-family: 'Spectral';
+	overflow-x: hidden;
 }
 
 #dorso {
-  background-color: #303030;
-  height: 40vh;
+	background-color: #303030;
+	height: 40vh;
 }
 
 #normal {
-  height:10vh;
+	height:10vh;
 }
 
 #spine {
-  background-color: #303030;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.3);
-  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
-  height: 20vh;
-  z-index: 2;
-  color: #daa520;
-  text-shadow: 0 0 5px black;
-  font-size: 1vw;
-  text-align: center;
-  padding-top: 8.5vh;
+	background-color: #303030;
+	-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+	height: 20vh;
+	z-index: 2;
+	color: #daa520;
+	text-shadow: 0 0 5px black;
+	font-size: 1vw;
+	text-align: center;
+	padding-top: 8.5vh;
 }
 
 #t {
-  float: left;
-  width: 3vw;
-  margin-left: 5vw;
-  height: 20vh;
-  margin-top: -2.5vh;
+	float: left;
+	width: 3vw;
+	margin-left: 5vw;
+	height: 20vh;
+	margin-top: -2.5vh;
 }
 
 #t img {
-  max-width: 100%;
-  -webkit-transform: rotate(-90deg);
+	max-width: 100%;
+	-webkit-transform: rotate(-90deg);
 }
 
 #author {
-  width: 40vw;
+	width: 40vw;
 }
 
 #title {
-  font-size: 1.3vw;
-  margin-top: -0.5vh;
-  padding-right: 2vw;
-  float: right;
-  width: 55vw;
-  text-transform: uppercase;
+	font-size: 1.3vw;
+	margin-top: -0.5vh;
+	padding-right: 2vw;
+	float: right;
+	width: 55vw;
+	text-transform: uppercase;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
@@ -169,73 +190,86 @@ body {
 }
 
 #spine {
-  margin-top: 100px;
-  height: 200px;
-  width: 100vw;
+	margin-top: 100px;
+	height: 200px;
+	width: 100vw;
 }
 
 #intro-sect {
-  background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat;
-  background-size: 100vw;
-  height: 100vh;
-  text-align: center;
-  width: 100vw;
+	background: url("https://learredhdk.github.io/typolab/images/firstpage.jpg") no-repeat;
+	background-size: 100vw;
+	height: 100vh;
+	text-align: center;
+	width: 100vw;
 }
 
 #intro {
-  display: block;
-  background: white;
-  margin-left: 20vw;
-    margin-right: 20vw;
-    padding: 5vw;
-    border: 7px double #daa520;
-    outline: 5px solid black;
+	display: block;
+	background: white;
+	margin-left: 20vw;
+  	margin-right: 20vw;
+  	padding: 5vw;
+  	border: 7px double #daa520;
+  	outline: 5px solid black;
 }
 
 #void {
-  height: 25vh;
+	height: 25vh;
 }
 
 footer {
-  width: 100vw;
-  background: white;
-  font-size: 0.8em;
-  font-family: 'Varela';
-  text-align: center;
-  padding-top: 2vh;
+	width: 100vw;
+	background: white;
+	font-size: 0.8em;
+	font-family: 'Varela';
+	text-align: center;
+	padding-top: 2vh;
 }
 
-/*#about-proj {
-  background-image: url('https://learredhdk.github.io/typolab/images/pages3.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: fixed;
-  padding: 10vh 25vw;
-  text-align: justify;
-}
-
-#about-proj div {
-  background-color: white;
-  padding: 5vw;
+#about-proj {
+	background-image: url('https://learredhdk.github.io/typolab/images/pages3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	padding: 10vh 25vw;
+	text-align: justify;
 }
 
 h2 {
-  /*padding-top: 10vh;
-  padding-top: 1vh;
-  text-align: center;
-  font-size: 1.8vw;
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-  margin-bottom: 5vh;
-}*/
+	padding-top: 10vh;
+	text-align: center;
+	font-size: 1.8vw;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	margin-bottom: 5vh;
+}
 
+#write-proj {
+  padding: 5vw;
+	text-align: justify;
+	background-color: white;
+}
+
+#dropdownMenuButton {
+	background-color: white;
+	font-size: 1em;
+	font-family: 'Varela';
+	color: black;
+	border: transparent;
+	padding-top: 12.5%;
+}
+
+#dropdownMenuButton:hover {
+	border: 1px solid #daa520;
+} 
 
 .flex-parent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  background-color: white;
+  /*width: 100%;*/
   height: 100%;
 }
 
@@ -329,8 +363,8 @@ input:checked + .dot-info span {
 
 #timeline-descriptions-wrapper {
   width: 100%;
-  margin-top: 140px;
-  font-size: 22px;
+  margin-top: 20vh;
+  font-size: 1.2vw;
   font-weight: 400;
   margin-left: calc((-80vw - 25px) / 20);
 }
@@ -338,28 +372,51 @@ input:checked + .dot-info span {
   margin-top: 0;
   display: none;
 }
+#timeline-descriptions-wrapper img {
+  margin-top: 0;
+  display: none;
+  max-width: 100%;
+}
 
-input[data-description="1500"]:checked ~ #timeline-descriptions-wrapper p[data-description="1500"] {
+input[data-description="1500"]:checked ~ #timeline-descriptions-wrapper div[data-description="1500"] p{
+  display: block;
+}
+input[data-description="1500"]:checked ~ #timeline-descriptions-wrapper div[data-description="1500"] img{
   display: block;
 }
 
-input[data-description="1800"]:checked ~ #timeline-descriptions-wrapper p[data-description="1800"] {
+input[data-description="1800"]:checked ~ #timeline-descriptions-wrapper div[data-description="1800"] p{
+  display: block;
+}
+input[data-description="1800"]:checked ~ #timeline-descriptions-wrapper div[data-description="1800"] img{
   display: block;
 }
 
-input[data-description="1920"]:checked ~ #timeline-descriptions-wrapper p[data-description="1920"] {
+input[data-description="1920"]:checked ~ #timeline-descriptions-wrapper div[data-description="1920"] p{
+  display: block;
+}
+input[data-description="1920"]:checked ~ #timeline-descriptions-wrapper div[data-description="1920"] img{
   display: block;
 }
 
-input[data-description="1960"]:checked ~ #timeline-descriptions-wrapper p[data-description="1960"] {
+input[data-description="1960"]:checked ~ #timeline-descriptions-wrapper div[data-description="1960"] p{
+  display: block;
+}
+input[data-description="1960"]:checked ~ #timeline-descriptions-wrapper div[data-description="1960"] img{
   display: block;
 }
 
-input[data-description="1990"]:checked ~ #timeline-descriptions-wrapper p[data-description="1990"] {
+input[data-description="1990"]:checked ~ #timeline-descriptions-wrapper div[data-description="1990"] p{
+  display: block;
+}
+input[data-description="1990"]:checked ~ #timeline-descriptions-wrapper div[data-description="1990"] img{
   display: block;
 }
 
-input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper p[data-description="2030"] {
+input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper div[data-description="2030"] p{
+  display: block;
+}
+input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper div[data-description="2030"] img{
   display: block;
 }
 
