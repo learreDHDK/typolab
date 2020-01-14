@@ -32,7 +32,7 @@ body {
 	background-color:#FCFAFA ;  
 	font-family: "De Vinne", serif;
 	font-size: 0.9em;
-	font-weight:300%;
+	/*font-weight:300%;*/
 	color:black;
 	line-height: 1em;
 	word-spacing:normal; 
@@ -72,7 +72,7 @@ body:after {
 	column-gap: 1em;  
 	column-rule: 2px solid black;
 	text-align: justify;
-	orphans: 0;
+	/*orphans: 0;*/
 	widows: 3;
 	}
 
@@ -221,7 +221,7 @@ section{
 	margin-bottom:10px;
 	text-align: justify;
 	text-indent: 0.9em;
-	overflow: wrap;
+	/*overflow: wrap;*/
 	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom;
@@ -236,28 +236,28 @@ section h3{
 	text-align: center;
 	text-decoration: underline;
 	text-transform: uppercase;
-	marging-bottom:2vh;
+	/*marging-bottom:2vh;*/
 }
 
 /*functions for the h4 of the text EU*/
 section h4{
-	font-family: 'Abril Fatface', cursive serif;
+	/*font-family: 'Abril Fatface', cursive serif;*/
 	font-size:1.5vw;
 	text-decoration: underline;
 	text-align: center;
 	font-family: "FREAS";
 	font-weight: bold;
 	line-height: 4vh;
-	marging-bottom:2vh;
+	/*marging-bottom:2vh;*/
 }
 
 /*functions for the h5 of the text EU*/
 section h5{
-	font-family: 'Abril Fatface', cursive serif;
+	/*font-family: 'Abril Fatface', cursive serif;*/
 	font-size:1.1em;
 	text-transform: capitalize;
 	text-decoration: underline;
-	font-weight: 100%;
+	/*font-weight: 100%;*/
 	line-height: 20px;
 }
 
@@ -396,7 +396,7 @@ section aside p{
 	text-indent: initial;
 	font-family:'Abril Fatface', cursive , bold serif;
 	line-height: 1em;
-	text-align: justify-all;
+	/*text-align: justify-all;*/
 	font-size: 1.2em;
 	font-weight: bold;
 
