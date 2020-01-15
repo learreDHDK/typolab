@@ -208,9 +208,9 @@ body {
 #intro {
 	display: block;
 	background: white;
-	margin-left: 20vw;
-  	margin-right: 20vw;
-  	padding: 5vw;
+	margin-left: 15vw;
+  	margin-right: 15vw;
+  	padding: 3vw;
   	border: 7px double #daa520;
   	outline: 5px solid black;
 }
