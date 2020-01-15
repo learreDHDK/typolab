@@ -974,7 +974,7 @@ footer h2 {
 }
 
 #eudir header h2 {
-	flex-basis: 70%;
+	flex-basis: 90%;
 	margin: 0px;
 	border-left: 0px solid transparent;
 	border-right: 4.5vw double red;
@@ -986,7 +986,7 @@ footer h2 {
 	padding-left: 1vw;
 	padding-top: 0.3vw;
 	align-self: start;
-	margin-right: 17%;
+	margin-right: 16.5%;
 }
 
 @media screen and (max-width: 1200px) {
