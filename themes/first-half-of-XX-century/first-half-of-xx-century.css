@@ -360,7 +360,9 @@ h3 {
 	margin-left: -25% !important;
 	margin: 0px;
 	padding-bottom: -20px;*/
-	vertical-align: sub;
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
 }
 
 h3::first-letter {
@@ -369,7 +371,6 @@ h3::first-letter {
 	margin: 0px !important;*/
 	background: white;
 	color: black;
-	vertical-align: sub;
 }
 
 @media screen and (max-width: 600px) {
