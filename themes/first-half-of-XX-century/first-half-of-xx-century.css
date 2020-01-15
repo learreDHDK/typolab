@@ -60,7 +60,7 @@ header {
 @media screen and (max-width: 600px) {
 	header {
 		margin-left: initial;
-		margin-bottom: 15%;
+		margin-bottom: 40px;
 	}
 }
 
