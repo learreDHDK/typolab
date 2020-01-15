@@ -8,6 +8,11 @@
   src: url('QuickKiss.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'GardenGrownUS-B';
+  src: url('GardenGrownUS-B.otf') format('opentype');
+}
+
 body {
   cursor: none;
 	background-image: url('futuristic-city.gif'); 
@@ -33,7 +38,31 @@ body {
   font-family: 'libre-caslon-regular';
   font-size: 0.3vw;
   text-align: justify;
-  padding: 3% 5% 3% 5%;
+  padding: 2% 5% 3% 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  justify-content: flex-start;
+}
+
+#eudir {
+  position: absolute;
+  left: 15%;
+  top:15%;
+  bottom: 15%;
+  right: 15%;
+  overflow: scroll;
+  overflow-x: hidden;
+  cursor: url('cursor-touch.png'), auto;
+  -webkit-animation: flicker-in-1 2s linear both;
+  animation: flicker-in-1 2s linear both;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 100px white;
+  font-family: 'libre-caslon-regular';
+  font-size: 0.3vw;
+  text-align: justify;
+  padding: 2% 5% 3% 5%;
   display: flex;
   flex-direction: column;
   flex-wrap: no-wrap;
@@ -249,23 +278,68 @@ header {
   /*margin-right: -5vw;
   margin-left: -5vw;
   column-span: all;*/
-  padding-bottom: 74vh;
+  padding-bottom: 54vh;
   background-image: url('bird2.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
-  /*display: flex;
+  text-align: center;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
-/*header h1 {
+header h1 {
+  order:1;
   font-family: 'QuickKiss';
   font-size: 3vw;
-  /*flex-basis: 100%;
+  flex-basis: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  order: 2;
+  font-family: 'QuickKiss';
+  font-size: 1.6vw;
+  flex-basis: 100%;
+  padding-top: 0px;
+  padding-bottom: 2%;
+}
+
+header address {
+  order: 3;
+  font-family: 'GardenGrownUS-B';
+  font-size: 1.2vw;
+  flex-basis: 30%;
   text-align: center;
-}*/
+  font-style: normal;
+  align-self:stretch;
+  padding-top: 2%;
+}
+
+header p {
+  order:5;
+  font-family: 'GardenGrownUS-B';
+  font-size: 0.9vw;
+  flex-basis: 30%;
+  margin: 0px;
+  align-self:stretch;
+  padding: 0px;
+}
+
+header figure {
+  order:4;
+  flex-basis: 30%;
+  align-self:stretch;
+}
+
+header img {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 20px;
+}
 
 section {
   width: 85%;
@@ -340,3 +414,134 @@ footer::after {
   bottom: -300%;
   left: -20%;
 }
+
+.fx {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+#eudir section::after {
+  display: none;
+}
+
+.fx::after {
+  content: url('pine2.png');
+  position: absolute;
+  top: 0;
+  right: -10%;
+}
+
+#eudir section:hover {
+  width: 100%;
+  font-size: 0.3vw;
+  -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      -ms-transition: none;
+      transition: none;
+}
+
+.fx:hover {
+  width: 100%;
+  font-size: 1vw;
+  -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+}
+
+.fx header {
+  text-transform: lowercase;
+  margin-top: 0px;
+  padding-top: -2%;
+  width: 100%;
+  padding-bottom: 59vh;
+}
+
+.fx header:hover {
+  width: 100%;
+  padding: initial;
+  padding-bottom: 54vh;
+}
+
+.fx h1 {
+  font-family: 'GardenGrownUS-B';
+}
+
+.fx h2 {
+  font-family: 'GardenGrownUS-B';
+}
+
+.fx h6 {
+  font-family: 'GardenGrownUS-B';
+  font-size: 1.1vw;
+  margin-bottom: 0.5vh;
+}
+
+.fx .it header {
+  background: initial;
+}
+
+.fx .eng header {
+  width: 100%;
+  padding-right: 100%;
+}
+
+.eng {
+  margin-left: 0px;
+  margin: 0px;
+  order:1;
+  width: 45%; 
+}
+
+.it {
+  margin-left: 0px;
+  margin: 0px;
+  order:2;
+  width: 45%; 
+}
+
+table {
+  border: 1px solid transparent;
+  text-align: center;
+  border-collapse: separate;
+}
+
+td {
+  border: 1px solid black;
+  border-spacing: 0.9vw 1.8vh;
+  border-radius: 5px;
+}
+
+table:hover {
+  font-size: 0.9vw;
+}
+
+/*section::after {
+  content: url('pine2.png');
+  position: absolute;
+  top: 0;
+  right: -10%;
+}
+
+section:hover {
+  width: 97%;
+  font-size: 1vw;
+  -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+}
+
+figure:hover {
+  font-size: 0.8vw;
+  -webkit-column-span: all; 
+  column-span: all;
+  width: 90%;
+  padding: 5%;
+  text-align: left;
+}*/
