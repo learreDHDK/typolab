@@ -988,6 +988,7 @@ footer h2 {
 	padding-top: 0.3vw;
 	align-self: start;
 	margin-right: 16.75%;
+	padding-right: 1vw;
 }
 
 @media screen and (max-width: 1200px) {
