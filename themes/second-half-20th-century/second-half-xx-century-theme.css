@@ -33,7 +33,6 @@ html{
 	max-width: 100%;
 	background-image: url("cameroon and nigeria.jpg");
 	background-repeat: repeat;
-	/*background-position: static;*/
 }
 
 /*statements for the body of the html page*/
@@ -58,7 +57,7 @@ body img{
 	height: auto;
 	padding:2vw;
 	margin-top: 2vh;
-	border-radius: 50%;
+	border-radius: 20%;
 } 
 
 /*for all the paragraphs pf the text*/
@@ -248,16 +247,19 @@ header + section  p:first-of-type::first-letter{
 	font-family: "ArterioNonCommercial";
 	font-size: 7vw;
 	margin-right: 20px;
-	line-height: 69px;
-	padding: 16px 27px 25px 29px;
+	line-height: 9vh;
+	padding: 25px 27px 25px 29px;
+	/*line-height: 69px;
+	padding: 16px 27px 25px 29px;*/
 	background-image: url("first letter background.jpg");
-	background-size: 100% 90%;
-	/*background-size: 50vw 40vh;*/
+	/*background-size: 100% 90%;
+	background-size: 50vw 40vh;*/
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
 	margin-top: -45px; 
 	margin-bottom: -10px;
-}
+}	
 
 
 /*add border to the sections and determine the width*/
@@ -378,7 +380,6 @@ section aside p{
         /*font-weight: 300%;*/
  	text-indent: initial;
  	text-align: center;
- 	/*font-family: "Helvetica Bold" ;*/
  	font-family: "Impact" ;
  	word-break: break-word;
  	word-spacing: normal;
@@ -592,9 +593,7 @@ footer p{
     	margin: 0 auto 20vh auto;
     	position: relative; 
 	max-width:60%;
-    	/*padding: 3vh 1vw 3vh 0.8vw;
-    	/*padding-bottom: 3vh;
-    	padding-top: 5vh; */
+	padding: 3vh 1vw 3vh 0.8vw;
 }
 
  #eudir section:last-of-type{
@@ -650,8 +649,7 @@ footer p{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
-	margin-top: -45px; 
-	/*margin-bottom: 30px;*/
+	margin-top: -47px; 
 }
 
 /*tablet*/
@@ -733,6 +731,11 @@ footer p{
 	header figure{
 		background-size: 100% 100%;
 		  }
+	header img{
+		width:5vw;
+		height:auto;
+		}
+		
 	header h2{
 		font-size: 2.7vw ;
 	}
@@ -749,15 +752,29 @@ footer p{
 		font-size:2.5vw ;
 	}
 
-	/*#eudir header{
-		height: 65vh;
-		
+	#eudir header{
+	max-width: 80%;	
 	}
-
-	#eudir header h6{
-		font-size:1.7vw ;
-	}*/
-
+	
+	#eudir section{
+		max-width:80%;
+	}
+	
+	#eudir section:first-of-type .fx:first-of-type p:first-of-type::first-letter{
+		line-height:;
+		}
+	#eudir section h3{
+		margin-top:1vh;
+		}
+	
+	#eudir section h4{
+		text-indent:initial;
+		}
+        
+	section aside h1{
+		font-size: 2vw;
+		}
+	
 	aside p{
 		line-height: 3vh;
 		  }
@@ -775,11 +792,13 @@ footer p{
 	}
 
 	footer h1{
-		font-size:1.9 ;
+		font-size:1.9vw ;
 	}
 
 	footer h2{
 		font-size:1.4vw ;
+		position:relative;
+		left: 10vw;
 	}
 
 	footer p{
