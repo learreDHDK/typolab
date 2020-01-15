@@ -566,7 +566,7 @@ section figure figcaption:nth-of-type(1) {
 @media screen and (max-width: 600px) {
 	section figure figcaption:nth-of-type(1) {
 		width: 100%;
-		margin: 0px -20vw;
+		margin: 0px -30vw;
 		padding: 1vw 10vw;
 	}
 }
