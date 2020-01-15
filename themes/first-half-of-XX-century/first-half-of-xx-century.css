@@ -550,7 +550,7 @@ section figure figcaption:nth-of-type(1) {
 		display: inline-block;
 		font-size: 0.7em;
 		position: static;
-		width: 200%;
+		width: 50vw;
 		padding: 1vw 10vw;
 		margin: 0px -10vw 0px -35vw;
 		background-color: white;
