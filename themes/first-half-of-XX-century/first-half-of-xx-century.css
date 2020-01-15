@@ -970,6 +970,7 @@ footer h2 {
 	padding: 0px;
 	padding-left: 1vw;
 	padding-top: 0.3vw;
+	align-self: start;
 }
 
 @media screen and (max-width: 1200px) {
