@@ -791,6 +791,12 @@ aside table th {
 	padding: 2% 0px;
 }
 
+@media screen and (max-width: 600px) {
+	aside table {
+		font-size: 1vw;
+	}
+}
+
 footer {
 	margin-top: 20%;
 	margin-left: -41vw;/*!d-100%*/
