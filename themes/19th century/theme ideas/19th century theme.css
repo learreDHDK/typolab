@@ -430,7 +430,7 @@ section aside h2 + p{
  	margin-top: 20px;
  	font-weight: bold;
  }
-
+/*for the p after the table*/
 section aside table + p{
 	text-indent: 0.9em;
 	font-size:0.9em;
@@ -679,11 +679,24 @@ footer p{
 	   header figcaption{
 		font-size:0.3em;
 	   }
+	   section h3{
+		font-size:3vw:
+		   }
 
 	   section aside{
 		width: 11em;
 	   }
-
+	   section aside p{
+		   font size:1em;
+		   }
+	  section aside h1 + p:{
+		  font size:0.7em;
+		  }
+	
+           section aside table + p:{
+		   font size:0.7em;
+		  }
+	
 	   aside table th{
 		font-size: initial;
 		font-size: 0.8em;
