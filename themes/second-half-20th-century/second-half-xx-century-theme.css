@@ -300,9 +300,13 @@ section figure{
 /*images of the section*/
 section figure img{
         width: 60%;
+	height: auto;
         margin-bottom: 10px;
         display: inline-block;
   	filter:grayscale(100%);
+	padding:2vw;
+	margin-top: 2vh;
+	border-radius: 50%;
 }
 
 /* statement for the image first child of its parents*/
