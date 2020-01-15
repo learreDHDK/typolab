@@ -372,7 +372,7 @@ h3::first-letter {
 
 @media screen and (max-width: 600px) {
 	h3 {
-		margin-left: initial;
+		margin-left: 0px;
 		padding-top: 5%;
 	}
 }
@@ -380,7 +380,7 @@ h3::first-letter {
 @media screen and (max-width: 600px) {
 	h3::first-letter {
 		font-size: 3em;
-		margin-left: initial;
+		margin-left: 0px;
 	}
 }
 
