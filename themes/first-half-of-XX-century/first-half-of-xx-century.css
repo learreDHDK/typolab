@@ -833,6 +833,13 @@ footer h1 {
 	padding-bottom: 4%;
 }
 
+@media screen and (max-width: 600px) {
+	footer h1 {
+		padding-top: 5%;
+		padding-bottom: 6%;
+	}
+}
+
 footer h2 {
 	border: transparent;
 	font-size: 1em;
