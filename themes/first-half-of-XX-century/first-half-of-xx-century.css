@@ -354,21 +354,21 @@ h3 {
 	letter-spacing: 2px;
 	background-color: black;
 	color: white;
-	padding: 0px !important;
+	/*padding: 0px !important;
 	margin: 0px !important;
 	margin-left: -25% !important;
 	margin: 0px;
 	padding-bottom: -20px;
-	vertical-align: sub;
+	vertical-align: sub;*/
 }
 
 h3::first-letter {
 	font-size: 12vw; 
-	padding: 0px !important;
-	margin: 0px !important;
+	/*padding: 0px !important;
+	margin: 0px !important;*/
 	background: white;
 	color: black;
-	vertical-align: sub;
+	/*vertical-align: sub;*/
 }
 
 @media screen and (max-width: 600px) {
