@@ -247,3 +247,18 @@ body {
   width: 0;
   opacity: 0;
 }
+
+#about-proj {
+	background-image: url('https://learredhdk.github.io/typolab/images/pages3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	padding: 10vh 25vw;
+	text-align: justify;
+}
+
+#write-proj {
+  padding: 5vw;
+	text-align: justify;
+	background-color: white;
+}
