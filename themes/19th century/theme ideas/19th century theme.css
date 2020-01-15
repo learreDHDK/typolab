@@ -32,7 +32,6 @@ body {
 	background-color:#FCFAFA ;  
 	font-family: "De Vinne", serif;
 	font-size: 0.9em;
-	/*font-weight:300%;*/
 	color:black;
 	line-height: 1em;
 	word-spacing:normal; 
@@ -72,7 +71,7 @@ body:after {
 	column-gap: 1em;  
 	column-rule: 2px solid black;
 	text-align: justify;
-	/*orphans: 0;*/
+	/*orphans: none;*/
 	widows: 3;
 	}
 
@@ -221,7 +220,6 @@ section{
 	margin-bottom:10px;
 	text-align: justify;
 	text-indent: 0.9em;
-	/*overflow: wrap;*/
 	background-image: url("section-and-h1-deco.png");
 	background-repeat: no-repeat;
 	background-position:bottom;
@@ -396,7 +394,6 @@ section aside p{
 	text-indent: initial;
 	font-family:'Abril Fatface', cursive , bold serif;
 	line-height: 1em;
-	/*text-align: justify-all;*/
 	font-size: 1.2em;
 	font-weight: bold;
 
@@ -561,9 +558,6 @@ footer p{
 	  border-top: 2px solid black; 
 }
 
-/*#eudir header{
-	height:70vh;
-}*/
 
 #eudir  .it header{
 	border-top:initial;
@@ -663,8 +657,8 @@ footer p{
 		column-count: 2; 
 	  }
 	  header p{
-		font-size:0.6em;
-		/*max-height:5.8vh;*/
+		font-size:0.5em;
+		max-height:5.8vh;
 	   }
 
 	   header p span{
@@ -675,7 +669,7 @@ footer p{
 
 	   header address{
 		font-size:0.6em;
-		/*max-height:5.8vh;*/
+		max-height:5.8vh;
 	   }
 
 	   header h6{
