@@ -360,9 +360,9 @@ h3 {
 	margin-left: -25% !important;
 	margin: 0px;
 	padding-bottom: -20px;*/
-	box-sizing: content-box;
-	-webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+	box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
 }
 
 h3::first-letter {
