@@ -97,7 +97,7 @@ header h1 {
 	padding-right: 4vw;/*!d5%*/
 	padding-left: 4vw;/*!d5%*/
 	margin-right: 0.1%;
-	align-self: flex-end;
+	height: auto;
 }
 
 @media screen and (max-width: 660px) and (min-width: 600px) {
@@ -176,6 +176,7 @@ header address {
 	padding-left: 1vw;/*!!1%*/
 	padding-bottom: 2%;/*!!1%*/
 	margin-bottom: 0%;
+	height: auto;
 }
 
 @media screen and (max-width: 1150px) {
