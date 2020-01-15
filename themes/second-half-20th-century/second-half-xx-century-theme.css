@@ -33,7 +33,7 @@ html{
 	max-width: 100%;
 	background-image: url("cameroon and nigeria.jpg");
 	background-repeat: repeat;
-	background-position: static;
+	/*background-position: static;*/
 }
 
 /*statements for the body of the html page*/
