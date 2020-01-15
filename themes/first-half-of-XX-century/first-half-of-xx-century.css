@@ -356,9 +356,9 @@ h3 {
 	color: white;
 	padding: 0px !important;
 	margin: 0px !important;
-	margin-left: -20% !important;
+	margin-left: -22% !important;
 	margin: 0px;
-	padding-bottom: -3%;
+	padding-bottom: -20px;
 }
 
 h3::first-letter {
