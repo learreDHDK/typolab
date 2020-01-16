@@ -359,11 +359,11 @@ h3 {
 	padding: 0px !important;
 	margin: 0px !important;
 	margin-left: -22% !important;
-	height: 8vw;
+	height: 10vw;
 }
 
 h3::first-letter {
-	font-size: 10vw; 
+	font-size: 12vw; 
 	padding: 0px !important;
 	margin: 0px !important;
 	background: white;
