@@ -255,7 +255,7 @@ header + section  p:first-of-type::first-letter{
 	background-repeat: no-repeat;
 	background-position: static;
 	/*margin-top:-45px;*/
-	margin-top: 4vh; 
+	/*margin-top: vh; */
 	margin-bottom: 3vh;
 }	
 
