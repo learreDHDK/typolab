@@ -1005,8 +1005,7 @@ footer h2 {
 }
 
 #eudir .it header h2 {
-	padding-left: 2vw;
-	padding-right: 2vw;
+	margin-right: 16.7%;
 }
 
 @media screen and (max-width: 1200px) {
