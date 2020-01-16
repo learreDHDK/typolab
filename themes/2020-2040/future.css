@@ -520,7 +520,7 @@ footer::after {
 
 .fx header {
   text-transform: lowercase;
-  margin-top: 0px;
+  margin-top: 1%;
   width: 100%;
   padding-bottom: 59vh;
 }
@@ -538,6 +538,7 @@ footer::after {
 
 .fx h2 {
   font-family: 'GardenGrownUS-B';
+  line-height: 120%;
 }
 
 .fx h6 {
