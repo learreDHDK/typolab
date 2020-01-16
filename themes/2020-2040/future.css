@@ -567,6 +567,11 @@ table:hover {
   font-size: 0.9vw;
 }
 
+a {
+  color: black;
+  text-shadow: 2px 2px #696969;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
