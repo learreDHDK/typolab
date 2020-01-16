@@ -571,7 +571,7 @@ footer p{
 
 /*for the height*/
 #eurdir .en header h2{
-	font-size:5vw;
+	padding-top:5vh;
 }
 
 /*to remove the border line*/
