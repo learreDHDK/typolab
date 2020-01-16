@@ -40,7 +40,7 @@ body {
 	margin: 5% auto 5% auto;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-
+/*to create the background effect of papers*/
 body:before, body:after {
 	content: "";
 	height: 100%;
@@ -71,7 +71,7 @@ body:after {
 	column-gap: 1em;  
 	column-rule: 2px solid black;
 	text-align: justify;
-	/*orphans: none;*/
+	orphans: 3;
 	widows: 3;
 	}
 
@@ -123,10 +123,10 @@ header h6{
 	order:3;
 	width: 100%;
 	text-align: right;
-	font-size: 1.1vw ; /*0.8em;*/
+	font-size: 1.1vw ;
 	border-bottom: double black;
 	border-top: double black;
-	margin:8px 0px 5px 0px;
+	margin:15px 0px 5px 0px;
   	padding:10px;
   	padding-right: 10px;
 	
@@ -411,7 +411,7 @@ section aside h1 + p:first-of-type{
 	font-size:0.9em;
 	font-weight: initial;
 }
-
+/*for the first-letter of p after the h1 aside*/
 section aside h1 + p:first-of-type::first-letter{
 	font-weight: initial;
 	font-size:0.9em; 
@@ -526,75 +526,83 @@ footer p{
 	font-style: normal;
 }
 
-
+/*div that contains both versions*/
 .fx {
 	  display: flex;
 	  flex-flow: row nowrap;
-	  justify-content: space-around;
-	  
-	  
+	  justify-content: space-around;	  
 }
 
-
+/*div for the english version*/
 .eng {
 	  order:1;
 	  width: 45%;
 	  padding-right: 10px; 
 	  border-right: 2px solid black; 
-	  padding-top: 1vh;
-	  padding-bottom:1vh;
+	  /*padding-top: 1vh;*/
+	   padding-top: initial;
+	 /* padding-bottom:1vh;*/
+	  padding-bottom:initial;
 	  border-top: 2px solid black; 
 }
 
 
-
+/* div for the Italian version*/
 .it {
 	  order:2;
 	  width: 45%;
 	  padding-left: 10px;
 	  border-left: 2px solid black;
-	  padding-top: 1vh;
-	  padding-bottom:1vh;
+	  /*padding-top: 1vh;*/
+	   padding-top: initial;
+	 /* padding-bottom:1vh;*/
+	  padding-bottom:initial;
 	  border-top: 2px solid black; 
 }
 
-
+/*for the header of the italian version*/
 #eudir  .it header{
 	border-top:initial;
 }
+
+/*for the header of the english version*/
 #eudir .eng header{
 	border-top:initial;
 }
 
+/*to remove the border line*/
 #eudir .fx:first-child .it{
 	border-top:initial;
 }
-
+/*to remove the border line*/
 #eudir .fx:first-child .eng{
 	border-top:initial;
 }
-
+/*to create responsiness for the tables when displayed on small screens*/
 #eudir .tabLeEU{
 	overflow-x: auto;
 }
 
+/*reduction of dimentions for table head*/
 #eudir section table th{
 	  font-size:0.9em ;  
 	  padding-left:2px;
 	  padding-right: 2px;
 }
 
+/*reduction of dimentions for table data*/
 #eudir section table td{
 	font-size:0.8em ; 
 	padding-left:2px;
 	padding-right:2px; 
 }
 
+/*create negative indent effect for the first line*/
 #eudir section .fx:first-of-type p:first-of-type{
 	text-indent: -0.7em;
 }
 
-
+/*create the dropcap effect*/
 #eudir section .fx:first-of-type p:first-of-type::first-letter{
 	font-size: 2.5em; 
 	font-weight: bold;
@@ -605,6 +613,7 @@ footer p{
 	margin-left: 10px; 
 }
 
+/*permit the visibility of section end deco*/
 #eudir section{
   	padding-bottom: 50px;
 }
