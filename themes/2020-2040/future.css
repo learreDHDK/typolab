@@ -559,6 +559,10 @@ table {
   border-collapse: separate;
 }
 
+aside table {
+  text-align: center;
+}
+
 th {
   border: 2px solid black;
   border-spacing: 0.9vw 1.8vh;
