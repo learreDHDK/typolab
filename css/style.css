@@ -534,6 +534,7 @@ input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper div[data
 }
 
 #golden_button {
+	border-radius: 8px;
 	padding: 4px;
 	border: 2px solid black;
 	background-color: #daa520;
