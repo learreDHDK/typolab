@@ -278,7 +278,7 @@ header {
   /*margin-right: -5vw;
   margin-left: -5vw;
   column-span: all;*/
-  padding-bottom: 54vh;
+  padding-bottom: 53vh;
   background-image: url('bird2.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -347,7 +347,7 @@ header img {
 section {
   width: 85%;
   display: block;
-  margin-right: 5%;
+  margin-right: 4%;
   margin-bottom: 3%;
   margin-top: 3%;
   padding-right: 2%;
