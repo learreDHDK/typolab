@@ -247,7 +247,8 @@ h2 {
 }
 
 #write-proj {
-  padding: 5vw;
+  	padding: 5vw;
+	padding-bottom: 0px;
 	text-align: justify;
 	background-color: white;
 }
