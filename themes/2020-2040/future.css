@@ -630,7 +630,8 @@ aside {
 }
 
 aside h2 {
-  padding: 3% 0px;
+  padding: 5% 0px;
+  font-size: 3vw;
 }
 
 aside p {
