@@ -516,6 +516,35 @@ input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper div[data
   .input-flex-container {
     width: 340px;
   }
+	#navbarNavAltMarkup {
+	padding-left: 20vw;
+}
+	
+	.title {
+		 line-height: 14vh;
+		font-size:10vw;
+    }
+	
+	.lab{
+		 line-height: 24vh;
+		font-size:10vw;
+    }
+	footer{
+		height:30vw;
+}
+	#author {
+	font-size: 4vw;
+		
+      
+}
+
+#title {
+	font-size: 3;
+	
+}
+	input {
+  width: 15px;
+	}
 }
 @media (max-width: 400px) {
   .input-flex-container {
