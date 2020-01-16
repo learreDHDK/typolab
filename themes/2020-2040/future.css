@@ -583,6 +583,8 @@ a {
 a:hover {
   color: rgba(105,105,105,0.7);
   text-shadow: 0 0 0 transparent;
+  border-bottom: 0px solid transparent;
+  font-size: 1.2vw;
 }
 
 /*section::after {
