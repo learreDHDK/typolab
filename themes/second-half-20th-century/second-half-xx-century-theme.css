@@ -118,7 +118,7 @@ h2::after{
 
 /*for the text Eu*/
 h3{
-	font-family: "Arya W00 Double" ;
+	font-family: "Arya W00 Double" !important ;
 	font-size:1.5em ;
 }
 
