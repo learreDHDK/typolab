@@ -234,6 +234,7 @@ section h3{
 	text-align: center;
 	text-decoration: underline;
 	text-transform: uppercase;
+	margin:0px:
 	/*marging-bottom:2vh;*/
 }
 
@@ -246,6 +247,7 @@ section h4{
 	font-family: "FREAS";
 	font-weight: bold;
 	line-height: 4vh;
+	margin:0px:
 	/*marging-bottom:2vh;*/
 }
 
