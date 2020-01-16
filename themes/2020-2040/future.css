@@ -406,7 +406,7 @@ figure:hover {
   font-size: 0.8vw;
   -webkit-column-span: all; 
   column-span: all;
-  width: 97%;
+  width: 100%;
   padding: 5%;
   text-align: left;
 }
