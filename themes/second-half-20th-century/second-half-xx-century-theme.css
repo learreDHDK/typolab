@@ -86,7 +86,7 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	font-family:"Arya W00 Double" !important;  
+	font-family:Arya; /*"Arya W00 Double"when offline*/  
 	font-size:3vw;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -119,7 +119,7 @@ h2::after{
 
 /*for the text Eu*/
 h3{
-	font-family: "Arya W00 Double" !important ;
+	font-family:Arya; /*"Arya W00 Double"when offline*/
 	font-size:1.5em ;
 }
 
