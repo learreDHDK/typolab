@@ -384,6 +384,12 @@ h3::first-letter {
 	}
 }
 
+h3::after {
+	content: '';
+	width: 100%;
+	height: 3vw;
+}
+
 h4 {
 	font-family: 'mandala-bold', sans-serif;
 	font-size: 2vw;
