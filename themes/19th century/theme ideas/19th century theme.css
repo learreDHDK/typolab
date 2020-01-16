@@ -235,7 +235,6 @@ section h3{
 	text-decoration: underline;
 	text-transform: uppercase;
 	margin:0px:
-	/*marging-bottom:2vh;*/
 }
 
 /*functions for the h4 of the text EU*/
@@ -248,17 +247,15 @@ section h4{
 	font-weight: bold;
 	line-height: 4vh;
 	margin:0px:
-	/*marging-bottom:2vh;*/
 }
 
 /*functions for the h5 of the text EU*/
 section h5{
-	/*font-family: 'Abril Fatface', cursive serif;*/
 	font-size:1.1em;
 	text-transform: capitalize;
 	text-decoration: underline;
-	/*font-weight: 100%;*/
 	line-height: 20px;
+	margin:0px:
 }
 
  /*create the negative indentation effect of the dropcap*/
