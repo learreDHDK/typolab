@@ -95,6 +95,7 @@ header{
  header h1{
 	order:1;
 	font-family:"Arya";
+	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
 	/*font-family:"Arya W00 Double";*/
 	font-size:3vw;
@@ -267,7 +268,6 @@ header + section  p:first-of-type::first-letter{
 	background-repeat: no-repeat;
 	background-position: static;
 	margin-top:-45px;
-	/*margin-bottom: -10px;*/
 }	
 
 
