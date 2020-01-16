@@ -229,9 +229,7 @@ footer {
 }
 
 #about-proj {
-	background-image: url('https://learredhdk.github.io/typolab/images/pages3.jpg');
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+	background-image: url('https://learredhdk.github.io/typolab/images/pages3blur.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: fixed;
