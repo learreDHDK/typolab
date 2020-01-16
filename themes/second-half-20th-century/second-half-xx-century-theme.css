@@ -246,7 +246,7 @@ header + section  p:first-of-type::first-letter{
 	font-family: "ArterioNonCommercial";
 	font-size: 7vw;
 	margin-right: 20px;
-	line-height: 9vh;
+	line-height: 7vh;
 	padding: 25px 27px 25px 29px;
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
