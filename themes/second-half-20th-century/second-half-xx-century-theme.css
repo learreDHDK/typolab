@@ -594,7 +594,7 @@ footer p{
     	margin: 0 auto 20vh auto;
     	position: relative; 
 	max-width:60%;
-	/*padding: 3vh 1vw 3vh 0.8vw;*/
+	padding: 2vh 0 2vh 0;
 }
 
  #eudir section:last-of-type{
