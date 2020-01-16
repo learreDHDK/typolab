@@ -222,15 +222,15 @@ header > img {
 	max-width: 100%;
 	margin-top: 0px;
 }
- 
-/*figure {
-	margin-top: initial;
-}*/
 
 header > figure {
 	order: 5;
 	margin-top: 0px;
 } 
+
+header figure img {
+	margin-top: 0px;
+}
 
 header > p {
 	order: 6;
