@@ -360,6 +360,7 @@ h3 {
 	margin: 0px !important;
 	margin-left: -22% !important;
 	height: 10vw;
+	position: relative;
 }
 
 h3::first-letter {
@@ -389,6 +390,9 @@ h3::after {
 	width: 10vw;
 	height: 5vw;
 	background: red;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 h4 {
