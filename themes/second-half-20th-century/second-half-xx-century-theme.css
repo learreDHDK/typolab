@@ -20,8 +20,8 @@
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.woff") format("woff"), 
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.ttf") format("truetype"), 
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.svg#Arya") format("svg");
-		font-weight: normal;
-		font-style: normal;
+		/*font-weight: normal;
+		font-style: normal;*/
   }
 
 @font-face {
@@ -129,8 +129,9 @@ h2::after{
 
 /*for the text Eu*/
 h3{
-	font-family: "ThaCoolKidz-Black";
+	/*font-family: "ThaCoolKidz-Black";*/
 	/*font-family:"Arya W00 Double";*/
+	font-family:"Arya";
 	font-size:1.5em ;
 }
 
@@ -265,7 +266,7 @@ header + section  p:first-of-type::first-letter{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
-	margin-top:-40px;
+	margin-top:-37px;
 	/*margin-bottom: -10px;*/
 }	
 
