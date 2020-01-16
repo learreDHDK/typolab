@@ -387,11 +387,12 @@ h3::first-letter {
 
 h3::after {
 	content: '';
-	width: 60vw;
+	display: block;
+	width: 40vw;
 	height: 2vw;
 	background: red;
 	position: absolute;
-	top: 11vw;
+	top: 9vw;
 	left: 0;
 }
 
