@@ -550,7 +550,7 @@ footer::after {
 
 .fx .eng header {
   width: 200%;
-  margin-right: 100%;
+  padding-right: 100%;
 }
 
 table {
