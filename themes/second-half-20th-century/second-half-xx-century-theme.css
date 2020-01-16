@@ -248,13 +248,9 @@ header + section  p:first-of-type::first-letter{
 	font-family: "ArterioNonCommercial";
 	font-size: 7vw;
 	margin-right: 20px;
-	line-height: 9vh;
+	line-height: 7vh;
 	padding: 25px 27px 25px 29px;
-	/*line-height: 69px;
-	padding: 16px 27px 25px 29px;*/
 	background-image: url("first letter background.jpg");
-	/*background-size: 100% 90%;
-	background-size: 50vw 40vh;*/
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
@@ -598,7 +594,7 @@ footer p{
     	margin: 0 auto 20vh auto;
     	position: relative; 
 	max-width:60%;
-	padding: 3vh 1vw 3vh 0.8vw;
+	/*padding: 3vh 1vw 3vh 0.8vw;*/
 }
 
  #eudir section:last-of-type{
@@ -636,7 +632,7 @@ footer p{
 #eudir section table td{
 	padding: initial;
 	font-size: 0.9em;
-	padding: 0.1vh 0.15vw 0.1vh 0.2vw;
+	padding: 0.1vh 0.10vw 0.1vh 0.2vw;
 } 
 
 #eudir section:first-of-type .fx:first-of-type p:first-of-type{
