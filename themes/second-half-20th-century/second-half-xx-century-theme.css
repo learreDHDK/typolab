@@ -1,5 +1,4 @@
 /*fonts imported for type*/
-@import url(//db.onlinewebfonts.com/c/705aa5cef063ecd2542957acf9d7210d?family=Arya);
 @font-face {
 	font-family: "Veltro W01 Regular"; 
 	src:url("fonts/Veltro W01 Regular.ttf") format("truetype"); 
@@ -13,6 +12,11 @@
 	font-family: "Arya W00 Double"; 
 	src:url("fonts/Arya W00 Double.otf") format("opentype"); 
   }
+@font-face {
+	font-family: "ThaCoolKidz-Black"; 
+	src:url("fonts/ThaCoolKidz-Black.ttf") format("truetype"); 
+  }
+
 
 @font-face {
 	font-family: "Helvetica Bold"; 
@@ -78,7 +82,8 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	font-family:"Arya W00 Double"; 
+	font-family: "ThaCoolKidz-Black";
+	/*font-family:"Arya W00 Double";*/
 	font-size:3vw;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -111,7 +116,8 @@ h2::after{
 
 /*for the text Eu*/
 h3{
-	font-family:"Arya W00 Double";
+	font-family: "ThaCoolKidz-Black";
+	/*font-family:"Arya W00 Double";*/
 	font-size:1.5em ;
 }
 
