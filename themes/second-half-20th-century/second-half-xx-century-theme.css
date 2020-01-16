@@ -94,10 +94,10 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	font-family:"Arya";
+	/*font-family:"Arya";*/
 	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
-	/*font-family:"Arya W00 Double";*/
+	font-family:"Arya W00 Double";
 	font-size:3vw;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -131,8 +131,9 @@ h2::after{
 /*for the text Eu*/
 h3{
 	/*font-family: "ThaCoolKidz-Black";*/
-	/*font-family:"Arya W00 Double";*/
-	font-family:"Arya";
+	font-family:"Arya W00 Double";
+	/*font-family:"Arya";
+	font-style:normal;*/
 	font-size:1.5em ;
 }
 
@@ -679,7 +680,18 @@ footer p{
 	padding: 4vh 2vw 4vh 2.5vw;
 	background-image: url("first letter background.jpg");
 	margin-bottom: 3vh;
-}*/	
+}
+	header h1{
+	/*font-family:"Arya";*/
+	 font-style:normal;
+	/*font-family: "ThaCoolKidz-Black";*/
+	}
+  	section h3{
+	/*font-family:"Arya";*/
+	 font-style:normal;
+	/*font-family: "ThaCoolKidz-Black";*/
+		}
+	*/	
   
 }
 
