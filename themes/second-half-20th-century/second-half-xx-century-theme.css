@@ -355,7 +355,7 @@ section  figure figcaption{
 }
 
 /*image of bloomberg*/
-section p + img{
+section p + figure img{
 	border-radius:initial;
 	width: 60%;
 	height: auto;
