@@ -569,6 +569,10 @@ footer p{
 	border-top:initial;
 }
 
+/*for the height*/
+#eurdir .it header h2{
+	font-size:3.5vw;
+}
 /*to remove the border line*/
 #eudir .fx:first-child .it{
 	border-top:initial;
