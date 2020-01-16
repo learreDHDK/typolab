@@ -402,6 +402,10 @@ figure:hover {
   text-align: left;
 }
 
+section p {
+  margin-bottom: 0px;
+}
+
 footer {
   display: block;
   position: relative;
