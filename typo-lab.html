@@ -137,7 +137,7 @@
 <script>
 $(window).load(function() {
 // Animate loader off screen
-$(".se-pre-con").fadeOut(1000000);
+$(".se-pre-con").fadeOut(2000);
 
 
 });
@@ -297,6 +297,11 @@ $(".se-pre-con").fadeOut(1000000);
     <!-- Change the stylesheet  -->
     <script>
       function setStyleSheet(url){
+	$(window).load(function() {
+// Animate loader off screen
+$(".se-pre-con").fadeOut(2000);
+		
+		
         var stylesheet = document.getElementById("style");
         stylesheet.setAttribute('href', url);
       }
