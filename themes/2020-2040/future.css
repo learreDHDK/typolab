@@ -406,6 +406,7 @@ figure:hover {
 
 header figure:hover {
   font-family: 'GardenGrownUS-B';
+  font-size: 1vw;
   padding-top: 2%;
 }
 
