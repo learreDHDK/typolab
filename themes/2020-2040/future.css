@@ -622,6 +622,16 @@ a:hover {
   font-size: 1.2vw;
 }
 
+aside {
+  padding: 7% 5%;
+  font-size: 1vw;
+  width: 98%;
+}
+
+aside:hover {
+  width: 98%;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
