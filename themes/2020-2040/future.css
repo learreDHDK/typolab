@@ -413,14 +413,17 @@ h3 {
 
 footer {
   display: block;
-  position: relative;
   text-align: center;
   font-size: 0.8vw;
   padding-right: 3%;
   padding-left: 3%;
 }
 
-footer::after {
+#whole:last-child {
+  position: relative;
+}
+
+#whole:last-child::after {
   content: url('forest5.png');
   position: absolute;
   bottom: -300%;
