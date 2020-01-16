@@ -599,6 +599,10 @@ table:hover {
   font-size: 0.9vw;
 }
 
+.fx table {
+  width: 100%;
+}
+
 a {
   color: black;
   text-shadow: 2px 2px rgba(105,105,105,0.7);
