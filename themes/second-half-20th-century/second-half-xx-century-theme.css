@@ -352,12 +352,7 @@ section  figure figcaption{
 }
 
 /*image of bloomberg*/
-section p + figure img{
-	border-radius:initial;
-	width: 60%;
-	height: auto;
-	padding:2vw;
-	margin-top: 2vh;
+section:first-of-type p::nth-child(2) + figure img{
 	border-radius: 20%;
 } 
 
