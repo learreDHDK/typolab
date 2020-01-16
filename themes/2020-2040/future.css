@@ -623,14 +623,10 @@ a:hover {
 
 aside {
   padding: 7% 15%;
-  font-size: 1vw;
+  font-size: 1.7vw;
   width: 100%;
   line-height: 120%;
   font-family: 'QuickKiss';
-}
-
-aside:hover {
-  width: 80%;
 }
 
 /*section::after {
