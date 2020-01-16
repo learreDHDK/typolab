@@ -578,6 +578,10 @@ footer p{
 	margin-top:7vh;
 }
 
+#eudir .it header h6{
+	margin-top:1vh;
+}
+
 /*to remove the border line*/
 #eudir .fx:first-child .it{
 	border-top:initial;
