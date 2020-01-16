@@ -385,7 +385,7 @@ h3::first-letter {
 	}
 }
 
-h3::after {
+/*h3::after {
 	content: '';
 	display: block;
 	width: 40vw;
@@ -394,7 +394,7 @@ h3::after {
 	position: absolute;
 	top: 9vw;
 	left: 0;
-}
+}*/
 
 h4 {
 	font-family: 'mandala-bold', sans-serif;
