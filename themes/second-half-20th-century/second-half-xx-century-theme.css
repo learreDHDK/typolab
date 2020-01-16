@@ -85,7 +85,7 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	font-family:"Arya W00 Double";  
+	font-family:"Arya W00 Double" !important;  
 	font-size:3vw;
 	text-transform: uppercase;
 	line-height: 1em;
