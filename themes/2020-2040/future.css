@@ -546,9 +546,15 @@ footer::after {
 }
 
 table {
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   text-align: center;
   border-collapse: separate;
+}
+
+th {
+  border: 2px solid black;
+  border-spacing: 0.9vw 1.8vh;
+  border-radius: 5px;
 }
 
 td {
