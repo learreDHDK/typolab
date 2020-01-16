@@ -310,7 +310,7 @@ input::before, input::after {
   top: 50%;
   transform: translateY(-50%);
   background-color: black;
-  width: 4vw;
+  width: 7vw;
   height: 5px;
   max-width: 50px;
 }
@@ -365,7 +365,7 @@ input:checked + .dot-info span {
 
 #timeline-descriptions-wrapper {
   width: 100%;
-  margin-top: 20vh;
+  margin-top: 13vh;
   font-size: 1.2vw;
   font-weight: 400;
   margin-left: calc((-80vw - 25px) / 20);
