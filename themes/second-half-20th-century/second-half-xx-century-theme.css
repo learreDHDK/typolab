@@ -266,7 +266,7 @@ header + section  p:first-of-type::first-letter{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
-	margin-top:-43px;
+	margin-top:-45px;
 	/*margin-bottom: -10px;*/
 }	
 
@@ -366,7 +366,7 @@ section  figure figcaption{
 }
 
 /*image of bloomberg*/
-section:first-of-type p:nth-child(2) figure img{
+section:first-of-type p:nth-child(2) + figure img{
 	border-radius: 20%;
 } 
 
