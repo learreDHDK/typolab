@@ -481,10 +481,15 @@ footer::after {
 }
 
 .fx {
+  margin-bottom: 2%;
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+}
+
+.fx header {
+  margin-bottom: 0px;
 }
 
 #eudir section::after {
