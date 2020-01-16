@@ -406,10 +406,10 @@ figure:hover {
   font-size: 0.9vw;
   -webkit-column-span: all; 
   column-span: all;
-  width: 97%;
+  width: 95%;/*100*/
   padding: 5%;
   margin-left: 0px;
-  text-align: center;
+  text-align: center;/*left*/
 }
 
 header figure:hover {
