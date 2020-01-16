@@ -424,7 +424,8 @@ footer {
 }
 
 #whole:last-child::after {
-  content: url('forest5.png');
+  content: '';
+  background-image: url('forest5.png');
   position: absolute;
   bottom: 0;
   left: 0;
