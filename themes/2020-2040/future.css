@@ -419,21 +419,21 @@ section p {
   margin-bottom: 1%;
 }
 
-h3, aside h3 {
+h3, aside h1 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 2vw;
   font-weight: bold;
 }
 
-h4 {
+h4, aside h2, footer h1 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 1.5vw;
   font-weight: bold;
 }
 
-h5 {
+h5, footer h2 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 1.5vw;
