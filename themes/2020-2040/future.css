@@ -339,9 +339,8 @@ header figure {
 }
 
 header img {
-  max-width: 100%;
+  max-width: 120%;
   max-height: 250px;
-  border-radius: 20px;
 }
 
 section {
