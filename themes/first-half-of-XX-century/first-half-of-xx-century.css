@@ -363,7 +363,7 @@ h3 {
 }
 
 h3::first-letter {
-	font-size: 12vw; 
+	font-size: 10vw; 
 	padding: 0px !important;
 	margin: 0px !important;
 	background: white;
@@ -1001,6 +1001,10 @@ footer h2 {
 	padding: 1vw;
 	min-height: 100px;
 	height: 100px;
+}
+
+#eudir .it header h2 {
+	padding-left: 1.2vw;
 }
 
 @media screen and (max-width: 1200px) {
