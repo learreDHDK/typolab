@@ -224,8 +224,8 @@ header figure figcaption{
 	text-transform: uppercase;
 	font-family: "Helvetica Bold";
 	caption-side: bottom;
-	position:relative;
-	bottom:3vh;
+	/*position:relative;
+	bottom:3vh;*/
 	line-height: 1em;
 	margin:0px;
 	margin-bottom: 20px;
@@ -255,8 +255,8 @@ header + section  p:first-of-type::first-letter{
 	background-repeat: no-repeat;
 	background-position: static;
 	/*margin-top:-45px;*/
-	margin-top: -65px; 
-	margin-bottom: -20px;
+	margin-top: 4vh; 
+	margin-bottom: 3vh;
 }	
 
 
