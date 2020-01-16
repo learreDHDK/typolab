@@ -629,6 +629,10 @@ aside {
   font-family: 'QuickKiss';
 }
 
+aside h2 {
+  padding: 3% 0px;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
