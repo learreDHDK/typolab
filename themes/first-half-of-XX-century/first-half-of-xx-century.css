@@ -358,8 +358,8 @@ h3 {
 	color: white;
 	padding: 0px !important;
 	margin: 0px !important;
-	margin-left: -25% !important;
-	margin-bottom: 2%;
+	margin-left: -22% !important;
+	height: 10vw;
 }
 
 h3::first-letter {
