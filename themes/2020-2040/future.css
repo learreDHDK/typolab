@@ -439,10 +439,16 @@ h4, aside h2, footer h1 {
   font-weight: bold;
 }
 
-h5, footer h2 {
+h5 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 1.5vw;
+}
+
+footer h2 {
+  font-family: 'GardenGrownUS-B';
+  text-align: center;
+  font-size: 1.3vw;
 }
 
 footer {
