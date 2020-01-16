@@ -454,6 +454,7 @@ footer::after {
   position: absolute;
   bottom: -300px;
   left: -20%;
+  width: 100%;
 }
 
 .fx {
