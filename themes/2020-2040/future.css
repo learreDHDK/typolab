@@ -453,7 +453,7 @@ footer {
 footer::after {
   content: url('forest5.png');
   position: absolute;
-  bottom: -200px;
+  bottom: -150px;
   left: -20%;
   width: 100%;
 }
