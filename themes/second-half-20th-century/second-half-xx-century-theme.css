@@ -246,17 +246,14 @@ header + section  p:first-of-type::first-letter{
 	font-family: "ArterioNonCommercial";
 	font-size: 7vw;
 	margin-right: 20px;
-	line-height: 8vh;
-	/*line-height: 9vh;*/
-	padding: 4vh 2vw 4vh 2.5vw;
-	/*padding: 25px 27px 25px 29px;*/
+	line-height: 9vh;
+	padding: 25px 27px 25px 29px;
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
-	/*margin-top:-45px;*/
-	/*margin-top: vh; */
-	margin-bottom: 3vh;
+	margin-top:-45px;
+	margin-bottom: -10px;
 }	
 
 
@@ -662,6 +659,19 @@ footer p{
 	background-repeat: no-repeat;
 	background-position: static;
 	margin-top: -47px; 
+}
+
+/*desktop*/
+@media (min-width: 1281px) {
+  
+  /*dropcap of the first letter of the first paragraph of the text*/
+header + section  p:first-of-type::first-letter{
+	line-height:8vh;
+	padding: 4vh 2vw 4vh 2.5vw;
+	background-image: url("first letter background.jpg");
+	margin-bottom: 3vh;
+}	
+  
 }
 
 /*tablet*/
