@@ -965,7 +965,7 @@ footer h2 {
 	margin-bottom: 0vw;
 	padding-top: 0.3vw;
 	align-self: flex-end;
-	height: 200px;
+	height: 250px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -999,6 +999,7 @@ footer h2 {
 	align-self: start;
 	margin-right: 16.75%;
 	padding: 1vw;
+	max-height: 100px;
 }
 
 @media screen and (max-width: 1200px) {
