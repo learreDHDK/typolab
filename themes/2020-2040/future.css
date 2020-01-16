@@ -407,7 +407,7 @@ figure:hover {
   width: 100%;
   padding: 5%;
   text-align: left;
-  max-height: auto;
+  max-height: 600px;
 }
 
 header figure:hover {
