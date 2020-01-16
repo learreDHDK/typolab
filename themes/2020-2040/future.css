@@ -633,6 +633,10 @@ aside h2 {
   padding: 3% 0px;
 }
 
+aside p {
+  padding-bottom: 2%;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
