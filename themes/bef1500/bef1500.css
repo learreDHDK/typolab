@@ -220,7 +220,7 @@ img {
 header > img {
 	order: 5;
 	max-width: 100%;
-	margin-top: 15px;
+	margin-top: 0px;
 }
  
 /*figure {
@@ -229,7 +229,7 @@ header > img {
 
 header > figure {
 	order: 5;
-	margin-top: 15px;
+	margin-top: 0px;
 } 
 
 header > p {
