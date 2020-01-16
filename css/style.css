@@ -230,8 +230,8 @@ footer {
 
 #about-proj {
 	background-image: url('https://learredhdk.github.io/typolab/images/pages3.jpg');
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: fixed;
