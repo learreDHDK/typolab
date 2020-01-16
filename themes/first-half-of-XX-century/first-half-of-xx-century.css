@@ -905,6 +905,7 @@ footer h2 {
 #eudir header {
 	margin-left: 0px;
 	margin-bottom: 0px;
+	margin-top: 12%;
 }
 
 @media screen and (max-width: 1000px) {
