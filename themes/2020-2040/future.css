@@ -497,7 +497,7 @@ footer::after {
   right: -10%;
 }
 
-#eudir section:hover {
+/*#eudir section:hover {
   width: 100%;
   font-size: 0.3vw;
   -webkit-transition: none;
@@ -505,7 +505,7 @@ footer::after {
       -o-transition: none;
       -ms-transition: none;
       transition: none;
-}
+}*/
 
 .fx:hover {
   width: 100%;
