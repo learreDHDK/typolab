@@ -429,9 +429,9 @@ footer {
   padding-left: 3%;
 }
 
-/*#whole:nth-last-child(1) {
+#whole:nth-last-child(1):nth-last-child(1) {
   background-image: url('forest5.png');
-}*/
+}
 
 .fx {
   width: 100%;
