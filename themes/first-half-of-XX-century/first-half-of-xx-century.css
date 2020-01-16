@@ -175,7 +175,7 @@ header address {
 	border-left: 1.5vw solid red;/*!!20px*/
 	border-bottom: 1.5vw solid red;/*!!20px*/
 	padding-left: 1vw;/*!!1%*/
-	padding-bottom: 2%;/*!!1%*/
+	padding-bottom: 1%;/*!!1%*/
 	margin-bottom: 0%;
 	max-height: 50%;
 }
