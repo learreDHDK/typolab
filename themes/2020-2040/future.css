@@ -490,14 +490,6 @@ footer {
   margin-bottom: 9%;
 }
 
-.fx .it header {
-  background: initial;
-}
-
-.fx .eng header {
-  width: 100%;
-}
-
 .eng {
   margin-left: 0px;
   margin: 0px;
@@ -510,6 +502,15 @@ footer {
   margin: 0px;
   order:2;
   width: 45%; 
+}
+
+.fx .it header {
+  background: initial;
+}
+
+.fx .eng header {
+  width: 100%;
+  margin-right: 50%;
 }
 
 table {
