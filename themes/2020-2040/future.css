@@ -407,6 +407,10 @@ section p {
   margin-bottom: 0.3vw;
 }
 
+h3 {
+  font-family: 'GardenGrownUS-B';
+}
+
 footer {
   display: block;
   position: relative;
