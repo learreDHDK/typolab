@@ -378,7 +378,7 @@ section figure {
   margin-right: 3%;
   margin-bottom: 3%;
   margin-top: 3%;
-  margin-left: 15%;
+  margin-left: 20%;
   display: inline-block;
   /*float: left;*/
   text-align: center;
@@ -408,6 +408,7 @@ figure:hover {
   column-span: all;
   width: 100%;
   padding: 5%;
+  margin-left: 0px;
   text-align: left;
   max-height: 600px;
 }
