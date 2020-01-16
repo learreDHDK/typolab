@@ -402,12 +402,17 @@ img {
 }
 
 figure:hover {
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   -webkit-column-span: all; 
   column-span: all;
   width: 100%;
   padding: 5%;
   text-align: left;
+}
+
+figcaption {
+  padding-top: 2%;
+  text-align: center;
 }
 
 section p {
