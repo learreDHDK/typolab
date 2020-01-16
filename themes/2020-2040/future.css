@@ -420,17 +420,7 @@ footer {
 }
 
 #whole:last-child {
-  position: relative;
-}
-
-#whole:last-child::after {
-  content: '';
   background-image: url('forest5.png');
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
 }
 
 .fx {
