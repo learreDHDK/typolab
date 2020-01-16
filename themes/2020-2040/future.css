@@ -557,6 +557,7 @@ table {
   border: 0px solid transparent;
   text-align: center;
   border-collapse: separate;
+  font-size: 0.3vw;
 }
 
 aside table {
