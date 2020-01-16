@@ -391,12 +391,6 @@ figure {
 
 img {
 	max-width: 100%;
-  /*box-shadow: 1px 1px 0px #999,
-                2px 2px 0px #999,
-                3px 3px 0px #999,
-                4px 4px 0px #999,
-                5px 5px 0px #999,
-                6px 6px 0px #999;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 10px 30px 0 rgba(0, 0, 0, 0.30);
   border-radius: 10px;
 }
@@ -408,6 +402,11 @@ figure:hover {
   width: 100%;
   padding: 5%;
   text-align: left;
+}
+
+header figure:hover {
+  font-family: 'GardenGrownUS-B';
+  padding-top: 2%;
 }
 
 figcaption {
