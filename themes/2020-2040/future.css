@@ -379,7 +379,8 @@ section figure {
   margin-bottom: 3%;
   margin-top: 3%;
   display: inline-block;
-  float: left;
+  /*float: left;*/
+  text-align: center;
 }
 
 figure {
