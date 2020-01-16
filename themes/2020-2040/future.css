@@ -625,11 +625,11 @@ a:hover {
 aside {
   padding: 7% 5%;
   font-size: 1vw;
-  width: 98%;
+  width: 80%;
 }
 
 aside:hover {
-  width: 98%;
+  width: 80%;
 }
 
 /*section::after {
