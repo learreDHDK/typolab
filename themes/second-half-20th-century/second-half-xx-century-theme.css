@@ -209,8 +209,8 @@ header figure img{
 	order:1;
 	border: 20px solid transparent;
 	align-self: center;	
-	width:93%;
-	height: 97%;
+	width:90%;
+	height: 95%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
