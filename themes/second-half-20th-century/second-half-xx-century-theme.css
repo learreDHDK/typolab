@@ -268,7 +268,7 @@ header + section  p:first-of-type::first-letter{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: static;
-	margin-top:-47px;
+	margin-top:-50px;
 }	
 
 
