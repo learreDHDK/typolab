@@ -365,7 +365,7 @@ section  figure figcaption{
 }
 
 /*image of bloomberg*/
-section:first-of-type p::nth-child(2) figure img{
+section:first-of-type p:nth-child(2) figure img{
 	border-radius: 20%;
 } 
 
