@@ -570,9 +570,10 @@ footer p{
 }
 
 /*for the height*/
-#eurdir .it header h2{
-	font-size:3.5vw;
+#eurdir .en header h2{
+	font-size:5vw;
 }
+
 /*to remove the border line*/
 #eudir .fx:first-child .it{
 	border-top:initial;
@@ -622,6 +623,22 @@ footer p{
 }
 
 
+/*desktop*/
+@media (min-width: 1281px) {
+  
+  /*dropcap of the first letter of the first paragraph of the text*/
+/*header + section  p:first-of-type::first-letter{
+	line-height:8vh;
+	padding: 4vh 2vw 4vh 2.5vw;
+	background-image: url("first letter background.jpg");
+	margin-bottom: 3vh;
+} 
+	/*for the height*/
+/*#eurdir .it header h2{
+	font-size:3.5vw;
+}*/	
+  
+}
 
 
 /*tablet*/
