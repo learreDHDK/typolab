@@ -207,8 +207,8 @@ header figure img{
 	order:1;
 	border: 20px solid transparent;
 	align-self: center;	
-	width:90%;
-	height: 95%;
+	width:85%;
+	height: 90%;
 	border-radius: initial;
 	border-radius: 50%;
         filter:grayscale(100%);
@@ -355,7 +355,8 @@ section  figure figcaption{
 }
 
 /*image of bloomberg*/
-p + img{
+section p + img{
+	border-radius:initial;
 	width: 60%;
 	height: auto;
 	padding:2vw;
