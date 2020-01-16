@@ -391,7 +391,7 @@ figure {
 
 img {
 	max-width: 100%;
-  max-height: 200px;
+  max-height: 170px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 10px 30px 0 rgba(0, 0, 0, 0.30);
   border-radius: 10px;
 }
@@ -407,6 +407,7 @@ figure:hover {
   width: 100%;
   padding: 5%;
   text-align: left;
+  max-height: auto;
 }
 
 header figure:hover {
