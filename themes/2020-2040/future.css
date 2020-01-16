@@ -295,10 +295,10 @@ header h1 {
   font-family: 'QuickKiss';
   font-size: 3vw;
   flex-basis: 100%;
-  padding-bottom: "%;";
+  padding-bottom: 3%;
   margin-bottom: 0px;
   font-weight: bold;
-  line-height: 110%;
+  line-height: 130%;
 }
 
 header h2 {
