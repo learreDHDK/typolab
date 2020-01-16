@@ -359,11 +359,6 @@ h3 {
 	/*padding: 0px !important;
 	margin: 0px !important;*/
 	margin-left: -25% !important;
-	margin-bottom: 5% !important;
-	height: 10vw;
-	box-sizing: content-box !important;
-	-webkit-box-sizing: content-box !important;
-    -moz-box-sizing: content-box !important;
 }
 
 h3::first-letter {
@@ -957,6 +952,7 @@ footer h2 {
 	margin-top: 0vw;
 	margin-bottom: 0vw;
 	padding-top: 0.3vw;
+	align-self: flex-end;
 }
 
 @media screen and (max-width: 1200px) {
@@ -989,7 +985,7 @@ footer h2 {
 	padding-top: 0.3vw;
 	align-self: start;
 	margin-right: 16.75%;
-	padding-right: 1vw;
+	padding: 2vw;
 }
 
 @media screen and (max-width: 1200px) {
