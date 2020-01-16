@@ -52,14 +52,6 @@ body{
 	margin-top: 15vh;
 }
 
-/*image of bloomberg*/
-p + img{
-	width: 60%;
-	height: auto;
-	padding:2vw;
-	margin-top: 2vh;
-	border-radius: 20%;
-} 
 
 /*for all the paragraphs pf the text*/
 body p{
@@ -257,8 +249,8 @@ header + section  p:first-of-type::first-letter{
 	background-repeat: no-repeat;
 	background-position: static;
 	/*margin-top:-45px;*/
-	margin-top: -55px; 
-	margin-bottom: -10px;
+	margin-top: -65px; 
+	margin-bottom: -20px;
 }	
 
 
@@ -355,6 +347,15 @@ section  figure figcaption{
 	background: #F0C84B;
  	text-align: center; /*when applied makes text go to the center but not ordered*/	
 }
+
+/*image of bloomberg*/
+p + img{
+	width: 60%;
+	height: auto;
+	padding:2vw;
+	margin-top: 2vh;
+	border-radius: 20%;
+} 
 
 /*asides of all texts*/
 section aside{
