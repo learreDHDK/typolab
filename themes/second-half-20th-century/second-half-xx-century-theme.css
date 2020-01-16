@@ -550,7 +550,7 @@ footer p{
 	font-size: 1vw;
 }
 
-
+/*main div EU*/
 .fx {
         display: flex;
         flex-flow: row nowrap;
@@ -559,7 +559,7 @@ footer p{
 	margin-left: initial;
 	padding: initial;
 }
-
+/*div for english version*/
 .eng {
 	order:1;
 	width: 47%;
@@ -568,6 +568,7 @@ footer p{
 	padding-right: 10px;
 }
 
+/*div for italian version*/
 .it {
  	order:2;
  	width: 47%;
@@ -576,7 +577,7 @@ footer p{
         padding-left: 10px;
 }
 
-
+/*for both headers*/
 #eudir header{
 	margin-bottom:initial;
 	width:initial;
@@ -584,23 +585,27 @@ footer p{
 	margin-bottom:13vh;	
 }
 
+/*header english*/
 #eudir .eng header{
 	margin-right:initial;
 }
 
+/*header italian*/
 #eudir .it header{
 	margin-left:initial;
 }
 
-
+/*section italian create line separation*/
 #eudir section .it{
 	border-left: 5px solid yellow;
 }
 
+/*section english to create line separation*/
 #eudir section .eng {
 	border-right:5px solid yellow;
 }
 
+/*sections of EU*/
 #eudir section{
 	width: initial;
 	padding: initial;
@@ -614,49 +619,58 @@ footer p{
 	max-width:60%;
 	padding: 2vh 0 2vh 0;
 }
-
+/*for the last section to be visible*/
  #eudir section:last-of-type{
   	margin-bottom: 8vh;
 }
  
+/*remove padding top for first letter*/
  #eudir section:first-of-type{
  	padding-top: 9vh;
  }
 
+/*create single paper effect*/
 #eudir section:before, #eudir section:after {
   	content: "";
   	position: absolute; 
 }
 
+/*for centering tables*/
 #eudir section table{
 	margin-left: auto;
 	margin-right: auto;
 }
 
+/*for responsive tables*/
 #eudir .tableEU{
 	overflow-x: auto;
 }
 
+/*for table row*/
 #eudir section table tr{
 	padding: initial;
 }
 
+/*for table head*/
 #eudir section table th{
 	padding: initial;
 	font-size: 1em;
 	padding: 0.1vh 0.1vw 0.1vh 0.2vw;
 }
 
+/*for table data*/
 #eudir section table td{
 	padding: initial;
 	font-size: 0.9em;
 	padding: 0.1vh 0.10vw 0.1vh 0.2vw;
 } 
 
+/*initialise indent effect*/
 #eudir section:first-of-type .fx:first-of-type p:first-of-type{
 	text-indent: -10px;
 }
  
+/*drop cap*/
 #eudir section:first-of-type .fx:first-of-type p:first-of-type::first-letter{
 	float: left;
 	font-family: "ArterioNonCommercial";
@@ -671,6 +685,7 @@ footer p{
 	margin-top: -47px; 
 }
 
+/*media queries*/
 /*desktop*/
 @media (min-width: 1281px) {
   
