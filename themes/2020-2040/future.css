@@ -345,7 +345,7 @@ header img {
 }
 
 section {
-  width: 85%;
+  width: 86%;
   display: block;
   margin-right: 4%;
   margin-bottom: 3%;
@@ -364,7 +364,7 @@ section::after {
 }
 
 section:hover {
-  width: 97%;
+  width: 98%;
   font-size: 1vw;
   -webkit-transition: all 1s ease;
       -moz-transition: all 1s ease;
