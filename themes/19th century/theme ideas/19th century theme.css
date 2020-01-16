@@ -71,7 +71,7 @@ body:after {
 	column-gap: 1em;  
 	column-rule: 2px solid black;
 	text-align: justify;
-	orphans: 2;
+	orphans: 3;
 	widows: 3;
 	}
 
