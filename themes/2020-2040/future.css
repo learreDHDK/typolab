@@ -307,6 +307,7 @@ header h2 {
   flex-basis: 100%;
   padding-top: 0px;
   padding-bottom: 2%;
+  font-weight: bold;
 }
 
 header address {
