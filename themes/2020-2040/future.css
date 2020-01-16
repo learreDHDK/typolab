@@ -427,14 +427,14 @@ section p {
   margin-bottom: 0.7%;
 }
 
-h3, aside h1 {
+h3 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 2vw;
   font-weight: bold;
 }
 
-h4, aside h2 {
+h4 {
   font-family: 'GardenGrownUS-B';
   text-align: center;
   font-size: 1.7vw;
@@ -631,8 +631,12 @@ aside {
 }
 
 aside h2 {
-  padding: 5% 0px;
-  font-size: 3vw;
+  padding: 3% 0px;
+}
+
+aside h1 {
+  font-size: 2.8vw;
+  padding: 3%;
 }
 
 aside p {
