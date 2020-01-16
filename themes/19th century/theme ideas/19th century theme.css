@@ -574,6 +574,10 @@ footer p{
 	padding-top:5vh;
 }
 
+#eudir .eng header h6{
+	padding-top:5vh;
+}
+
 /*to remove the border line*/
 #eudir .fx:first-child .it{
 	border-top:initial;
