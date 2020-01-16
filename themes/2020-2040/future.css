@@ -396,6 +396,10 @@ img {
   border-radius: 10px;
 }
 
+figure img:nth-of-type(2) {
+  width: 40%;
+}
+
 figure:hover {
   font-size: 0.9vw;
   -webkit-column-span: all; 
