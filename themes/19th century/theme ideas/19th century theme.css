@@ -684,6 +684,18 @@ footer p{
 	section aside{
 		width: 12em;
 	}
+	
+	#eudir .eng header h2{
+	padding-top:initial;
+}
+
+#eudir .eng header h6{
+	margin-top:initial;
+}
+
+#eudir .it header h6{
+	margin-top:initial;
+}
 }
 
 
@@ -743,6 +755,17 @@ footer p{
 		font-size: initial;
 		font-size: 0.8em;
 	   }
+	#eudir .eng header h2{
+	padding-top:initial;
+}
+
+#eudir .eng header h6{
+	margin-top:initial;
+}
+
+#eudir .it header h6{
+	margin-top:initial;
+}
 
 }
 
