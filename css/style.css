@@ -523,20 +523,20 @@ input[data-description="2030"]:checked ~ #timeline-descriptions-wrapper div[data
   }
 }
 
-#golden_button {
+#golden_button:hover {
 	border: 2px solid #daa520;
 	color: #daa520;
 	background-color: white;
 	border-radius: 8px;
 	padding: 4px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	text-decoration: none;
 }
 
-#golden_button:hover {
+#golden_button {
 	padding: 4px;
 	border: 2px solid black;
 	background-color: #daa520;
-	color: black;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	text-decoration: none;
+	color: black;	
 }
 
