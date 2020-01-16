@@ -448,8 +448,11 @@ footer {
   padding-top: 3%;
 }
 
-section:nth-last-child(1) {
-  background-image: url('forest5.png');
+footer::after {
+  content: url('forest5.png');
+  position: absolute;
+  bottom: -300%;
+  left: -20%;
 }
 
 .fx {
