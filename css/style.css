@@ -312,7 +312,7 @@ input::before, input::after {
   background-color: black;
   width: 20vw;
   height: 5px;
-  max-width: 50px;
+  max-width: 90px;
 
 }
 input::before {
