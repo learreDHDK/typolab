@@ -623,6 +623,10 @@ table:hover {
   font-size: 0.8vw;
 }
 
+.fx .eng table:hover {
+  margin-left: -3%;
+}
+
 a {
   color: black;
   text-shadow: 2px 2px rgba(105,105,105,0.7);
