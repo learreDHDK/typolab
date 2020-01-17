@@ -647,6 +647,10 @@ aside p {
   padding-bottom: 2%;
 }
 
+aside p:hover {
+  font-size: 1.3vw;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
