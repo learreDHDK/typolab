@@ -20,8 +20,6 @@
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.woff") format("woff"), 
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.ttf") format("truetype"), 
 		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.svg#Arya") format("svg");
-		/*font-weight: normal;
-		font-style: normal;*/
   }
 
 @font-face {
@@ -94,10 +92,8 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	/*font-family:"Arya";*/
-	 font-style:normal;
-	/*font-family: "ThaCoolKidz-Black";*/
 	font-family:"Arya W00 Double";
+	font-style:normal !important;
 	font-size:3vw;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -277,7 +273,7 @@ section{
 	max-width:55%;
 	height: auto;
 	margin-bottom: 8vh;
-	padding: 3vh 1vw 3vh 0.8vw;
+	padding: 5vh 1vw 3vh 0.8vw;
 	background: white;
 	outline: 40px solid;
 	outline-color: white;
@@ -694,17 +690,17 @@ footer p{
 	line-height:9vh;
 	padding: 35px 30px 35px 33px;
 	margin-bottom: -48px;
-}
+}*/
 	header h1{
 	font-family:"Arya";
-	 font-style:normal;
-	/*font-family: "ThaCoolKidz-Black";*/
+	font-style:normal !important;
+	fornt-weight:normal !important;
 	}
-  	/*section h3{
+  	section h3{
 	font-family:"Arya";
-	 font-style:normal;
-	/*font-family: "ThaCoolKidz-Black";*/
-		}
+	font-style:normal !important;
+	fornt-weight:normal !important;
+	}
 		
   
 }
