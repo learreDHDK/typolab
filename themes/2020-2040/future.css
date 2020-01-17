@@ -556,14 +556,14 @@ footer::after {
   margin-left: 0px;
   margin: 0px;
   order:1;
-  width: 47%; 
+  width: 48%; 
 }
 
 .it {
   margin-left: 0px;
   margin: 0px;
   order:2;
-  width: 47%; 
+  width: 48%; 
 }
 
 .fx .it header {
@@ -573,6 +573,10 @@ footer::after {
 .fx .eng header {
   width: 200%;
   padding-right: 100%;
+}
+
+.fx h3, h4, h5 {
+  padding-bottom: 2%;
 }
 
 table {
