@@ -275,9 +275,6 @@ body {
 }
 
 header {
-  /*margin-right: -5vw;
-  margin-left: -5vw;
-  column-span: all;*/
   padding-bottom: 53vh;
   background-image: url('bird2.gif');
   background-repeat: no-repeat;
@@ -351,8 +348,6 @@ section {
   margin-top: 3%;
   padding-right: 2%;
   line-height: 130%;
-  /*border-right: 4px solid #555;
-  border-radius: 10px;*/
   position: relative;
 }
 
@@ -380,7 +375,6 @@ section figure {
   margin-top: 3%;
   margin-left: 25%;
   display: inline-block;
-  /*float: left;*/
   text-align: center;
 }
 
@@ -406,10 +400,10 @@ figure:hover {
   font-size: 0.9vw;
   -webkit-column-span: all; 
   column-span: all;
-  width: 98%;/*100*/
+  width: 98%;
   padding: 5%;
   margin-left: 0px;
-  text-align: center;/*left*/
+  text-align: center;
 }
 
 header figure:hover {
@@ -674,29 +668,3 @@ aside q {
 aside q:hover {
   font-size: 1.5vw;
 }
-
-/*section::after {
-  content: url('pine2.png');
-  position: absolute;
-  top: 0;
-  right: -10%;
-}
-
-section:hover {
-  width: 97%;
-  font-size: 1vw;
-  -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-}
-
-figure:hover {
-  font-size: 0.8vw;
-  -webkit-column-span: all; 
-  column-span: all;
-  width: 90%;
-  padding: 5%;
-  text-align: left;
-}*/
