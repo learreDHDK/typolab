@@ -189,6 +189,7 @@ header address {
 @media screen and (max-width: 600px) {
 	header address {
 		font-size: 0.8em;
+		flex-basis: 38vw;
 	}
 }
 
@@ -240,6 +241,7 @@ header p {
 	header p {
 		font-size: 0.6em;
 		padding-top: 2vh;
+		flex-basis: 15%;
 	}
 }
 
