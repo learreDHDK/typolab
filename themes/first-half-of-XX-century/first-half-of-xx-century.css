@@ -162,7 +162,7 @@ header h2 {
 
 @media screen and (min-width: 1355px) {
 	header h2 {
-		min-height: 14vw;
+		min-height: 400px;
 	}
 }
 
