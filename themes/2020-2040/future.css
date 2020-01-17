@@ -612,7 +612,6 @@ td {
 
 table:hover {
   font-size: 1.2vw;
-  max-width: 50%;
 }
 
 .fx table {
@@ -621,6 +620,7 @@ table:hover {
 
 .fx table:hover {
   max-width: 30%;
+  font-size: 1vw;
 }
 
 a {
