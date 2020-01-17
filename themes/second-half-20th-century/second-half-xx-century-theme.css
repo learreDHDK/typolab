@@ -267,7 +267,6 @@ header + section  p:first-of-type::first-letter{
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-position: static;
 	margin-top:-49px;
 }	
 
@@ -288,9 +287,10 @@ section{
 }
 
 
+
 /*create space between the header and the begining of the text*/
 header + section{
-	padding-top: 55px;
+	padding-top:5vh;
 }
 
 /*create the inverse indent effect on the fist line of the first section*/
@@ -690,23 +690,21 @@ footer p{
 @media (min-width: 1281px) {
   
   /*dropcap of the first letter of the first paragraph of the text*/
-/*header + section  p:first-of-type::first-letter{
-	line-height:8vh;
-	padding: 4vh 2vw 4vh 2.5vw;
-	background-image: url("first letter background.jpg");
-	margin-bottom: 3vh;
+header + section  p:first-of-type::first-letter{
+	padding: 35px 30px 35px 33px;
+	margin-bottom: -48px;
 }
 	header h1{
-	/*font-family:"Arya";*/
+	font-family:"Arya";
 	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
 	}
   	section h3{
-	/*font-family:"Arya";*/
+	font-family:"Arya";
 	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
 		}
-	*/	
+		
   
 }
 
