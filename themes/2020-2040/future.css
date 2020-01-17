@@ -399,7 +399,7 @@ img {
 
 figure img:nth-of-type(2) {
   width: 80%;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 figure:hover {
