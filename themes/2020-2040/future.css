@@ -619,6 +619,8 @@ table:hover {
 
 .fx .eng table:hover {
   margin-left: -7%;
+  border-spacing: 0.9vw 1vh;
+
 }
 
 a {
