@@ -944,6 +944,7 @@ footer h2 {
 		margin: 0px;
 		text-align: center;
 		padding: 5%;
+		padding-top: 2%;
 	}
 }
 
@@ -971,6 +972,7 @@ footer h2 {
 		padding: 0px;
 		margin: 0px;
 		padding: 5%;
+		padding-bottom: 2%;
 	}
 }
 
