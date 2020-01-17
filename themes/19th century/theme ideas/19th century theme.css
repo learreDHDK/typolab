@@ -632,10 +632,10 @@ footer p{
 
 
 /*desktop*/
-@media (min-width: 1281px) {
+@media (min-width: 1400px) {
   
 	/*for the height*/
-/*#eudir .eng header h2{
+#eudir .eng header h2{
 	padding-top:initial;
 }
 
@@ -647,7 +647,7 @@ footer p{
 	margin-top:initial;
 }	
   
-}*/
+}
 
 
 /*tablet*/
