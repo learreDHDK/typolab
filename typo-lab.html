@@ -234,18 +234,8 @@
       <source src="https://learredhdk.github.io/typolab/themes/lateXX/silence.mp3" type="audio/mpeg">
     </audio>
 	
-<!-- transition --> 
-		<script>
-		function loader(){
-	      document.getElementById("se-pre-con").style.display = block;
-	      setTimeout(hide, 2000);
-	      return 0;
-	      }
-		function loader(){
-	      document.getElementById("se-pre-con").style.display = none;
-	      return 0;
-	      }
-		  </script>
+
+	
 
     <!-- starting css -->  
     <link id="style" rel="stylesheet" type="text/css" href="select.css"/> 
@@ -305,6 +295,17 @@
         var stylesheet = document.getElementById("style");
         stylesheet.setAttribute('href', url);
       }
+	    
+		function loader(){
+	      document.getElementById("se-pre-con").style.display = block;
+	      setTimeout(hide, 2000);
+	      return 0;
+	      }
+		function loader(){
+	      document.getElementById("se-pre-con").style.display = none;
+	      return 0;
+	      }
+		  
     </script>
 	</body>
 </html>
