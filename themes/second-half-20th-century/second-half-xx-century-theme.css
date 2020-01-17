@@ -147,7 +147,7 @@ h4{
 h4::after{
 	content:url("2-stars.png");
 	position: relative;
-	bottom: 6px;
+	bottom: 10px;
 	left:5px; 
 }
 
