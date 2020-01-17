@@ -686,7 +686,7 @@ footer p{
 
 /*media queries*/
 /*desktop*/
-@media (min-width: 1450px) {
+@media (min-width: 1600px) {
   
   /*dropcap of the first letter of the first paragraph of the text*/
 float: left;
