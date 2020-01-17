@@ -265,8 +265,9 @@ header + section  p:first-of-type::first-letter{
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-top:-45px;
-	margin-bottom:-10px:
+	margin-top:2vh;
+	/*margin-top:-45px;
+	margin-bottom:-10px:*/
 }	
 
 
