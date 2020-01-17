@@ -613,8 +613,8 @@ section figure figcaption:nth-of-type(2) {
 	section figure figcaption:nth-of-type(2) {
 		position: static;
 		width: 100%;
-		margin: -1vw -15vw 0px -15vw;
-		padding: 1vw 15vw;
+		margin: -1vw -5vw 0px -5vw;
+		padding: 1vw 5vw;
 	}
 }
 
