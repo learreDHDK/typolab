@@ -691,7 +691,7 @@ footer p{
   
   /*dropcap of the first letter of the first paragraph of the text*/
 header + section  p:first-of-type::first-letter{
-	line-height:9vh:
+	line-height:9vh;
 	padding: 35px 30px 35px 33px;
 	margin-bottom: -48px;
 }
@@ -707,7 +707,7 @@ header + section  p:first-of-type::first-letter{
 		}
 		
   
-}*/
+}
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1024px) { 
