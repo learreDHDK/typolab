@@ -481,7 +481,8 @@ footer::after {
 
 @media screen and (min-width: 1390px) {
   footer::after {
-    left:10%;
+    left:5%;
+    right: 5%;
   }
 }
 
