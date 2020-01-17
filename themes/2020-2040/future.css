@@ -655,6 +655,10 @@ aside q {
   font-size: 1.5vw;
 }
 
+aside q:hover {
+  font-size: 1.5vw;
+}
+
 /*section::after {
   content: url('pine2.png');
   position: absolute;
