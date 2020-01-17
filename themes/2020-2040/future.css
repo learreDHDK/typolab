@@ -495,12 +495,12 @@ footer::after {
   display: none;
 }
 
-/*.fx::after {
+.fx::after {
   content: url('pine2.png');
   position: absolute;
   top: 0;
   right: -10%;
-}*/
+}
 
 #eudir section:hover {
   width: 100%;
@@ -586,7 +586,7 @@ table {
 
 aside table {
   text-align: center;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-bottom: 7%;
 }
 
@@ -623,15 +623,17 @@ a:hover {
 }
 
 aside {
-  padding: 7% 18%;
-  font-size: 1.5vw;
+  padding: 7% 15%;
+  font-size: 1.3vw;
   width: 100%;
   line-height: 120%;
   font-family: 'GardenGrownUS-B';
 }
 
 aside h2 {
-  padding: 3% 0px;
+  padding: 3%;
+  text-align: center;
+  font-size: 2vw;
 }
 
 aside h1 {
