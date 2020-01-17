@@ -690,7 +690,7 @@ footer p{
 @media (min-width: 1900px) {
   
   /*dropcap of the first letter of the first paragraph of the text*/
-header + section  p:first-of-type::first-letter{
+/*header + section  p:first-of-type::first-letter{
 	line-height:9vh:
 	padding: 35px 30px 35px 33px;
 	margin-bottom: -48px;
@@ -700,14 +700,14 @@ header + section  p:first-of-type::first-letter{
 	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
 	}
-  	section h3{
+  	/*section h3{
 	font-family:"Arya";
 	 font-style:normal;
 	/*font-family: "ThaCoolKidz-Black";*/
 		}
 		
   
-}
+}*/
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1024px) { 
