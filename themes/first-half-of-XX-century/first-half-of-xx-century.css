@@ -372,13 +372,13 @@ h3::first-letter {
 @media screen and (max-width: 600px) {
 	h3 {
 		margin-left: 0px;
-		padding-top: 5%;
+		/*padding-top: 5%;*/
 	}
 }
 
 @media screen and (max-width: 600px) {
 	h3::first-letter {
-		font-size: 3em;
+		/*font-size: 3em;*/
 		margin-left: 0px;
 	}
 }
@@ -561,8 +561,8 @@ section figure figcaption:nth-of-type(1) {
 @media screen and (max-width: 600px) {
 	section figure figcaption:nth-of-type(1) {
 		width: 100%;
-		margin: 0px -30vw;
-		padding: 1vw 10vw;
+		margin: 0px -40vw;
+		padding: 1vw 20vw;
 	}
 }
 
