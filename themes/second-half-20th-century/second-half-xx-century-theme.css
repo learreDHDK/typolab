@@ -265,7 +265,7 @@ header + section  p:first-of-type::first-letter{
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-top:-35px;
+	margin-top:-45px;
 
 }	
 
@@ -686,7 +686,7 @@ footer p{
 
 /*media queries*/
 /*desktop*/
-@media (min-width: 1600px) {
+@media (min-width: 2000px) {
   
   /*dropcap of the first letter of the first paragraph of the text*/
 float: left;
