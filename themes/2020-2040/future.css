@@ -406,7 +406,7 @@ figure:hover {
   font-size: 0.9vw;
   -webkit-column-span: all; 
   column-span: all;
-  width: 95%;/*100*/
+  width: 98%;/*100*/
   padding: 5%;
   margin-left: 0px;
   text-align: center;/*left*/
@@ -586,7 +586,7 @@ table {
 
 aside table {
   text-align: center;
-  margin-left: 25%;
+  margin-left: 30%;
   margin-bottom: 7%;
 }
 
@@ -623,8 +623,8 @@ a:hover {
 }
 
 aside {
-  padding: 7% 20%;
-  font-size: 1.7vw;
+  padding: 7% 18%;
+  font-size: 1.5vw;
   width: 100%;
   line-height: 120%;
   font-family: 'GardenGrownUS-B';
