@@ -27,7 +27,7 @@
 /*regola per far sì che la navbar in basso non copra il testo*/
 .fx:nth-last-child(1) {
 	/*margin-bottom: 200px;*/
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 #eudir {
