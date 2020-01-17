@@ -479,6 +479,12 @@ footer::after {
   width: 100%;
 }
 
+@media screen and (min-width: 1390px) {
+  footer::after {
+    left:10%;
+  }
+}
+
 .fx {
   margin-bottom: 2%;
   width: 100%;
