@@ -577,6 +577,7 @@ footer::after {
 
 .fx h3, h4, h5 {
   padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 table {
