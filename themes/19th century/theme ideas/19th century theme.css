@@ -641,6 +641,12 @@ footer p{
 
 #eudir .eng header h6{
 	margin-top:initial;
+	margin-top:2vh;
+}
+
+#eudir .it header h6{
+	margin-top:initial;
+	margin-top:2vh;
 }
 
 #eudir .it header h2{
