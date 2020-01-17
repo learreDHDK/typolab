@@ -604,7 +604,7 @@ td {
 }
 
 table:hover {
-  font-size: 0.9vw;
+  font-size: 1.2vw;
 }
 
 .fx table {
@@ -649,6 +649,10 @@ aside p {
 
 aside p:hover {
   font-size: 1.3vw;
+}
+
+aside q {
+  font-size: 1.5vw;
 }
 
 /*section::after {
