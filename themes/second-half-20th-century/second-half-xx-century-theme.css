@@ -13,14 +13,16 @@
 	src:url("fonts/Arya W00 Double.otf") format("opentype");
 	 }
 
-@font-face {font-family: "Arya"; 
-	src: url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.eot"); 
-	src: url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.eot?#iefix") format("embedded-opentype"), 
-		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.woff2") format("woff2"), 
-		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.woff") format("woff"), 
-		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.ttf") format("truetype"), 
-		url("//db.onlinewebfonts.com/t/58f1efe475b41b995ed18c6c5bb09a2b.svg#Arya") format("svg");
-  }
+@font-face {font-family: "Arya";
+	src: url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.eot");
+	src: url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.eot?#iefix") format("embedded-opentype"), 
+		url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.woff2") format("woff2"),
+		url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.woff") format("woff"),
+		url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.ttf") format("truetype"), 
+		url("//db.onlinewebfonts.com/t/705aa5cef063ecd2542957acf9d7210d.svg#Arya") format("svg"); 
+	}
+
+
 
 @font-face {
 	font-family: "ThaCoolKidz-Black"; 
