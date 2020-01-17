@@ -82,7 +82,7 @@ header{
 	flex-flow: column wrap;	
 	justify-content: space-around;
 	line-height: 2vh;
-	max-width:55%;
+	max-width:56%;
 	height: 90vh;
 	margin-bottom: 13vh;
 	background: yellow;
@@ -273,7 +273,7 @@ header + section  p:first-of-type::first-letter{
 /*add border to the sections and determine the width*/
 section{
 	border:5px solid yellow;
-	max-width:55%;
+	max-width:56%;
 	height: auto;
 	margin-bottom: 8vh;
 	padding: 5vh 1vw 3vh 0.8vw;
