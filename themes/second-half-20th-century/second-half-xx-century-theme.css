@@ -687,10 +687,11 @@ footer p{
 
 /*media queries*/
 /*desktop*/
-@media (min-width: 1281px) {
+@media (min-width: 1900px) {
   
   /*dropcap of the first letter of the first paragraph of the text*/
 header + section  p:first-of-type::first-letter{
+	line-height:9vh:
 	padding: 35px 30px 35px 33px;
 	margin-bottom: -48px;
 }
