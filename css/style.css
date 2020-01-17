@@ -310,7 +310,7 @@ input::before, input::after {
   top: 50%;
   transform: translateY(-50%);
   background-color: black;
-  width: 7vw;
+  width: 10vw;
   height: 5px;
   max-width: 50px;
 }
