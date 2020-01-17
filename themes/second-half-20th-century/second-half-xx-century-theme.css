@@ -147,7 +147,7 @@ h4{
 h4::after{
 	content:url("2-stars.png");
 	position: relative;
-	bottom: 10px;
+	bottom: 12px;
 	left:5px; 
 }
 
@@ -266,7 +266,7 @@ header + section  p:first-of-type::first-letter{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	margin-top:-49px;
-	margin-bottom:-10px:
+	margin-bottom:-20px:
 }	
 
 
