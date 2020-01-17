@@ -491,11 +491,11 @@ footer::after {
   margin-bottom: 0px;
 }
 
-/*#eudir section::after {
+#eudir section::after {
   display: none;
 }
 
-.fx::after {
+/*.fx::after {
   content: url('pine2.png');
   position: absolute;
   top: 0;
