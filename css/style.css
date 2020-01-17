@@ -288,7 +288,7 @@ h2 {
 }
 
 input {
-  width: 50px;
+  width: 25px;
   height: 25px;
   background-color: black;
   position: relative;
@@ -310,7 +310,7 @@ input::before, input::after {
   top: 50%;
   transform: translateY(-50%);
   background-color: black;
-  width: 10vw;
+  width: 15vw;
   height: 5px;
   max-width: 50px;
 }
