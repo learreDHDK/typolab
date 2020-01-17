@@ -499,7 +499,7 @@ footer::after {
   content: url('pine2.png');
   position: absolute;
   top: 0;
-  right: -10%;
+  right: -7%;
 }
 
 #eudir section:hover {
@@ -556,14 +556,14 @@ footer::after {
   margin-left: 0px;
   margin: 0px;
   order:1;
-  width: 45%; 
+  width: 47%; 
 }
 
 .it {
   margin-left: 0px;
   margin: 0px;
   order:2;
-  width: 45%; 
+  width: 47%; 
 }
 
 .fx .it header {
