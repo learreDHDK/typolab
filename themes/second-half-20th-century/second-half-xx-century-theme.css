@@ -268,8 +268,6 @@ header + section  p:first-of-type::first-letter{
 	margin-top:-45px;
 
 }	
-
-
 /*add border to the sections and determine the width*/
 section{
 	border:5px solid yellow;
