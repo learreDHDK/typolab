@@ -265,7 +265,7 @@ header + section  p:first-of-type::first-letter{
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-top:-25px;
+	margin-top:-35px;
 
 }	
 
@@ -289,7 +289,7 @@ section{
 
 /*create space between the header and the begining of the text*/
 header + section{
-	padding-top:7vh;
+	padding-top:9vh;
 }
 
 /*create the inverse indent effect on the fist line of the first section*/
@@ -698,7 +698,7 @@ float: left;
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-top:-40px;
+	margin-top:-50px;
 }*/
 	header h1{
 	font-family:"Arya";
@@ -710,6 +710,9 @@ float: left;
 	font-style:normal !important;
 	fornt-weight:normal !important;
 	}
+header + section{
+	padding-top:7vh;
+}
 		
   
 }
