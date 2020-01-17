@@ -579,7 +579,7 @@ footer p{
 }
 
 #eudir .it header h2{
-	margin-top:2vh;
+	margin-top:1vh;
 }
 
 /*to remove the border line*/
@@ -634,17 +634,18 @@ footer p{
 /*desktop*/
 @media (min-width: 1281px) {
   
-  /*dropcap of the first letter of the first paragraph of the text*/
-/*header + section  p:first-of-type::first-letter{
-	line-height:8vh;
-	padding: 4vh 2vw 4vh 2.5vw;
-	background-image: url("first letter background.jpg");
-	margin-bottom: 3vh;
-} 
 	/*for the height*/
-/*#eurdir .it header h2{
-	font-size:3.5vw;
-}*/	
+#eudir .eng header h2{
+	padding-top:initial;
+}
+
+#eudir .eng header h6{
+	margin-top:initial;
+}
+
+#eudir .it header h2{
+	margin-top:initial;
+}	
   
 }
 
