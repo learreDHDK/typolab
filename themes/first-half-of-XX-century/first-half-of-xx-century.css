@@ -792,7 +792,7 @@ aside table th {
 
 @media screen and (max-width: 600px) {
 	aside table {
-		font-size: 1vw;
+		font-size: 1em;
 	}
 }
 
