@@ -981,6 +981,12 @@ footer h2 {
 	}
 }
 
+@media screen and (min-width: 1355px) {
+	#eudir header h6 {
+		height:300px;
+	}
+}
+
 #eudir header h2 {
 	flex-basis: 95%;
 	margin: 0px;
