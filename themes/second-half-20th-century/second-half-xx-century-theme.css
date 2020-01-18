@@ -94,7 +94,7 @@ header{
 /*h1 of the header*/
  header h1{
 	order:1;
-	font-family:"Arya W00 Double";
+	font-family:"Arya";
 	font-style:normal !important;
 	font-size:3vw;
 	text-transform: uppercase;
