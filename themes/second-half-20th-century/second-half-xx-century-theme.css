@@ -265,7 +265,7 @@ header + section  p:first-of-type::first-letter{
 	background-image: url("first letter background.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-top:-40px;
+	margin-top:-30px;
 
 }	
 /*add border to the sections and determine the width*/
